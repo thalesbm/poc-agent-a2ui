@@ -1,6 +1,5 @@
 import { Theme } from '@a2ui/angular';
 
-// Create a minimal but complete theme for A2UI components
 export const a2uiTheme: Theme = {
   components: {
     AudioPlayer: {},
@@ -99,6 +98,18 @@ export const a2uiTheme: Theme = {
     a: [],
     strong: [],
     em: []
+  },
+  additionalStyles: {
+    Card: {
+      'background': '#ffffff',
+      'border-radius': '8px',
+      'padding': '10px',
+      'box-shadow': '0 2px 4px rgba(0, 0, 0, 0.1)',
+      'transition': 'all 0.3s ease',
+      'border': '1px solid #e0e0e0',
+      'position': 'relative',
+      'margin-bottom': '16px',
+    }
   }
 };
 
