@@ -1,35 +1,23 @@
 <div class="container">
   <header>
-    <h1>{{ pageTitle || title }}</h1>
-    <button (click)="refresh()" [disabled]="loading">
-      {{ loading ? 'Loading...' : 'Refresh' }}
+    <h1>{{ title }}</h1>
+    <button (click)="refresh()" [disabled]="loading()">
+      {{ loading() ? 'Loading...' : 'Refresh' }}
     </button>
   </header>
 
-  <div *ngIf="loading" class="loading">
+  <div *ngIf="loading()" class="loading">
     <p>Loading recommendations...</p>
   </div>
 
-  <div *ngIf="error" class="error">
-    <p>Error: {{ error }}</p>
+  <div *ngIf="error()" class="error">
+    <p>Error: {{ error() }}</p>
   </div>
 
-  <div *ngIf="stocks.length > 0 && !loading" class="stocks-container">
-    <div *ngFor="let stock of stocks" class="stock-card">
-      <div class="stock-header">
-        <h3 class="symbol">{{ stock.symbol }}</h3>
-        <span class="company">{{ stock.company }}</span>
-        <span class="price">{{ formatCurrency(stock.currentPrice) }}</span>
-      </div>
-      
-      <div class="stock-details">
-        <span class="recommendation" [class]="getRecommendationClass(stock.recommendation)">
-          {{ stock.recommendation }}
-        </span>
-        <span class="sector">{{ stock.sector }}</span>
-        <span class="target-price">Target: {{ formatCurrency(stock.targetPrice) }}</span>
-      </div>
-    </div>
-  </div>
+  <a2ui-surface 
+    *ngIf="surfaceId() && surface() && !loading()"
+    [surfaceId]="surfaceId()!"
+    [surface]="surface()!"
+  ></a2ui-surface>
 </div>
 
