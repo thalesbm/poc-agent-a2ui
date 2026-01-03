@@ -5,7 +5,7 @@ Demo/POC use case for investment recommendations.
 
 from fastapi import FastAPI, HTTPException, Query
 from pydantic import BaseModel
-from typing import Optional
+from typing import Optional, Union, Any
 
 from llm.client.openai import OpenAIClient
 from llm.client.openai_key import OpenAIKey
@@ -23,7 +23,7 @@ app = FastAPI(
 class InvestmentResponse(BaseModel):
     """Response model for investment recommendations."""
     success: bool
-    data: Optional[dict] = None
+    data: Optional[Union[dict, list]] = None
     error: Optional[str] = None
 
 @app.get("/", response_model=InvestmentResponse)
@@ -43,8 +43,6 @@ async def invoke_agent(
         InvestmentResponse with the A2UI JSON response
     """
     try:
-        # logger.info(f"Received request: {query}")
-        
         # Get API key from environment
         api_key = OpenAIKey().get_openai_key()
         
