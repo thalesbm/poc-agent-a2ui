@@ -1,8 +1,10 @@
-import { Component, OnInit, signal } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, OnInit, signal, inject } from '@angular/core';
+import { CommonModule, CurrencyPipe } from '@angular/common';
 import { InvestmentService } from './investment.service';
 import { MessageProcessor, Surface } from '@a2ui/angular';
 import * as A2UITypes from '@a2ui/lit/0.8';
+import { CurrencyFormatter } from './formatter/currency-formatter';
+import { TextStyleApplier } from './formatter/text-style-applier';
 
 @Component({
   selector: 'app-root',
@@ -18,11 +20,17 @@ export class AppComponent implements OnInit {
   error = signal<string | null>(null);
   surfaceId = signal<string | null>(null);
   surface = signal<A2UITypes.Types.Surface | null>(null);
+  private currencyFormatter: CurrencyFormatter;
+  private textStyleApplier: TextStyleApplier;
 
   constructor(
     private investmentService: InvestmentService,
-    private messageProcessor: MessageProcessor
-  ) {}
+    private messageProcessor: MessageProcessor,
+    private currencyPipe: CurrencyPipe
+  ) {
+    this.currencyFormatter = new CurrencyFormatter(currencyPipe);
+    this.textStyleApplier = new TextStyleApplier();
+  }
 
   ngOnInit() {
     this.loadRecommendations();
@@ -46,7 +54,15 @@ export class AppComponent implements OnInit {
 
   processA2UIMessages(messages: A2UITypes.Types.ServerToClientMessage[]) {
     try {
-      this.messageProcessor.processMessages(messages);
+      const styleMap = this.currencyFormatter.identifyTextStyles(messages);
+      
+      const formattedMessages = this.currencyFormatter.formatCurrencyValues(messages);
+      
+      this.messageProcessor.processMessages(formattedMessages);
+      
+      setTimeout(() => {
+        this.textStyleApplier.applyTextStyles(styleMap);
+      }, 0);
     } catch (error) {
       this.error.set('Error processing A2UI messages: ' + (error as Error).message);
       return;
