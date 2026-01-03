@@ -14,7 +14,7 @@ INVESTMENT_STOCKS_UI_EXAMPLES = """
       {{ "id": "title-heading", "component": {{ "Text": {{ "usageHint": "h1", "text": {{ "path": "title" }} }} }} }},
       {{ "id": "stocks-list", "component": {{ "List": {{ "direction": "vertical", "children": {{ "template": {{ "componentId": "stock-card-template", "dataBinding": "/stocks" }} }} }} }} }},
       {{ "id": "stock-card-template", "component": {{ "Card": {{ "child": "card-layout" }} }} }},
-      {{ "id": "card-layout", "component": {{ "Column": {{ "children": {{ "explicitList": ["stock-header", "stock-details", "stock-actions"] }} }} }} }},
+      {{ "id": "card-layout", "component": {{ "Column": {{ "children": {{ "explicitList": ["stock-header", "stock-details"] }} }} }} }},
       {{ "id": "stock-header", "component": {{ "Row": {{ "children": {{ "explicitList": ["symbol-text", "company-text", "price-text"] }} }} }} }},
       {{ "id": "symbol-text", "weight": 1, "component": {{ "Text": {{ "usageHint": "h3", "text": {{ "path": "symbol" }} }} }} }},
       {{ "id": "company-text", "weight": 2, "component": {{ "Text": {{ "text": {{ "path": "company" }} }} }} }},
@@ -23,11 +23,6 @@ INVESTMENT_STOCKS_UI_EXAMPLES = """
       {{ "id": "recommendation-badge", "component": {{ "Text": {{ "text": {{ "path": "recommendation" }}, "style": {{ "color": "#4CAF50" }} }} }} }},
       {{ "id": "sector-text", "component": {{ "Text": {{ "text": {{ "path": "sector" }} }} }} }},
       {{ "id": "target-price-text", "component": {{ "Text": {{ "text": {{ "path": "targetPrice", "format": "currency" }} }} }} }},
-      {{ "id": "stock-actions", "component": {{ "Row": {{ "children": {{ "explicitList": ["view-details-button", "invest-button"] }} }} }} }},
-      {{ "id": "view-details-button", "weight": 1, "component": {{ "Button": {{ "child": "view-details-text", "action": {{ "name": "view_stock_details", "context": [ {{ "key": "symbol", "value": {{ "path": "symbol" }} }}, {{ "key": "company", "value": {{ "path": "company" }} }}, {{ "key": "currentPrice", "value": {{ "path": "currentPrice" }} }}, {{ "key": "targetPrice", "value": {{ "path": "targetPrice" }} }} ] }} }} }} }},
-      {{ "id": "view-details-text", "component": {{ "Text": {{ "text": {{ "literalString": "View Details" }} }} }} }},
-      {{ "id": "invest-button", "weight": 1, "component": {{ "Button": {{ "child": "invest-text", "primary": true, "action": {{ "name": "invest_in_stock", "context": [ {{ "key": "symbol", "value": {{ "path": "symbol" }} }}, {{ "key": "company", "value": {{ "path": "company" }} }}, {{ "key": "currentPrice", "value": {{ "path": "currentPrice" }} }}, {{ "key": "recommendation", "value": {{ "path": "recommendation" }} }} ] }} }} }} }},
-      {{ "id": "invest-text", "component": {{ "Text": {{ "text": {{ "literalString": "Invest" }} }} }} }}
     ]
   }} }},
   {{ "dataModelUpdate": {{
@@ -78,9 +73,6 @@ INVESTMENT_STOCKS_UI_EXAMPLES = """
       {{ "id": "recommendation-badge-large", "component": {{ "Text": {{ "text": {{ "path": "/stock/recommendation" }} }} }} }},
       {{ "id": "details-section", "component": {{ "Column": {{ "children": {{ "explicitList": ["sector-text"] }} }} }} }},
       {{ "id": "sector-text", "component": {{ "Text": {{ "text": {{ "path": "/stock/sector" }} }} }} }},
-      {{ "id": "action-section", "component": {{ "Row": {{ "children": {{ "explicitList": ["invest-button-large"] }} }} }} }},
-      {{ "id": "invest-button-large", "component": {{ "Button": {{ "child": "invest-text-large", "primary": true, "action": {{ "name": "invest_in_stock", "context": [ {{ "key": "symbol", "value": {{ "path": "/stock/symbol" }} }}, {{ "key": "company", "value": {{ "path": "/stock/company" }} }}, {{ "key": "currentPrice", "value": {{ "path": "/stock/currentPrice" }} }}, {{ "key": "recommendation", "value": {{ "path": "/stock/recommendation" }} }} ] }} }} }} }},
-      {{ "id": "invest-text-large", "component": {{ "Text": {{ "text": {{ "literalString": "Invest Now" }} }} }} }}
     ]
   }} }},
   {{ "dataModelUpdate": {{
