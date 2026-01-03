@@ -2,6 +2,7 @@
 Simple API to expose the agent's invoke method.
 Demo/POC use case for investment recommendations.
 """
+import uvicorn
 
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
@@ -52,11 +53,7 @@ async def invoke_agent(
         InvestmentResponse with the A2UI JSON response
     """
     try:
-        # Get API key from environment
-        api_key = OpenAIKey().get_openai_key()
-        
-        # Create client and invoke
-        client = OpenAIClient(api_key=api_key)
+        client = OpenAIClient(api_key=OpenAIKey().get_openai_key())
         response = client.invoke(query=query)
         
         logger.info("Successfully generated investment recommendations")
@@ -74,6 +71,5 @@ async def invoke_agent(
         )
 
 if __name__ == "__main__":
-    import uvicorn
     uvicorn.run(app, host="localhost", port=8000)
 
