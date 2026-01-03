@@ -14,9 +14,10 @@
     <p>Error: {{ error() }}</p>
   </div>
 
-  <app-investment-stocks
-    *ngIf="!loading() && !error() && a2uiMessages().length > 0"
-    [a2uiMessages]="a2uiMessages()"
+  <a2ui-surface 
+    *ngIf="surfaceId() && surface() && !loading()"
+    [surfaceId]="surfaceId()!"
+    [surface]="surface()!"
   />
 </div>
 
