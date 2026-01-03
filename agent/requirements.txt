@@ -1,7 +1,4 @@
-a2a-sdk>=0.3.0
 click>=8.1.8
-google-adk>=1.8.0
-google-genai>=1.27.0
 python-dotenv>=1.1.0
 litellm
 jsonschema>=4.0.0
@@ -11,3 +8,7 @@ langchainhub==0.1.21
 langchain==0.3.27
 langchain-community==0.3.27
 langchain-openai==0.3.28
+
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.0.0

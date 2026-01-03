@@ -1,0 +1,67 @@
+[
+    {
+        "symbol": "AAPL",
+        "company": "Apple Inc.",
+        "sector": "Technology",
+        "currentPrice": 175.50,
+        "recommendation": "BUY",
+        "targetPrice": 200.00
+    },
+    {
+        "symbol": "MSFT",
+        "company": "Microsoft Corporation",
+        "sector": "Technology",
+        "currentPrice": 378.85,
+        "recommendation": "BUY",
+        "targetPrice": 420.00
+    },
+    {
+        "symbol": "GOOGL",
+        "company": "Alphabet Inc.",
+        "sector": "Technology",
+        "currentPrice": 142.30,
+        "recommendation": "BUY",
+        "targetPrice": 165.00
+    },
+    {
+        "symbol": "AMZN",
+        "company": "Amazon.com Inc.",
+        "sector": "Consumer Discretionary",
+        "currentPrice": 151.20,
+        "recommendation": "BUY",
+        "targetPrice": 180.00
+    },
+    {
+        "symbol": "TSLA",
+        "company": "Tesla Inc.",
+        "sector": "Consumer Discretionary",
+        "currentPrice": 248.50,
+        "recommendation": "HOLD",
+        "targetPrice": 250.00
+    },
+    {
+        "symbol": "NVDA",
+        "company": "NVIDIA Corporation",
+        "sector": "Technology",
+        "currentPrice": 485.20,
+        "recommendation": "BUY",
+        "targetPrice": 550.00
+    },
+    {
+        "symbol": "JPM",
+        "company": "JPMorgan Chase & Co.",
+        "sector": "Financial Services",
+        "currentPrice": 158.75,
+        "recommendation": "BUY",
+        "targetPrice": 175.00
+    },
+    {
+        "symbol": "V",
+        "company": "Visa Inc.",
+        "sector": "Financial Services",
+        "currentPrice": 265.40,
+        "recommendation": "BUY",
+        "targetPrice": 290.00
+    }
+]
+

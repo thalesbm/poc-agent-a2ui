@@ -665,7 +665,7 @@ A2UI_SCHEMA = r'''
                     "properties": {
                       "value": {
                         "type": "object",
-                        "description": "The current value of the slider. This can be a literal number ('literalNumber') or a reference to a value in the data model ('path', e.g. '/restaurant/cost').",
+                        "description": "The current value of the slider. This can be a literal number ('literalNumber') or a reference to a value in the data model.",
                         "properties": {
                           "literalNumber": {
                             "type": "number"
