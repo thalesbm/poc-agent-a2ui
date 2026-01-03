@@ -2,7 +2,9 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #f5f5f5;
+  min-height: 100vh;
 }
 
 header {
@@ -10,13 +12,16 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
-  padding-bottom: 20px;
-  border-bottom: 2px solid #1E88E5;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 h1 {
   color: #1E88E5;
   margin: 0;
+  font-size: 28px;
 }
 
 button {
@@ -27,6 +32,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  transition: background-color 0.3s;
 }
 
 button:hover:not(:disabled) {
@@ -52,22 +58,95 @@ button:disabled {
   margin: 20px 0;
 }
 
-.content {
-  margin-top: 20px;
+.stocks-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-h2 {
-  color: #333;
+.stock-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s;
+}
+
+.stock-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.stock-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
   margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e0e0e0;
 }
 
-pre {
-  background-color: #f5f5f5;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 15px;
-  overflow-x: auto;
+.symbol {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1E88E5;
+  margin: 0;
+  min-width: 80px;
+}
+
+.company {
+  flex: 1;
+  color: #333;
+  font-size: 16px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.stock-details {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.recommendation {
+  padding: 5px 12px;
+  border-radius: 4px;
+  font-weight: bold;
   font-size: 14px;
-  line-height: 1.5;
 }
 
+.recommendation.buy {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.recommendation.hold {
+  background-color: #FF9800;
+  color: white;
+}
+
+.recommendation.sell {
+  background-color: #f44336;
+  color: white;
+}
+
+.sector {
+  color: #666;
+  font-size: 14px;
+}
+
+.target-price {
+  color: #1E88E5;
+  font-weight: 500;
+}
+
+.stock-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
