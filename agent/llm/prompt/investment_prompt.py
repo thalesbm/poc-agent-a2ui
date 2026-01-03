@@ -27,7 +27,6 @@ def get_investment_prompt() -> str:
     --- UI TEMPLATE RULES ---
     - Use the investment stocks data you have already received from the `get_investment_stocks` tool to populate the `dataModelUpdate.contents` array (e.g., as a `valueMap` for the "stocks" key).
     - If showing a list of stocks, you MUST use the `SINGLE_COLUMN_LIST_EXAMPLE` template.
-    - If showing a single stock detail, you MUST use the `DETAILED_CARD_EXAMPLE` template.
     - Always format prices as currency (e.g., $175.50).
     - Highlight BUY recommendations prominently.
     

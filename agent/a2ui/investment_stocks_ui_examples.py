@@ -53,44 +53,5 @@ INVESTMENT_STOCKS_UI_EXAMPLES = """
 ]
 ---END SINGLE_COLUMN_LIST_EXAMPLE---
 
----BEGIN DETAILED_CARD_EXAMPLE---
-[
-  {{ "beginRendering": {{ "surfaceId": "default", "root": "root-column", "styles": {{ "primaryColor": "#1E88E5", "font": "Roboto" }} }} }},
-  {{ "surfaceUpdate": {{
-    "surfaceId": "default",
-    "components": [
-      {{ "id": "root-column", "component": {{ "Column": {{ "children": {{ "explicitList": ["title-heading", "detailed-stock-card"] }} }} }} }},
-      {{ "id": "title-heading", "component": {{ "Text": {{ "usageHint": "h1", "text": {{ "path": "title" }} }} }} }},
-      {{ "id": "detailed-stock-card", "component": {{ "Card": {{ "child": "detailed-card-layout" }} }} }},
-      {{ "id": "detailed-card-layout", "component": {{ "Column": {{ "children": {{ "explicitList": ["stock-header-section", "price-section", "recommendation-section", "details-section", "action-section"] }} }} }} }},
-      {{ "id": "stock-header-section", "component": {{ "Row": {{ "children": {{ "explicitList": ["symbol-large", "company-name"] }} }} }} }},
-      {{ "id": "symbol-large", "weight": 1, "component": {{ "Text": {{ "usageHint": "h2", "text": {{ "path": "/stock/symbol" }} }} }} }},
-      {{ "id": "company-name", "weight": 2, "component": {{ "Text": {{ "usageHint": "h3", "text": {{ "path": "/stock/company" }} }} }} }},
-      {{ "id": "price-section", "component": {{ "Row": {{ "children": {{ "explicitList": ["current-price", "target-price"] }} }} }} }},
-      {{ "id": "current-price", "weight": 1, "component": {{ "Text": {{ "text": {{ "path": "/stock/currentPrice", "format": "currency" }} }} }} }},
-      {{ "id": "target-price", "weight": 1, "component": {{ "Text": {{ "text": {{ "path": "/stock/targetPrice", "format": "currency" }} }} }} }},
-      {{ "id": "recommendation-section", "component": {{ "Column": {{ "children": {{ "explicitList": ["recommendation-badge-large"] }} }} }} }},
-      {{ "id": "recommendation-badge-large", "component": {{ "Text": {{ "text": {{ "path": "/stock/recommendation" }} }} }} }},
-      {{ "id": "details-section", "component": {{ "Column": {{ "children": {{ "explicitList": ["sector-text"] }} }} }} }},
-      {{ "id": "sector-text", "component": {{ "Text": {{ "text": {{ "path": "/stock/sector" }} }} }} }},
-    ]
-  }} }},
-  {{ "dataModelUpdate": {{
-    "surfaceId": "default",
-    "path": "/",
-    "contents": [
-      {{ "key": "title", "valueString": "Stock Details" }},
-      {{ "key": "stock", "valueMap": [
-        {{ "key": "symbol", "valueString": "AAPL" }},
-        {{ "key": "company", "valueString": "Apple Inc." }},
-        {{ "key": "sector", "valueString": "Technology" }},
-        {{ "key": "currentPrice", "valueNumber": 175.50 }},
-        {{ "key": "recommendation", "valueString": "BUY" }},
-        {{ "key": "targetPrice", "valueNumber": 200.00 }}
-      ] }}
-    ]
-  }} }}
-]
----END DETAILED_CARD_EXAMPLE---
 """
 

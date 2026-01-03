@@ -103,12 +103,32 @@ export const a2uiTheme: Theme = {
     Card: {
       'background': '#ffffff',
       'border-radius': '8px',
-      'padding': '10px',
+      'padding': '20px',
       'box-shadow': '0 2px 4px rgba(0, 0, 0, 0.1)',
       'transition': 'all 0.3s ease',
       'border': '1px solid #e0e0e0',
       'position': 'relative',
       'margin-bottom': '16px',
+    },
+    List: {
+      'display': 'flex',
+      'flex-direction': 'column',
+      'gap': '16px',
+    },
+    Row: {
+      'display': 'flex',
+      'flex-direction': 'row',
+      'align-items': 'center',
+      'gap': '12px',
+    },
+    Column: {
+      'display': 'flex',
+      'flex-direction': 'column',
+      'gap': '12px',
+    },
+    Text: {
+      'margin': '0',
+      'padding': '0',
     }
   }
 };
