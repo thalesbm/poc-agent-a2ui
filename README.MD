@@ -1,6 +1,6 @@
-# Investment Recommendations - A2UI Demo
+# Investment Recommendations - A2UI POC
 
-A Proof of Concept (POC) application that demonstrates investment stock recommendations using Google's A2UI (Agent to UI) protocol. The system uses AI to generate investment recommendations and displays them through a web interface.
+Application that demonstrates investment stock recommendations using Google's A2UI (Agent to UI) protocol. The system uses AI to generate investment recommendations and displays them through a web interface.
 
 ## Overview
 
@@ -30,13 +30,12 @@ pip install -r agent/requirements.txt
 ```
 
 2. **Configure OpenAI API Key:**
-   
-   Create a `.env` file in the root directory:
+Create a `.env` file in the root directory:
 ```bash
 OPENAI_API_KEY=your_openai_api_key_here
 ```
 
-   Or export it as an environment variable:
+Or export it as an environment variable:
 ```bash
 export OPENAI_API_KEY=your_openai_api_key_here
 ```
@@ -46,8 +45,7 @@ export OPENAI_API_KEY=your_openai_api_key_here
 python agent/api.py
 ```
 
-   The API will be available at `http://localhost:8000`
-
+The API will be available at `http://localhost:8000`
 
 ### Frontend Setup
 
@@ -62,8 +60,7 @@ npm install
 npm start
 ```
 
-   The application will be available at `http://localhost:4200`
-
+The application will be available at `http://localhost:4200`
 
 ### Local Testing (Backend Only)
 
@@ -75,4 +72,4 @@ python agent/local_main.py
 
 ## License
 
-This is a demo/POC project for educational purposes.
+This is a POC project for educational purposes.
