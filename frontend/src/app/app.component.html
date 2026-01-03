@@ -1,0 +1,22 @@
+<div class="container">
+  <header>
+    <h1>{{ title }}</h1>
+    <button (click)="refresh()" [disabled]="loading">
+      {{ loading ? 'Loading...' : 'Refresh' }}
+    </button>
+  </header>
+
+  <div *ngIf="loading" class="loading">
+    <p>Loading recommendations...</p>
+  </div>
+
+  <div *ngIf="error" class="error">
+    <p>Error: {{ error }}</p>
+  </div>
+
+  <div *ngIf="data && !loading" class="content">
+    <h2>Response Data:</h2>
+    <pre>{{ data | json }}</pre>
+  </div>
+</div>
+
