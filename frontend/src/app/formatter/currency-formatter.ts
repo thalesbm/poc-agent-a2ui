@@ -10,10 +10,9 @@ export class CurrencyFormatter {
   constructor(private currencyPipe: CurrencyPipe) {}
 
   formatCurrencyValues(messages: A2UITypes.Types.ServerToClientMessage[]): A2UITypes.Types.ServerToClientMessage[] {
-    // Find components with currency format and format their values in dataModelUpdate
+
     const formattedMessages = JSON.parse(JSON.stringify(messages)) as A2UITypes.Types.ServerToClientMessage[];
     
-    // Find all Text components with format: "currency"
     const currencyPaths = new Set<string>();
     
     formattedMessages.forEach(msg => {
@@ -26,7 +25,6 @@ export class CurrencyFormatter {
       }
     });
     
-    // Format currency values in dataModelUpdate
     formattedMessages.forEach(msg => {
       if ('dataModelUpdate' in msg && msg.dataModelUpdate?.contents) {
         this.formatCurrencyInContents(msg.dataModelUpdate.contents, currencyPaths);
@@ -48,10 +46,10 @@ export class CurrencyFormatter {
         const key = itemObj['key'] as string;
         const fullPath = pathPrefix ? `${pathPrefix}/${key}` : `/${key}`;
         if (currencyPaths.has(fullPath) || currencyPaths.has(key)) {
-          // Format as currency
+          
           const formatted = this.currencyPipe.transform(itemObj['valueNumber'], 'USD', 'symbol', '1.2-2');
           if (formatted) {
-            // Convert to string value
+
             itemObj['valueString'] = formatted;
             delete itemObj['valueNumber'];
           }
@@ -64,9 +62,7 @@ export class CurrencyFormatter {
     });
   }
 
-  /**
-   * Identifies Text components with style formatting and returns a map of component IDs to their styles
-   */
+ 
   identifyTextStyles(messages: A2UITypes.Types.ServerToClientMessage[]): Map<string, Record<string, string>> {
     const styleMap = new Map<string, Record<string, string>>();
     
@@ -74,13 +70,11 @@ export class CurrencyFormatter {
       if ('surfaceUpdate' in msg && msg.surfaceUpdate?.components) {
         msg.surfaceUpdate.components.forEach((comp: any) => {
           if (comp.component?.Text?.style && comp.id) {
-            // Extract ALL style properties from the Text component
+
             const styles: Record<string, string> = {};
             const styleObj = comp.component.Text.style;
             
-            // Copy all style properties
             Object.keys(styleObj).forEach(key => {
-              // Convert camelCase to kebab-case for CSS
               const cssKey = key.replace(/([A-Z])/g, '-$1').toLowerCase();
               styles[cssKey] = styleObj[key];
             });

@@ -4,7 +4,8 @@ import { InvestmentService } from './investment.service';
 import { MessageProcessor, Surface } from '@a2ui/angular';
 import * as A2UITypes from '@a2ui/lit/0.8';
 import { CurrencyFormatter } from './formatter/currency-formatter';
-import { TextStyleApplier } from './formatter/text-style-applier';
+import { TextColorApplier } from './formatter/text-color-applier';
+import { TextUsageHintApplier } from './formatter/text-usage-hint-applier';
 
 @Component({
   selector: 'app-root',
@@ -21,7 +22,8 @@ export class AppComponent implements OnInit {
   surfaceId = signal<string | null>(null);
   surface = signal<A2UITypes.Types.Surface | null>(null);
   private currencyFormatter: CurrencyFormatter;
-  private textStyleApplier: TextStyleApplier;
+  private textColorApplier: TextColorApplier;
+  private textUsageHintApplier: TextUsageHintApplier;
 
   constructor(
     private investmentService: InvestmentService,
@@ -29,7 +31,8 @@ export class AppComponent implements OnInit {
     private currencyPipe: CurrencyPipe
   ) {
     this.currencyFormatter = new CurrencyFormatter(currencyPipe);
-    this.textStyleApplier = new TextStyleApplier();
+    this.textColorApplier = new TextColorApplier();
+    this.textUsageHintApplier = new TextUsageHintApplier();
   }
 
   ngOnInit() {
@@ -55,14 +58,13 @@ export class AppComponent implements OnInit {
   processA2UIMessages(messages: A2UITypes.Types.ServerToClientMessage[]) {
     try {
       const styleMap = this.currencyFormatter.identifyTextStyles(messages);
-      
+      const usageHintMap = this.textUsageHintApplier.identifyUsageHints(messages);
       const formattedMessages = this.currencyFormatter.formatCurrencyValues(messages);
       
       this.messageProcessor.processMessages(formattedMessages);
+      this.textColorApplier.applyTextStyles(styleMap);
+      this.textUsageHintApplier.applyUsageHintStyles(usageHintMap);
       
-      setTimeout(() => {
-        this.textStyleApplier.applyTextStyles(styleMap);
-      }, 0);
     } catch (error) {
       this.error.set('Error processing A2UI messages: ' + (error as Error).message);
       return;
