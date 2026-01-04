@@ -5,7 +5,7 @@
       "name": "Python: app.py",
       "type": "python",
       "request": "launch",
-      "program": "${workspaceFolder}/agent/local_main.py",
+      "program": "${workspaceFolder}/agent/stock-recommendation-agent/local_main.py",
       "envFile": "${workspaceFolder}/.env",
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal"
