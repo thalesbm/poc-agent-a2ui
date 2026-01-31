@@ -1,10 +1,8 @@
 [
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -27,11 +25,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "credit_card",
+                "name": "receipt",
                 "type": "system"
               },
-              "title": "Cancelamento de Cartão de Crédito",
-              "subtitle": "Cancele seu cartão e acompanhe o status"
+              "title": "Pagar Boleto",
+              "subtitle": "Pague boletos com código de barras ou linha digitável"
             }
           }
         },
@@ -40,7 +38,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         },
@@ -55,16 +53,16 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Entrada",
+                  "value": "Código de barras ou linha digitável"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Vencimento",
+                  "value": "Conforme boleto"
                 },
                 {
                   "icon": {
@@ -72,7 +70,7 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Disponível no histórico"
                 }
               ]
             }
@@ -83,10 +81,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -109,11 +105,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "users",
+                "name": "qrcode",
                 "type": "system"
               },
-              "title": "Cancelamento de Cartão Adicional",
-              "subtitle": "Remova um cartão adicional"
+              "title": "Pagar Boleto por QR Code",
+              "subtitle": "Escaneie o QR Code do boleto e pague"
             }
           }
         },
@@ -122,7 +118,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         },
@@ -137,16 +133,16 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Entrada",
+                  "value": "Código de barras ou linha digitável"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Vencimento",
+                  "value": "Conforme boleto"
                 },
                 {
                   "icon": {
@@ -154,7 +150,7 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Disponível no histórico"
                 }
               ]
             }
@@ -165,10 +161,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -190,11 +184,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "shield",
+                "name": "credit_card",
                 "type": "system"
               },
-              "title": "Cancelamento de Cartão Virtual",
-              "subtitle": "Desative o cartão virtual atual"
+              "title": "Pagar Fatura do Cartão",
+              "subtitle": "Quite sua fatura total ou parcial"
             }
           }
         },
@@ -203,7 +197,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         }
@@ -212,10 +206,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -238,11 +230,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "wallet",
+                "name": "refresh_cw",
                 "type": "system"
               },
-              "title": "Cancelamento de Conta Corrente",
-              "subtitle": "Solicite encerramento da conta"
+              "title": "Pagar Fatura com Débito Automático",
+              "subtitle": "Ative e pague fatura automaticamente (se disponível)"
             }
           }
         },
@@ -251,9 +243,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Sujeito a validações"
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Valor mínimo: R$ 120,00"
             }
           }
         },
@@ -268,24 +260,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Pré-requisitos",
-                  "value": "Saldo zerado e pendências resolvidas"
+                  "key": "Opções",
+                  "value": "Total, mínimo ou outro valor"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Prazo",
-                  "value": "Dias úteis (varia)"
+                  "key": "Vencimento",
+                  "value": "Conforme fatura"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Disponível no app"
+                  "key": "Impacto",
+                  "value": "Atualiza limite após compensação"
                 }
               ]
             }
@@ -296,10 +288,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -322,11 +312,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "briefcase",
+                "name": "bolt",
                 "type": "system"
               },
-              "title": "Cancelamento de Conta PJ",
-              "subtitle": "Encerramento de conta empresarial"
+              "title": "Pagar Conta de Luz",
+              "subtitle": "Pague sua conta de energia"
             }
           }
         },
@@ -335,9 +325,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Processamento em até 5 dias úteis"
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Agendamento permitido"
             }
           }
         },
@@ -352,16 +342,8 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Pré-requisitos",
-                  "value": "Saldo zerado e pendências resolvidas"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Prazo",
-                  "value": "Dias úteis (varia)"
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
@@ -369,7 +351,15 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Disponível no app"
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -380,10 +370,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -406,11 +394,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "plane",
+                "name": "droplet",
                 "type": "system"
               },
-              "title": "Cancelamento de Conta Internacional",
-              "subtitle": "Solicite encerramento da conta internacional"
+              "title": "Pagar Conta de Água",
+              "subtitle": "Pague sua conta de água"
             }
           }
         },
@@ -419,7 +407,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         },
@@ -434,16 +422,8 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Pré-requisitos",
-                  "value": "Saldo zerado e pendências resolvidas"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Prazo",
-                  "value": "Dias úteis (varia)"
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
@@ -451,7 +431,15 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Disponível no app"
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -462,10 +450,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -487,11 +473,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "alert_circle",
+                "name": "flame",
                 "type": "system"
               },
-              "title": "Cancelamento de Cheque Especial",
-              "subtitle": "Remova o limite emergencial (se elegível)"
+              "title": "Pagar Conta de Gás",
+              "subtitle": "Pague sua conta de gás"
             }
           }
         },
@@ -507,15 +493,7 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
@@ -523,7 +501,15 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -534,10 +520,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -560,11 +544,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "hand_coins",
+                "name": "wifi",
                 "type": "system"
               },
-              "title": "Cancelamento de Empréstimo (proposta)",
-              "subtitle": "Cancele a proposta antes da contratação"
+              "title": "Pagar Internet/Telefone",
+              "subtitle": "Pague serviços de internet e telefonia"
             }
           }
         },
@@ -573,7 +557,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         },
@@ -589,15 +573,7 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
@@ -605,7 +581,15 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -616,10 +600,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -641,11 +623,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "repeat",
+                "name": "building",
                 "type": "system"
               },
-              "title": "Cancelamento de Empréstimo (portabilidade)",
-              "subtitle": "Cancele solicitação de portabilidade"
+              "title": "Pagar Condomínio",
+              "subtitle": "Pague taxa de condomínio"
             }
           }
         },
@@ -661,15 +643,7 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
@@ -677,7 +651,15 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -688,10 +670,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -713,11 +693,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "file_text",
+                "name": "home",
                 "type": "system"
               },
-              "title": "Cancelamento de Consignado (proposta)",
-              "subtitle": "Cancele a proposta do consignado"
+              "title": "Pagar Aluguel",
+              "subtitle": "Pague aluguel via transferência/PIX/boletos"
             }
           }
         },
@@ -726,8 +706,8 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
               "value": "Disponível"
             }
           }
@@ -737,10 +717,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -763,11 +741,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "car",
+                "name": "file_text",
                 "type": "system"
               },
-              "title": "Cancelamento de Financiamento (proposta)",
-              "subtitle": "Cancele a proposta de financiamento"
+              "title": "Pagar IPTU",
+              "subtitle": "Pague imposto municipal (IPTU)"
             }
           }
         },
@@ -776,7 +754,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         },
@@ -792,15 +770,7 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
@@ -808,7 +778,15 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -819,10 +797,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -845,11 +821,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "repeat",
+                "name": "car",
                 "type": "system"
               },
-              "title": "Cancelamento de Consórcio (adesão)",
-              "subtitle": "Cancele adesão a um consórcio"
+              "title": "Pagar IPVA",
+              "subtitle": "Pague imposto do veículo (IPVA)"
             }
           }
         },
@@ -858,7 +834,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         },
@@ -874,15 +850,7 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
@@ -890,7 +858,15 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -901,10 +877,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -927,11 +901,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "car",
+                "name": "alert_triangle",
                 "type": "system"
               },
-              "title": "Cancelamento de Seguro Auto",
-              "subtitle": "Cancele sua apólice de seguro auto"
+              "title": "Pagar Multas",
+              "subtitle": "Pague multas de trânsito"
             }
           }
         },
@@ -940,9 +914,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Pró-rata conforme regras"
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Disponível"
             }
           }
         },
@@ -957,24 +931,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Cobranças",
-                  "value": "Pró-rata/ajustes (conforme regras)"
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Carência",
-                  "value": "Pode existir"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Protocolo",
+                  "key": "Comprovante",
                   "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -985,10 +959,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -1010,11 +982,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "home_shield",
+                "name": "graduation_cap",
                 "type": "system"
               },
-              "title": "Cancelamento de Seguro Residencial",
-              "subtitle": "Cancele seguro residencial"
+              "title": "Pagar Escola/Faculdade",
+              "subtitle": "Pague mensalidade escolar"
             }
           }
         },
@@ -1029,24 +1001,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Cobranças",
-                  "value": "Pró-rata/ajustes (conforme regras)"
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Carência",
-                  "value": "Pode existir"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Protocolo",
+                  "key": "Comprovante",
                   "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -1057,10 +1029,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -1085,8 +1055,8 @@
                 "name": "heart",
                 "type": "system"
               },
-              "title": "Cancelamento de Seguro Vida",
-              "subtitle": "Cancele seguro de vida"
+              "title": "Pagar Plano de Saúde",
+              "subtitle": "Pague fatura do plano de saúde"
             }
           }
         },
@@ -1101,24 +1071,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Cobranças",
-                  "value": "Pró-rata/ajustes (conforme regras)"
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Carência",
-                  "value": "Pode existir"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Protocolo",
+                  "key": "Comprovante",
                   "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -1129,10 +1099,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -1155,11 +1123,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "shopping_bag",
+                "name": "shield_check",
                 "type": "system"
               },
-              "title": "Cancelamento de Seguro Cartão",
-              "subtitle": "Cancele proteção do cartão"
+              "title": "Pagar Seguro",
+              "subtitle": "Pague prêmio do seguro"
             }
           }
         },
@@ -1168,7 +1136,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         },
@@ -1183,24 +1151,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Cobranças",
-                  "value": "Pró-rata/ajustes (conforme regras)"
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Carência",
-                  "value": "Pode existir"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Protocolo",
+                  "key": "Comprovante",
                   "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -1211,10 +1179,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -1236,11 +1202,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "shield_check",
+                "name": "chart_line",
                 "type": "system"
               },
-              "title": "Cancelamento de Seguro Conta",
-              "subtitle": "Cancele proteção da conta"
+              "title": "Pagar Previdência",
+              "subtitle": "Pague/realize aporte em previdência"
             }
           }
         },
@@ -1255,16 +1221,8 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Pré-requisitos",
-                  "value": "Saldo zerado e pendências resolvidas"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Prazo",
-                  "value": "Dias úteis (varia)"
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
@@ -1272,7 +1230,15 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Disponível no app"
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -1283,10 +1249,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -1309,11 +1273,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "chart_line",
+                "name": "repeat",
                 "type": "system"
               },
-              "title": "Cancelamento de Previdência (aporte)",
-              "subtitle": "Cancele um aporte agendado"
+              "title": "Pagar Consórcio",
+              "subtitle": "Pague parcelas do consórcio"
             }
           }
         },
@@ -1322,9 +1286,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Regras do produto se aplicam"
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Agendamento permitido"
             }
           }
         },
@@ -1340,15 +1304,7 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
@@ -1356,7 +1312,15 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -1367,10 +1331,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -1392,11 +1354,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "coins",
+                "name": "car",
                 "type": "system"
               },
-              "title": "Cancelamento de Capitalização",
-              "subtitle": "Cancele título de capitalização"
+              "title": "Pagar Financiamento",
+              "subtitle": "Pague parcela de financiamento"
             }
           }
         },
@@ -1412,15 +1374,7 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
@@ -1428,7 +1382,15 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -1439,10 +1401,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -1464,11 +1424,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "settings",
+                "name": "hand_coins",
                 "type": "system"
               },
-              "title": "Cancelamento de Investimento Automático",
-              "subtitle": "Desative aportes automáticos"
+              "title": "Pagar Empréstimo",
+              "subtitle": "Pague parcelas do empréstimo"
             }
           }
         },
@@ -1477,8 +1437,8 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
               "value": "Disponível"
             }
           }
@@ -1488,10 +1448,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -1513,11 +1471,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "target",
+                "name": "percent",
                 "type": "system"
               },
-              "title": "Cancelamento de Meta Financeira",
-              "subtitle": "Remova meta/caixinha (se disponível)"
+              "title": "Pagar Taxas Bancárias",
+              "subtitle": "Pague tarifas e pacotes de serviços"
             }
           }
         },
@@ -1526,9 +1484,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Regras do produto se aplicam"
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Agendamento permitido"
             }
           }
         }
@@ -1537,10 +1495,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -1562,11 +1518,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "box",
+                "name": "file",
                 "type": "system"
               },
-              "title": "Cancelamento de Caixinha",
-              "subtitle": "Cancele uma caixinha/objetivo (se disponível)"
+              "title": "Pagar DARF",
+              "subtitle": "Pague DARF para impostos federais"
             }
           }
         },
@@ -1575,7 +1531,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         }
@@ -1584,10 +1540,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -1610,11 +1564,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "calendar",
+                "name": "file_text",
                 "type": "system"
               },
-              "title": "Cancelamento de Pix Agendado",
-              "subtitle": "Cancele um Pix agendado"
+              "title": "Pagar GPS (INSS)",
+              "subtitle": "Pague guia GPS do INSS"
             }
           }
         },
@@ -1623,7 +1577,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         },
@@ -1638,24 +1592,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Status",
-                  "value": "Cancelável enquanto pendente"
+                  "key": "Dados",
+                  "value": "Receita/Contribuinte/Vencimento"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Prazo",
-                  "value": "Imediato na confirmação"
+                  "key": "Validação",
+                  "value": "Confira antes de confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Histórico",
-                  "value": "Fica registrado"
+                  "key": "Comprovante",
+                  "value": "Disponível para download"
                 }
               ]
             }
@@ -1666,10 +1620,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -1692,11 +1644,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "clock",
+                "name": "briefcase",
                 "type": "system"
               },
-              "title": "Cancelamento de Transferência Agendada",
-              "subtitle": "Cancele uma transferência programada"
+              "title": "Pagar FGTS",
+              "subtitle": "Pague guia de FGTS (se disponível)"
             }
           }
         },
@@ -1705,9 +1657,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Imediato quando permitido"
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Confirme dados do contribuinte"
             }
           }
         },
@@ -1722,24 +1674,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Status",
-                  "value": "Cancelável enquanto pendente"
+                  "key": "Dados",
+                  "value": "Receita/Contribuinte/Vencimento"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Prazo",
-                  "value": "Imediato na confirmação"
+                  "key": "Validação",
+                  "value": "Confira antes de confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Histórico",
-                  "value": "Fica registrado"
+                  "key": "Comprovante",
+                  "value": "Disponível para download"
                 }
               ]
             }
@@ -1750,10 +1702,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -1775,11 +1725,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "refresh_cw",
+                "name": "file",
                 "type": "system"
               },
-              "title": "Cancelamento de Débito Automático",
-              "subtitle": "Cancele débito automático cadastrado"
+              "title": "Pagar DAE",
+              "subtitle": "Pague DAE estadual/municipal (se aplicável)"
             }
           }
         },
@@ -1788,9 +1738,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Status: Em análise"
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Data de vencimento obrigatória"
             }
           }
         }
@@ -1799,10 +1749,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -1824,11 +1772,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "receipt",
+                "name": "car",
                 "type": "system"
               },
-              "title": "Cancelamento de Boleto Agendado",
-              "subtitle": "Cancele pagamento de boleto agendado"
+              "title": "Pagar Detran",
+              "subtitle": "Pague taxas do Detran"
             }
           }
         },
@@ -1837,7 +1785,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         }
@@ -1846,10 +1794,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -1875,8 +1821,8 @@
                 "name": "smartphone",
                 "type": "system"
               },
-              "title": "Cancelamento de Recarga Agendada",
-              "subtitle": "Cancele recarga recorrente (se disponível)"
+              "title": "Pagar Recarga de Celular",
+              "subtitle": "Faça recarga de celular pré-pago"
             }
           }
         },
@@ -1885,8 +1831,8 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
               "value": "Disponível"
             }
           }
@@ -1903,15 +1849,7 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
@@ -1919,7 +1857,15 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -1930,10 +1876,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -1955,11 +1899,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "qrcode",
+                "name": "bus",
                 "type": "system"
               },
-              "title": "Cancelamento de Pagamento por QR",
-              "subtitle": "Cancele pagamento pendente (se possível)"
+              "title": "Pagar Transporte",
+              "subtitle": "Pague recarga de transporte (se disponível)"
             }
           }
         },
@@ -1968,7 +1912,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         }
@@ -1977,10 +1921,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "crítico",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -2003,11 +1945,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "link",
+                "name": "tag",
                 "type": "system"
               },
-              "title": "Cancelamento de Open Finance",
-              "subtitle": "Revogue consentimentos do Open Finance"
+              "title": "Pagar Pedágio/Tag",
+              "subtitle": "Pague serviços de tag/pedágio"
             }
           }
         },
@@ -2016,7 +1958,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         },
@@ -2031,24 +1973,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Consentimentos",
-                  "value": "Revogação imediata"
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Instituições",
-                  "value": "Selecione quais remover"
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Impacto",
-                  "value": "Interrompe compartilhamento"
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -2059,10 +2001,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -2085,11 +2025,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "smartphone",
+                "name": "repeat",
                 "type": "system"
               },
-              "title": "Cancelamento de Dispositivo Confiável",
-              "subtitle": "Remova aparelho autorizado"
+              "title": "Pagar Assinaturas",
+              "subtitle": "Pague assinaturas recorrentes"
             }
           }
         },
@@ -2098,7 +2038,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         },
@@ -2114,15 +2054,7 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
@@ -2130,7 +2062,15 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -2141,10 +2081,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "crítico",
-      "complexity": "médio"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -2166,11 +2104,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "lock",
+                "name": "smartphone",
                 "type": "system"
               },
-              "title": "Cancelamento de Biometria",
-              "subtitle": "Desative biometria para autorizações"
+              "title": "Pagar Serviços Digitais",
+              "subtitle": "Pague apps e serviços digitais"
             }
           }
         },
@@ -2179,8 +2117,8 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
               "value": "Disponível"
             }
           }
@@ -2190,10 +2128,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -2215,11 +2151,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "bell",
+                "name": "shopping_cart",
                 "type": "system"
               },
-              "title": "Cancelamento de Notificações",
-              "subtitle": "Desative alertas específicos"
+              "title": "Pagar Mercado",
+              "subtitle": "Pague compras em mercado via QR/PIX"
             }
           }
         },
@@ -2228,7 +2164,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         }
@@ -2237,10 +2173,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -2262,11 +2196,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "gift",
+                "name": "utensils",
                 "type": "system"
               },
-              "title": "Cancelamento de Programa de Pontos",
-              "subtitle": "Cancele participação no programa (se aplicável)"
+              "title": "Pagar Restaurante",
+              "subtitle": "Pague consumo em restaurante via QR/PIX"
             }
           }
         },
@@ -2275,7 +2209,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         }
@@ -2284,10 +2218,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -2309,11 +2241,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "coins",
+                "name": "pill",
                 "type": "system"
               },
-              "title": "Cancelamento de Cashback Plus",
-              "subtitle": "Desative benefício de cashback (se disponível)"
+              "title": "Pagar Farmácia",
+              "subtitle": "Pague em farmácia via QR/PIX"
             }
           }
         },
@@ -2329,15 +2261,7 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
@@ -2345,7 +2269,15 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -2356,10 +2288,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -2381,11 +2311,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "file",
+                "name": "fuel",
                 "type": "system"
               },
-              "title": "Cancelamento de Assinatura de Serviços",
-              "subtitle": "Cancele assinaturas cobradas na conta"
+              "title": "Pagar Combustível",
+              "subtitle": "Pague abastecimento via app (se disponível)"
             }
           }
         },
@@ -2394,7 +2324,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         }
@@ -2403,10 +2333,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -2429,11 +2357,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "zap",
+                "name": "heart",
                 "type": "system"
               },
-              "title": "Cancelamento de Limite Pix Extra",
-              "subtitle": "Remova ajuste extra de limite (se disponível)"
+              "title": "Pagar Doação",
+              "subtitle": "Pague doações para instituições"
             }
           }
         },
@@ -2442,7 +2370,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         },
@@ -2458,15 +2386,7 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
@@ -2474,7 +2394,15 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -2485,10 +2413,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -2510,11 +2436,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "credit_card",
+                "name": "zap",
                 "type": "system"
               },
-              "title": "Cancelamento de Cartão Pré-pago",
-              "subtitle": "Cancele/encerre cartão pré-pago (se disponível)"
+              "title": "Pagar Pix Cobrança",
+              "subtitle": "Pague cobranças Pix"
             }
           }
         },
@@ -2523,9 +2449,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Regras do produto se aplicam"
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Disponível 24/7"
             }
           }
         }
@@ -2534,10 +2460,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -2560,11 +2484,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "credit_card",
+                "name": "qrcode",
                 "type": "system"
               },
-              "title": "Cancelamento de Cartão de Débito",
-              "subtitle": "Solicite cancelamento do cartão de débito"
+              "title": "Pagar Pix QR Dinâmico",
+              "subtitle": "Pague QR dinâmico Pix"
             }
           }
         },
@@ -2573,7 +2497,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         },
@@ -2588,24 +2512,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Entrada",
+                  "value": "QR/Copia e Cola/Chave"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Liquidação",
+                  "value": "Instantânea"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Limites",
+                  "value": "Diurno/Noturno"
                 }
               ]
             }
@@ -2616,10 +2540,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -2641,11 +2563,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "banknote",
+                "name": "clipboard",
                 "type": "system"
               },
-              "title": "Cancelamento de Saque Pix",
-              "subtitle": "Cancele saque Pix pendente (se possível)"
+              "title": "Pagar Pix Copia e Cola",
+              "subtitle": "Pague Pix com código copia e cola"
             }
           }
         },
@@ -2654,9 +2576,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Somente antes da execução"
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Instantâneo"
             }
           }
         }
@@ -2665,10 +2587,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -2690,11 +2610,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "coins",
+                "name": "tap",
                 "type": "system"
               },
-              "title": "Cancelamento de Troco Pix",
-              "subtitle": "Cancele troco Pix pendente (se possível)"
+              "title": "Pagar com Aproximação",
+              "subtitle": "Pague por aproximação via carteira digital"
             }
           }
         },
@@ -2710,15 +2630,7 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
@@ -2726,7 +2638,15 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -2737,10 +2657,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "crítico",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -2762,11 +2680,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "globe",
+                "name": "wallet",
                 "type": "system"
               },
-              "title": "Cancelamento de Remessa Internacional",
-              "subtitle": "Cancele remessa antes do envio (se possível)"
+              "title": "Pagar com Carteira Digital",
+              "subtitle": "Pague com Apple Pay/Google Pay (se disponível)"
             }
           }
         },
@@ -2775,7 +2693,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         }
@@ -2784,10 +2702,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "crítico",
-      "complexity": "médio"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -2809,11 +2725,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "refresh_cw",
+                "name": "credit_card",
                 "type": "system"
               },
-              "title": "Cancelamento de Câmbio Programado",
-              "subtitle": "Cancele ordem/câmbio agendado (se disponível)"
+              "title": "Pagar com Débito",
+              "subtitle": "Pague com cartão de débito"
             }
           }
         },
@@ -2829,15 +2745,7 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
@@ -2845,7 +2753,15 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -2856,10 +2772,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -2881,11 +2795,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "bar_chart",
+                "name": "credit_card",
                 "type": "system"
               },
-              "title": "Cancelamento de Ordem de Compra (Ações)",
-              "subtitle": "Cancele ordem aberta em bolsa"
+              "title": "Pagar com Crédito",
+              "subtitle": "Pague com cartão de crédito"
             }
           }
         },
@@ -2894,7 +2808,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         }
@@ -2903,10 +2817,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -2928,11 +2840,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "trending_up",
+                "name": "split",
                 "type": "system"
               },
-              "title": "Cancelamento de Ordem de ETF",
-              "subtitle": "Cancele ordem aberta de ETF"
+              "title": "Pagar Parcelado",
+              "subtitle": "Pague parcelando (quando disponível)"
             }
           }
         },
@@ -2947,24 +2859,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Status",
-                  "value": "Cancelável se não executada"
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Mercado",
-                  "value": "Sujeito a horário/pregão"
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Confirmação",
-                  "value": "Atualiza em tempo real"
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -2975,10 +2887,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -3001,11 +2911,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "pie_chart",
+                "name": "coins",
                 "type": "system"
               },
-              "title": "Cancelamento de Ordem de Fundo",
-              "subtitle": "Cancele aplicação/resgate pendente"
+              "title": "Pagar com Cashback",
+              "subtitle": "Use saldo de cashback (se disponível)"
             }
           }
         },
@@ -3014,9 +2924,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Imediato se não executada"
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Agendamento permitido"
             }
           }
         },
@@ -3031,24 +2941,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Status",
-                  "value": "Cancelável se não executada"
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Mercado",
-                  "value": "Sujeito a horário/pregão"
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Confirmação",
-                  "value": "Atualiza em tempo real"
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -3059,10 +2969,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -3085,11 +2993,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "banknote",
+                "name": "gift",
                 "type": "system"
               },
-              "title": "Cancelamento de Aplicação em CDB",
-              "subtitle": "Cancele aplicação antes da confirmação (se possível)"
+              "title": "Pagar com Pontos",
+              "subtitle": "Use pontos para pagar (se disponível)"
             }
           }
         },
@@ -3098,7 +3006,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         },
@@ -3114,15 +3022,7 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
@@ -3130,7 +3030,15 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -3141,10 +3049,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -3167,11 +3073,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "landmark",
+                "name": "building",
                 "type": "system"
               },
-              "title": "Cancelamento de Aplicação em LCI/LCA",
-              "subtitle": "Cancele aplicação antes da confirmação (se possível)"
+              "title": "Pagar Guia de Condomínio (2ª via)",
+              "subtitle": "Pague 2ª via do condomínio"
             }
           }
         },
@@ -3180,7 +3086,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         },
@@ -3196,15 +3102,7 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
@@ -3212,7 +3110,15 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -3223,10 +3129,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -3249,11 +3153,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "government",
+                "name": "calendar",
                 "type": "system"
               },
-              "title": "Cancelamento de Agendamento Tesouro",
-              "subtitle": "Cancele compra agendada de Tesouro"
+              "title": "Pagar Boleto Agendado",
+              "subtitle": "Agende e pague boletos em uma data"
             }
           }
         },
@@ -3262,9 +3166,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Status: Em análise"
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Agendável"
             }
           }
         },
@@ -3279,16 +3183,16 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Entrada",
+                  "value": "Código de barras ou linha digitável"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Vencimento",
+                  "value": "Conforme boleto"
                 },
                 {
                   "icon": {
@@ -3296,7 +3200,7 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Disponível no histórico"
                 }
               ]
             }
@@ -3307,10 +3211,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -3333,11 +3235,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "headphones",
+                "name": "clock",
                 "type": "system"
               },
-              "title": "Cancelamento de Atendimento",
-              "subtitle": "Cancele solicitação/atendimento em aberto"
+              "title": "Pagar com Data Futura",
+              "subtitle": "Agende pagamento para data futura"
             }
           }
         },
@@ -3346,7 +3248,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
             }
           }
         },
@@ -3362,15 +3264,7 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
@@ -3378,7 +3272,15 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }
@@ -3389,10 +3291,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
     },
     "surface_update": {
       "components": [
@@ -3415,11 +3315,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "refresh_cw",
+                "name": "file_text",
                 "type": "system"
               },
-              "title": "Cancelamento de Renegociação",
-              "subtitle": "Cancele proposta de renegociação (se possível)"
+              "title": "Pagar com Comprovante",
+              "subtitle": "Gere comprovante após pagar"
             }
           }
         },
@@ -3428,8 +3328,8 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
               "value": "Disponível"
             }
           }
@@ -3446,15 +3346,7 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
-                },
-                {
-                  "icon": {
-                    "name": "info",
-                    "type": "system"
-                  },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "value": "Inserir dados → Revisar → Confirmar"
                 },
                 {
                   "icon": {
@@ -3462,7 +3354,15 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
                 }
               ]
             }

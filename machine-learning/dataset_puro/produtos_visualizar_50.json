@@ -1,10 +1,8 @@
 [
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -27,11 +25,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "credit_card",
+                "name": "wallet",
                 "type": "system"
               },
-              "title": "Cancelamento de Cartão de Crédito",
-              "subtitle": "Cancele seu cartão e acompanhe o status"
+              "title": "Visualizar Saldo",
+              "subtitle": "Veja o saldo disponível em tempo real"
             }
           }
         },
@@ -40,7 +38,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         },
@@ -55,24 +53,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -83,10 +81,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -109,11 +105,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "users",
+                "name": "list",
                 "type": "system"
               },
-              "title": "Cancelamento de Cartão Adicional",
-              "subtitle": "Remova um cartão adicional"
+              "title": "Visualizar Extrato",
+              "subtitle": "Veja movimentações por período e filtros"
             }
           }
         },
@@ -122,7 +118,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         },
@@ -137,24 +133,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Período",
+                  "value": "Hoje / 7 dias / 30 dias"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Categorias",
+                  "value": "Entrada, saída, transferências"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Exportar",
+                  "value": "PDF/CSV (se disponível)"
                 }
               ]
             }
@@ -165,10 +161,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -190,11 +184,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "shield",
+                "name": "credit_card",
                 "type": "system"
               },
-              "title": "Cancelamento de Cartão Virtual",
-              "subtitle": "Desative o cartão virtual atual"
+              "title": "Visualizar Fatura do Cartão",
+              "subtitle": "Veja a fatura aberta e fechada"
             }
           }
         },
@@ -203,7 +197,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         }
@@ -212,10 +206,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -238,11 +230,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "wallet",
+                "name": "gauge",
                 "type": "system"
               },
-              "title": "Cancelamento de Conta Corrente",
-              "subtitle": "Solicite encerramento da conta"
+              "title": "Visualizar Limite do Cartão",
+              "subtitle": "Veja limite total, usado e disponível"
             }
           }
         },
@@ -251,9 +243,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Sujeito a validações"
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Disponível: R$ 6.200,00"
             }
           }
         },
@@ -268,24 +260,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Pré-requisitos",
-                  "value": "Saldo zerado e pendências resolvidas"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Prazo",
-                  "value": "Dias úteis (varia)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Disponível no app"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -296,10 +288,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -322,11 +312,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "briefcase",
+                "name": "shopping_bag",
                 "type": "system"
               },
-              "title": "Cancelamento de Conta PJ",
-              "subtitle": "Encerramento de conta empresarial"
+              "title": "Visualizar Compras Recentes",
+              "subtitle": "Veja compras recentes do cartão"
             }
           }
         },
@@ -335,9 +325,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Processamento em até 5 dias úteis"
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Com filtros e detalhes"
             }
           }
         },
@@ -352,24 +342,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Pré-requisitos",
-                  "value": "Saldo zerado e pendências resolvidas"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Prazo",
-                  "value": "Dias úteis (varia)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Disponível no app"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -380,10 +370,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -406,11 +394,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "plane",
+                "name": "split",
                 "type": "system"
               },
-              "title": "Cancelamento de Conta Internacional",
-              "subtitle": "Solicite encerramento da conta internacional"
+              "title": "Visualizar Parcelamentos",
+              "subtitle": "Veja parcelas ativas e próximas"
             }
           }
         },
@@ -419,7 +407,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         },
@@ -434,24 +422,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Pré-requisitos",
-                  "value": "Saldo zerado e pendências resolvidas"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Prazo",
-                  "value": "Dias úteis (varia)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Disponível no app"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -462,10 +450,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -487,11 +473,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "alert_circle",
+                "name": "shield",
                 "type": "system"
               },
-              "title": "Cancelamento de Cheque Especial",
-              "subtitle": "Remova o limite emergencial (se elegível)"
+              "title": "Visualizar Cartão Virtual",
+              "subtitle": "Veja dados e status do cartão virtual"
             }
           }
         },
@@ -506,24 +492,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -534,10 +520,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -560,11 +544,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "hand_coins",
+                "name": "users",
                 "type": "system"
               },
-              "title": "Cancelamento de Empréstimo (proposta)",
-              "subtitle": "Cancele a proposta antes da contratação"
+              "title": "Visualizar Cartões Adicionais",
+              "subtitle": "Veja cartões adicionais e limites"
             }
           }
         },
@@ -573,7 +557,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         },
@@ -588,24 +572,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -616,10 +600,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -641,11 +623,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "repeat",
+                "name": "gift",
                 "type": "system"
               },
-              "title": "Cancelamento de Empréstimo (portabilidade)",
-              "subtitle": "Cancele solicitação de portabilidade"
+              "title": "Visualizar Benefícios do Cartão",
+              "subtitle": "Veja pontos, cashback e ofertas"
             }
           }
         },
@@ -660,24 +642,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -688,10 +670,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -713,11 +693,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "file_text",
+                "name": "layers",
                 "type": "system"
               },
-              "title": "Cancelamento de Consignado (proposta)",
-              "subtitle": "Cancele a proposta do consignado"
+              "title": "Visualizar Contas e Saldos",
+              "subtitle": "Veja todas as contas e saldos consolidados"
             }
           }
         },
@@ -726,9 +706,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Disponível"
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "R$ 2.845,17"
             }
           }
         }
@@ -737,10 +717,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -763,11 +741,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "car",
+                "name": "key",
                 "type": "system"
               },
-              "title": "Cancelamento de Financiamento (proposta)",
-              "subtitle": "Cancele a proposta de financiamento"
+              "title": "Visualizar Pix - Chaves",
+              "subtitle": "Veja chaves cadastradas e status"
             }
           }
         },
@@ -776,7 +754,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         },
@@ -791,24 +769,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Visões",
+                  "value": "Enviado, recebido, agendado"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Comprovantes",
+                  "value": "Disponíveis"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Segurança",
+                  "value": "Limites e contatos"
                 }
               ]
             }
@@ -819,10 +797,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -845,11 +821,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "repeat",
+                "name": "zap",
                 "type": "system"
               },
-              "title": "Cancelamento de Consórcio (adesão)",
-              "subtitle": "Cancele adesão a um consórcio"
+              "title": "Visualizar Pix - Limites",
+              "subtitle": "Veja limites diurno/noturno"
             }
           }
         },
@@ -858,7 +834,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         },
@@ -873,24 +849,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Visões",
+                  "value": "Enviado, recebido, agendado"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Comprovantes",
+                  "value": "Disponíveis"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Segurança",
+                  "value": "Limites e contatos"
                 }
               ]
             }
@@ -901,10 +877,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -927,11 +901,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "car",
+                "name": "clock",
                 "type": "system"
               },
-              "title": "Cancelamento de Seguro Auto",
-              "subtitle": "Cancele sua apólice de seguro auto"
+              "title": "Visualizar Pix - Histórico",
+              "subtitle": "Veja histórico de Pix enviados/recebidos"
             }
           }
         },
@@ -940,9 +914,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Pró-rata conforme regras"
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Atualizado agora"
             }
           }
         },
@@ -957,24 +931,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Cobranças",
-                  "value": "Pró-rata/ajustes (conforme regras)"
+                  "key": "Visões",
+                  "value": "Enviado, recebido, agendado"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Carência",
-                  "value": "Pode existir"
+                  "key": "Comprovantes",
+                  "value": "Disponíveis"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Protocolo",
-                  "value": "Gerado ao final"
+                  "key": "Segurança",
+                  "value": "Limites e contatos"
                 }
               ]
             }
@@ -985,10 +959,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -1010,11 +982,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "home_shield",
+                "name": "arrow_left_right",
                 "type": "system"
               },
-              "title": "Cancelamento de Seguro Residencial",
-              "subtitle": "Cancele seguro residencial"
+              "title": "Visualizar Transferências",
+              "subtitle": "Veja transferências realizadas e agendadas"
             }
           }
         },
@@ -1029,24 +1001,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Cobranças",
-                  "value": "Pró-rata/ajustes (conforme regras)"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Carência",
-                  "value": "Pode existir"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Protocolo",
-                  "value": "Gerado ao final"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -1057,10 +1029,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -1082,11 +1052,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "heart",
+                "name": "receipt",
                 "type": "system"
               },
-              "title": "Cancelamento de Seguro Vida",
-              "subtitle": "Cancele seguro de vida"
+              "title": "Visualizar Boletos",
+              "subtitle": "Veja boletos pagos e pendentes"
             }
           }
         },
@@ -1101,24 +1071,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Cobranças",
-                  "value": "Pró-rata/ajustes (conforme regras)"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Carência",
-                  "value": "Pode existir"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Protocolo",
-                  "value": "Gerado ao final"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -1129,10 +1099,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -1155,11 +1123,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "shopping_bag",
+                "name": "check_circle",
                 "type": "system"
               },
-              "title": "Cancelamento de Seguro Cartão",
-              "subtitle": "Cancele proteção do cartão"
+              "title": "Visualizar Pagamentos",
+              "subtitle": "Veja pagamentos realizados e agendados"
             }
           }
         },
@@ -1168,7 +1136,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         },
@@ -1183,24 +1151,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Cobranças",
-                  "value": "Pró-rata/ajustes (conforme regras)"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Carência",
-                  "value": "Pode existir"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Protocolo",
-                  "value": "Gerado ao final"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -1211,10 +1179,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -1236,11 +1202,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "shield_check",
+                "name": "refresh_cw",
                 "type": "system"
               },
-              "title": "Cancelamento de Seguro Conta",
-              "subtitle": "Cancele proteção da conta"
+              "title": "Visualizar Débito Automático",
+              "subtitle": "Veja débitos automáticos cadastrados"
             }
           }
         },
@@ -1255,24 +1221,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Pré-requisitos",
-                  "value": "Saldo zerado e pendências resolvidas"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Prazo",
-                  "value": "Dias úteis (varia)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Disponível no app"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -1283,10 +1249,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -1309,11 +1273,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "chart_line",
+                "name": "hand_coins",
                 "type": "system"
               },
-              "title": "Cancelamento de Previdência (aporte)",
-              "subtitle": "Cancele um aporte agendado"
+              "title": "Visualizar Empréstimos",
+              "subtitle": "Veja contratos, parcelas e saldo devedor"
             }
           }
         },
@@ -1322,9 +1286,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Regras do produto se aplicam"
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Com filtros e detalhes"
             }
           }
         },
@@ -1339,24 +1303,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -1367,10 +1331,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -1392,11 +1354,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "coins",
+                "name": "file_text",
                 "type": "system"
               },
-              "title": "Cancelamento de Capitalização",
-              "subtitle": "Cancele título de capitalização"
+              "title": "Visualizar Consignado",
+              "subtitle": "Veja contratos e margem consignável"
             }
           }
         },
@@ -1411,24 +1373,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -1439,10 +1401,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -1464,11 +1424,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "settings",
+                "name": "alert_circle",
                 "type": "system"
               },
-              "title": "Cancelamento de Investimento Automático",
-              "subtitle": "Desative aportes automáticos"
+              "title": "Visualizar Cheque Especial",
+              "subtitle": "Veja limite e encargos"
             }
           }
         },
@@ -1477,9 +1437,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Disponível"
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Atualizado agora"
             }
           }
         }
@@ -1488,10 +1448,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -1513,11 +1471,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "target",
+                "name": "car",
                 "type": "system"
               },
-              "title": "Cancelamento de Meta Financeira",
-              "subtitle": "Remova meta/caixinha (se disponível)"
+              "title": "Visualizar Financiamento Veicular",
+              "subtitle": "Veja parcelas e amortizações"
             }
           }
         },
@@ -1526,9 +1484,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Regras do produto se aplicam"
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Com filtros e detalhes"
             }
           }
         }
@@ -1537,10 +1495,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -1562,11 +1518,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "box",
+                "name": "home",
                 "type": "system"
               },
-              "title": "Cancelamento de Caixinha",
-              "subtitle": "Cancele uma caixinha/objetivo (se disponível)"
+              "title": "Visualizar Financiamento Imobiliário",
+              "subtitle": "Veja saldo, parcelas e histórico"
             }
           }
         },
@@ -1575,7 +1531,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         }
@@ -1584,10 +1540,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -1610,11 +1564,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "calendar",
+                "name": "repeat",
                 "type": "system"
               },
-              "title": "Cancelamento de Pix Agendado",
-              "subtitle": "Cancele um Pix agendado"
+              "title": "Visualizar Consórcios",
+              "subtitle": "Veja cotas, parcelas e assembleias"
             }
           }
         },
@@ -1623,7 +1577,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         },
@@ -1638,24 +1592,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Status",
-                  "value": "Cancelável enquanto pendente"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Prazo",
-                  "value": "Imediato na confirmação"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Histórico",
-                  "value": "Fica registrado"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -1666,10 +1620,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -1692,11 +1644,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "clock",
+                "name": "shield_check",
                 "type": "system"
               },
-              "title": "Cancelamento de Transferência Agendada",
-              "subtitle": "Cancele uma transferência programada"
+              "title": "Visualizar Seguros",
+              "subtitle": "Veja apólices e coberturas"
             }
           }
         },
@@ -1705,9 +1657,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Imediato quando permitido"
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Com filtros e detalhes"
             }
           }
         },
@@ -1722,24 +1674,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Status",
-                  "value": "Cancelável enquanto pendente"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Prazo",
-                  "value": "Imediato na confirmação"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Histórico",
-                  "value": "Fica registrado"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -1750,10 +1702,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -1775,11 +1725,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "refresh_cw",
+                "name": "car",
                 "type": "system"
               },
-              "title": "Cancelamento de Débito Automático",
-              "subtitle": "Cancele débito automático cadastrado"
+              "title": "Visualizar Seguro Auto",
+              "subtitle": "Veja apólice, franquia e assistências"
             }
           }
         },
@@ -1788,9 +1738,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Status: Em análise"
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Disponível no app"
             }
           }
         }
@@ -1799,10 +1749,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -1824,11 +1772,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "receipt",
+                "name": "home_shield",
                 "type": "system"
               },
-              "title": "Cancelamento de Boleto Agendado",
-              "subtitle": "Cancele pagamento de boleto agendado"
+              "title": "Visualizar Seguro Residencial",
+              "subtitle": "Veja coberturas e serviços"
             }
           }
         },
@@ -1837,7 +1785,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         }
@@ -1846,10 +1794,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -1872,11 +1818,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "smartphone",
+                "name": "heart",
                 "type": "system"
               },
-              "title": "Cancelamento de Recarga Agendada",
-              "subtitle": "Cancele recarga recorrente (se disponível)"
+              "title": "Visualizar Seguro Vida",
+              "subtitle": "Veja coberturas e beneficiários"
             }
           }
         },
@@ -1885,9 +1831,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Disponível"
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Atualizado agora"
             }
           }
         },
@@ -1902,24 +1848,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -1930,10 +1876,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -1955,11 +1899,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "qrcode",
+                "name": "chart_line",
                 "type": "system"
               },
-              "title": "Cancelamento de Pagamento por QR",
-              "subtitle": "Cancele pagamento pendente (se possível)"
+              "title": "Visualizar Previdência",
+              "subtitle": "Veja saldo, aportes e rentabilidade"
             }
           }
         },
@@ -1968,7 +1912,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         }
@@ -1977,10 +1921,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "crítico",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -2003,11 +1945,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "link",
+                "name": "coins",
                 "type": "system"
               },
-              "title": "Cancelamento de Open Finance",
-              "subtitle": "Revogue consentimentos do Open Finance"
+              "title": "Visualizar Capitalização",
+              "subtitle": "Veja título e regras de resgate"
             }
           }
         },
@@ -2016,7 +1958,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         },
@@ -2031,24 +1973,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Consentimentos",
-                  "value": "Revogação imediata"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Instituições",
-                  "value": "Selecione quais remover"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Impacto",
-                  "value": "Interrompe compartilhamento"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -2059,10 +2001,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -2085,11 +2025,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "smartphone",
+                "name": "pie_chart",
                 "type": "system"
               },
-              "title": "Cancelamento de Dispositivo Confiável",
-              "subtitle": "Remova aparelho autorizado"
+              "title": "Visualizar Investimentos (Consolidado)",
+              "subtitle": "Veja posição total e distribuição"
             }
           }
         },
@@ -2098,7 +2038,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         },
@@ -2113,24 +2053,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Visões",
+                  "value": "Consolidado e por ativo"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Performance",
+                  "value": "Por período"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Documentos",
+                  "value": "Informes e notas"
                 }
               ]
             }
@@ -2141,10 +2081,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "crítico",
-      "complexity": "médio"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -2166,11 +2104,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "lock",
+                "name": "banknote",
                 "type": "system"
               },
-              "title": "Cancelamento de Biometria",
-              "subtitle": "Desative biometria para autorizações"
+              "title": "Visualizar CDB",
+              "subtitle": "Veja posição, vencimento e rendimento"
             }
           }
         },
@@ -2179,9 +2117,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Disponível"
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Posição atual"
             }
           }
         }
@@ -2190,10 +2128,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -2215,11 +2151,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "bell",
+                "name": "landmark",
                 "type": "system"
               },
-              "title": "Cancelamento de Notificações",
-              "subtitle": "Desative alertas específicos"
+              "title": "Visualizar LCI/LCA",
+              "subtitle": "Veja posição e vencimentos"
             }
           }
         },
@@ -2228,7 +2164,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         }
@@ -2237,10 +2173,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -2262,11 +2196,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "gift",
+                "name": "government",
                 "type": "system"
               },
-              "title": "Cancelamento de Programa de Pontos",
-              "subtitle": "Cancele participação no programa (se aplicável)"
+              "title": "Visualizar Tesouro Direto",
+              "subtitle": "Veja posição e marcação a mercado"
             }
           }
         },
@@ -2275,7 +2209,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         }
@@ -2284,10 +2218,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -2309,11 +2241,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "coins",
+                "name": "pie_chart",
                 "type": "system"
               },
-              "title": "Cancelamento de Cashback Plus",
-              "subtitle": "Desative benefício de cashback (se disponível)"
+              "title": "Visualizar Fundos",
+              "subtitle": "Veja cotas, rentabilidade e taxas"
             }
           }
         },
@@ -2328,24 +2260,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -2356,10 +2288,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -2381,11 +2311,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "file",
+                "name": "bar_chart",
                 "type": "system"
               },
-              "title": "Cancelamento de Assinatura de Serviços",
-              "subtitle": "Cancele assinaturas cobradas na conta"
+              "title": "Visualizar Ações",
+              "subtitle": "Veja posição e preço médio"
             }
           }
         },
@@ -2394,7 +2324,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         }
@@ -2403,10 +2333,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -2429,11 +2357,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "zap",
+                "name": "trending_up",
                 "type": "system"
               },
-              "title": "Cancelamento de Limite Pix Extra",
-              "subtitle": "Remova ajuste extra de limite (se disponível)"
+              "title": "Visualizar ETFs",
+              "subtitle": "Veja posição e variação"
             }
           }
         },
@@ -2442,7 +2370,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         },
@@ -2457,24 +2385,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -2485,10 +2413,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -2510,11 +2436,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "credit_card",
+                "name": "building",
                 "type": "system"
               },
-              "title": "Cancelamento de Cartão Pré-pago",
-              "subtitle": "Cancele/encerre cartão pré-pago (se disponível)"
+              "title": "Visualizar FIIs",
+              "subtitle": "Veja posição e dividendos"
             }
           }
         },
@@ -2523,9 +2449,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Regras do produto se aplicam"
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Rentabilidade no período"
             }
           }
         }
@@ -2534,10 +2460,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -2560,11 +2484,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "credit_card",
+                "name": "bitcoin",
                 "type": "system"
               },
-              "title": "Cancelamento de Cartão de Débito",
-              "subtitle": "Solicite cancelamento do cartão de débito"
+              "title": "Visualizar Criptomoedas",
+              "subtitle": "Veja saldo e variação"
             }
           }
         },
@@ -2573,7 +2497,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         },
@@ -2588,24 +2512,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -2616,10 +2540,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -2641,11 +2563,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "banknote",
+                "name": "gift",
                 "type": "system"
               },
-              "title": "Cancelamento de Saque Pix",
-              "subtitle": "Cancele saque Pix pendente (se possível)"
+              "title": "Visualizar Proventos",
+              "subtitle": "Veja dividendos, JCP e rendimentos"
             }
           }
         },
@@ -2654,9 +2576,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Somente antes da execução"
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Atualizado agora"
             }
           }
         }
@@ -2665,10 +2587,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -2690,11 +2610,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "coins",
+                "name": "file",
                 "type": "system"
               },
-              "title": "Cancelamento de Troco Pix",
-              "subtitle": "Cancele troco Pix pendente (se possível)"
+              "title": "Visualizar Informe de Rendimentos",
+              "subtitle": "Veja documentos para IR"
             }
           }
         },
@@ -2709,24 +2629,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -2737,10 +2657,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "crítico",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -2762,11 +2680,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "globe",
+                "name": "file_text",
                 "type": "system"
               },
-              "title": "Cancelamento de Remessa Internacional",
-              "subtitle": "Cancele remessa antes do envio (se possível)"
+              "title": "Visualizar Notas de Corretagem",
+              "subtitle": "Veja notas e operações"
             }
           }
         },
@@ -2775,7 +2693,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         }
@@ -2784,10 +2702,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "crítico",
-      "complexity": "médio"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -2809,11 +2725,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "refresh_cw",
+                "name": "chart_line",
                 "type": "system"
               },
-              "title": "Cancelamento de Câmbio Programado",
-              "subtitle": "Cancele ordem/câmbio agendado (se disponível)"
+              "title": "Visualizar Rentabilidade",
+              "subtitle": "Veja performance por período"
             }
           }
         },
@@ -2828,24 +2744,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -2856,10 +2772,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -2881,11 +2795,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "bar_chart",
+                "name": "target",
                 "type": "system"
               },
-              "title": "Cancelamento de Ordem de Compra (Ações)",
-              "subtitle": "Cancele ordem aberta em bolsa"
+              "title": "Visualizar Metas Financeiras",
+              "subtitle": "Veja progresso de objetivos/caixinhas"
             }
           }
         },
@@ -2894,7 +2808,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         }
@@ -2903,10 +2817,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -2928,11 +2840,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "trending_up",
+                "name": "life_buoy",
                 "type": "system"
               },
-              "title": "Cancelamento de Ordem de ETF",
-              "subtitle": "Cancele ordem aberta de ETF"
+              "title": "Visualizar Reserva de Emergência",
+              "subtitle": "Veja saldo e rendimento da reserva"
             }
           }
         },
@@ -2947,24 +2859,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Status",
-                  "value": "Cancelável se não executada"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Mercado",
-                  "value": "Sujeito a horário/pregão"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Confirmação",
-                  "value": "Atualiza em tempo real"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -2975,10 +2887,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -3001,11 +2911,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "pie_chart",
+                "name": "percent",
                 "type": "system"
               },
-              "title": "Cancelamento de Ordem de Fundo",
-              "subtitle": "Cancele aplicação/resgate pendente"
+              "title": "Visualizar Tarifas",
+              "subtitle": "Veja pacote e cobranças"
             }
           }
         },
@@ -3014,9 +2924,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Imediato se não executada"
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Com filtros e detalhes"
             }
           }
         },
@@ -3031,24 +2941,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Status",
-                  "value": "Cancelável se não executada"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Mercado",
-                  "value": "Sujeito a horário/pregão"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Confirmação",
-                  "value": "Atualiza em tempo real"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -3059,10 +2969,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -3085,11 +2993,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "banknote",
+                "name": "sliders",
                 "type": "system"
               },
-              "title": "Cancelamento de Aplicação em CDB",
-              "subtitle": "Cancele aplicação antes da confirmação (se possível)"
+              "title": "Visualizar Limites de Transação",
+              "subtitle": "Veja limites por canal e período"
             }
           }
         },
@@ -3098,7 +3006,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         },
@@ -3113,24 +3021,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -3141,10 +3049,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -3167,11 +3073,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "landmark",
+                "name": "smartphone",
                 "type": "system"
               },
-              "title": "Cancelamento de Aplicação em LCI/LCA",
-              "subtitle": "Cancele aplicação antes da confirmação (se possível)"
+              "title": "Visualizar Dispositivos Confiáveis",
+              "subtitle": "Veja aparelhos autorizados"
             }
           }
         },
@@ -3180,7 +3086,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         },
@@ -3195,24 +3101,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -3223,10 +3129,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -3249,11 +3153,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "government",
+                "name": "lock",
                 "type": "system"
               },
-              "title": "Cancelamento de Agendamento Tesouro",
-              "subtitle": "Cancele compra agendada de Tesouro"
+              "title": "Visualizar Segurança",
+              "subtitle": "Veja configurações de biometria e senha"
             }
           }
         },
@@ -3262,9 +3166,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Status: Em análise"
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Disponível no app"
             }
           }
         },
@@ -3279,24 +3183,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -3307,10 +3211,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -3336,8 +3238,8 @@
                 "name": "headphones",
                 "type": "system"
               },
-              "title": "Cancelamento de Atendimento",
-              "subtitle": "Cancele solicitação/atendimento em aberto"
+              "title": "Visualizar Atendimento",
+              "subtitle": "Veja protocolos e solicitações"
             }
           }
         },
@@ -3346,7 +3248,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
             }
           }
         },
@@ -3361,24 +3263,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }
@@ -3389,10 +3291,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
     },
     "surface_update": {
       "components": [
@@ -3415,11 +3315,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "refresh_cw",
+                "name": "link",
                 "type": "system"
               },
-              "title": "Cancelamento de Renegociação",
-              "subtitle": "Cancele proposta de renegociação (se possível)"
+              "title": "Visualizar Open Finance",
+              "subtitle": "Veja consentimentos e instituições conectadas"
             }
           }
         },
@@ -3428,9 +3328,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Disponível"
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "2 instituições conectadas"
             }
           }
         },
@@ -3445,24 +3345,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
                 }
               ]
             }

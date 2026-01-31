@@ -2,9 +2,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -84,9 +82,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -166,9 +162,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -213,9 +207,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -297,9 +289,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -381,9 +371,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -463,9 +451,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -535,9 +521,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -617,9 +601,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -689,9 +671,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -738,9 +718,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -820,9 +798,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -902,9 +878,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -986,9 +960,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -1058,9 +1030,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -1130,9 +1100,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -1212,9 +1180,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -1284,9 +1250,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -1368,9 +1332,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -1440,9 +1402,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -1489,9 +1449,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -1538,9 +1496,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -1585,9 +1541,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -1667,9 +1621,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -1751,9 +1703,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -1800,9 +1750,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -1847,9 +1795,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -1931,9 +1877,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -1978,9 +1922,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "crítico",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -2060,9 +2002,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -2142,9 +2082,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "crítico",
-      "complexity": "médio"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -2191,9 +2129,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -2238,9 +2174,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -2285,9 +2219,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -2357,9 +2289,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -2404,9 +2334,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -2486,9 +2414,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -2535,9 +2461,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -2617,9 +2541,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -2666,9 +2588,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -2738,9 +2658,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "crítico",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -2785,9 +2703,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "crítico",
-      "complexity": "médio"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -2857,9 +2773,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -2904,9 +2818,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -2976,9 +2888,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -3060,9 +2970,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -3142,9 +3050,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -3224,9 +3130,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -3308,9 +3212,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [
@@ -3390,9 +3292,7 @@
   {
     "meta_info": {
       "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "agent_id": "agent-produtos-cancelar-v1"
     },
     "surface_update": {
       "components": [

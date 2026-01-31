@@ -1,10 +1,8 @@
 [
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -27,11 +25,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "credit_card",
+                "name": "banknote",
                 "type": "system"
               },
-              "title": "Cancelamento de Cartão de Crédito",
-              "subtitle": "Cancele seu cartão e acompanhe o status"
+              "title": "Resgatar CDB",
+              "subtitle": "Solicite resgate total ou parcial do CDB (se elegível)"
             }
           }
         },
@@ -40,7 +38,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         },
@@ -55,24 +53,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Elegibilidade",
+                  "value": "Liquidez/carência/vencimento"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Impostos",
+                  "value": "Conforme prazo"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Destino",
+                  "value": "Conta corrente"
                 }
               ]
             }
@@ -83,10 +81,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -109,11 +105,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "users",
+                "name": "landmark",
                 "type": "system"
               },
-              "title": "Cancelamento de Cartão Adicional",
-              "subtitle": "Remova um cartão adicional"
+              "title": "Resgatar LCI/LCA",
+              "subtitle": "Resgate no vencimento ou conforme liquidez (se disponível)"
             }
           }
         },
@@ -122,7 +118,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         },
@@ -137,24 +133,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Elegibilidade",
+                  "value": "Liquidez/carência/vencimento"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Impostos",
+                  "value": "Conforme prazo"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Destino",
+                  "value": "Conta corrente"
                 }
               ]
             }
@@ -165,10 +161,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -190,11 +184,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "shield",
+                "name": "piggy_bank",
                 "type": "system"
               },
-              "title": "Cancelamento de Cartão Virtual",
-              "subtitle": "Desative o cartão virtual atual"
+              "title": "Resgatar Poupança",
+              "subtitle": "Transfira da poupança para a conta"
             }
           }
         },
@@ -203,7 +197,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         }
@@ -212,10 +206,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -238,11 +230,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "wallet",
+                "name": "government",
                 "type": "system"
               },
-              "title": "Cancelamento de Conta Corrente",
-              "subtitle": "Solicite encerramento da conta"
+              "title": "Resgatar Tesouro Selic",
+              "subtitle": "Venda/resgate título Tesouro Selic"
             }
           }
         },
@@ -251,9 +243,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Sujeito a validações"
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Cotização D+1/D+2"
             }
           }
         },
@@ -268,8 +260,8 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Pré-requisitos",
-                  "value": "Saldo zerado e pendências resolvidas"
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
@@ -277,7 +269,7 @@
                     "type": "system"
                   },
                   "key": "Prazo",
-                  "value": "Dias úteis (varia)"
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
@@ -285,7 +277,7 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Disponível no app"
+                  "value": "Gerado ao final"
                 }
               ]
             }
@@ -296,10 +288,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -322,11 +312,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "briefcase",
+                "name": "government",
                 "type": "system"
               },
-              "title": "Cancelamento de Conta PJ",
-              "subtitle": "Encerramento de conta empresarial"
+              "title": "Resgatar Tesouro IPCA+",
+              "subtitle": "Venda/resgate título Tesouro IPCA+"
             }
           }
         },
@@ -335,9 +325,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Processamento em até 5 dias úteis"
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Sujeito a mercado"
             }
           }
         },
@@ -352,8 +342,8 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Pré-requisitos",
-                  "value": "Saldo zerado e pendências resolvidas"
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
@@ -361,7 +351,7 @@
                     "type": "system"
                   },
                   "key": "Prazo",
-                  "value": "Dias úteis (varia)"
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
@@ -369,7 +359,7 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Disponível no app"
+                  "value": "Gerado ao final"
                 }
               ]
             }
@@ -380,10 +370,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -406,11 +394,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "plane",
+                "name": "government",
                 "type": "system"
               },
-              "title": "Cancelamento de Conta Internacional",
-              "subtitle": "Solicite encerramento da conta internacional"
+              "title": "Resgatar Tesouro Prefixado",
+              "subtitle": "Venda/resgate título prefixado"
             }
           }
         },
@@ -419,7 +407,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         },
@@ -434,8 +422,8 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Pré-requisitos",
-                  "value": "Saldo zerado e pendências resolvidas"
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
@@ -443,7 +431,7 @@
                     "type": "system"
                   },
                   "key": "Prazo",
-                  "value": "Dias úteis (varia)"
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
@@ -451,7 +439,7 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Disponível no app"
+                  "value": "Gerado ao final"
                 }
               ]
             }
@@ -462,10 +450,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -487,11 +473,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "alert_circle",
+                "name": "pie_chart",
                 "type": "system"
               },
-              "title": "Cancelamento de Cheque Especial",
-              "subtitle": "Remova o limite emergencial (se elegível)"
+              "title": "Resgatar Fundo de Renda Fixa",
+              "subtitle": "Solicite resgate do fundo e acompanhe cotização"
             }
           }
         },
@@ -506,24 +492,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Cotização",
+                  "value": "D+N (varia)"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Liquidação",
+                  "value": "Após cotização"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Tributação",
+                  "value": "Conforme regras"
                 }
               ]
             }
@@ -534,10 +520,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -560,11 +544,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "hand_coins",
+                "name": "layers",
                 "type": "system"
               },
-              "title": "Cancelamento de Empréstimo (proposta)",
-              "subtitle": "Cancele a proposta antes da contratação"
+              "title": "Resgatar Fundo Multimercado",
+              "subtitle": "Solicite resgate e acompanhe prazo"
             }
           }
         },
@@ -573,7 +557,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         },
@@ -588,24 +572,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Cotização",
+                  "value": "D+N (varia)"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Liquidação",
+                  "value": "Após cotização"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Tributação",
+                  "value": "Conforme regras"
                 }
               ]
             }
@@ -616,10 +600,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -641,11 +623,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "repeat",
+                "name": "bar_chart",
                 "type": "system"
               },
-              "title": "Cancelamento de Empréstimo (portabilidade)",
-              "subtitle": "Cancele solicitação de portabilidade"
+              "title": "Resgatar Fundo de Ações",
+              "subtitle": "Solicite resgate e acompanhe cotização"
             }
           }
         },
@@ -660,24 +642,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Cotização",
+                  "value": "D+N (varia)"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Liquidação",
+                  "value": "Após cotização"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Tributação",
+                  "value": "Conforme regras"
                 }
               ]
             }
@@ -688,10 +670,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -713,11 +693,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "file_text",
+                "name": "building",
                 "type": "system"
               },
-              "title": "Cancelamento de Consignado (proposta)",
-              "subtitle": "Cancele a proposta do consignado"
+              "title": "Resgatar FII (venda)",
+              "subtitle": "Venda cotas de FII no mercado (se disponível)"
             }
           }
         },
@@ -726,9 +706,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Disponível"
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Depende do pregão"
             }
           }
         }
@@ -737,10 +717,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -763,11 +741,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "car",
+                "name": "bar_chart",
                 "type": "system"
               },
-              "title": "Cancelamento de Financiamento (proposta)",
-              "subtitle": "Cancele a proposta de financiamento"
+              "title": "Vender Ações",
+              "subtitle": "Venda ações no home broker"
             }
           }
         },
@@ -776,7 +754,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         },
@@ -791,24 +769,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Ordem",
+                  "value": "Mercado/Limitada"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Pregão",
+                  "value": "Horário do mercado"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Liquidação",
+                  "value": "D+2 (exemplo)"
                 }
               ]
             }
@@ -819,10 +797,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -845,11 +821,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "repeat",
+                "name": "trending_up",
                 "type": "system"
               },
-              "title": "Cancelamento de Consórcio (adesão)",
-              "subtitle": "Cancele adesão a um consórcio"
+              "title": "Vender ETFs",
+              "subtitle": "Venda ETFs no home broker"
             }
           }
         },
@@ -858,7 +834,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         },
@@ -873,24 +849,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Ordem",
+                  "value": "Mercado/Limitada"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Pregão",
+                  "value": "Horário do mercado"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Liquidação",
+                  "value": "D+2 (exemplo)"
                 }
               ]
             }
@@ -901,10 +877,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -927,11 +901,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "car",
+                "name": "globe",
                 "type": "system"
               },
-              "title": "Cancelamento de Seguro Auto",
-              "subtitle": "Cancele sua apólice de seguro auto"
+              "title": "Vender BDRs",
+              "subtitle": "Venda BDRs no home broker"
             }
           }
         },
@@ -940,9 +914,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Pró-rata conforme regras"
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Depende do pregão"
             }
           }
         },
@@ -957,24 +931,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Cobranças",
-                  "value": "Pró-rata/ajustes (conforme regras)"
+                  "key": "Ordem",
+                  "value": "Mercado/Limitada"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Carência",
-                  "value": "Pode existir"
+                  "key": "Pregão",
+                  "value": "Horário do mercado"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Protocolo",
-                  "value": "Gerado ao final"
+                  "key": "Liquidação",
+                  "value": "D+2 (exemplo)"
                 }
               ]
             }
@@ -985,10 +959,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -1010,11 +982,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "home_shield",
+                "name": "bitcoin",
                 "type": "system"
               },
-              "title": "Cancelamento de Seguro Residencial",
-              "subtitle": "Cancele seguro residencial"
+              "title": "Vender Criptomoedas",
+              "subtitle": "Venda criptoativos (se disponível)"
             }
           }
         },
@@ -1029,24 +1001,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Cobranças",
-                  "value": "Pró-rata/ajustes (conforme regras)"
+                  "key": "Execução",
+                  "value": "Disponível 24/7 (quando aplicável)"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Carência",
-                  "value": "Pode existir"
+                  "key": "Taxas",
+                  "value": "Pode haver spread"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Protocolo",
-                  "value": "Gerado ao final"
+                  "key": "Risco",
+                  "value": "Alta volatilidade"
                 }
               ]
             }
@@ -1057,10 +1029,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -1082,11 +1052,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "heart",
+                "name": "chart_line",
                 "type": "system"
               },
-              "title": "Cancelamento de Seguro Vida",
-              "subtitle": "Cancele seguro de vida"
+              "title": "Resgatar Previdência (parcial)",
+              "subtitle": "Resgate parcial de previdência (regras do plano)"
             }
           }
         },
@@ -1101,23 +1071,23 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Cobranças",
-                  "value": "Pró-rata/ajustes (conforme regras)"
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Carência",
-                  "value": "Pode existir"
+                  "key": "Prazo",
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Protocolo",
+                  "key": "Comprovante",
                   "value": "Gerado ao final"
                 }
               ]
@@ -1129,10 +1099,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -1155,11 +1123,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "shopping_bag",
+                "name": "chart_line",
                 "type": "system"
               },
-              "title": "Cancelamento de Seguro Cartão",
-              "subtitle": "Cancele proteção do cartão"
+              "title": "Resgatar Previdência (total)",
+              "subtitle": "Resgate total de previdência (regras do plano)"
             }
           }
         },
@@ -1168,7 +1136,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         },
@@ -1183,23 +1151,23 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Cobranças",
-                  "value": "Pró-rata/ajustes (conforme regras)"
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Carência",
-                  "value": "Pode existir"
+                  "key": "Prazo",
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Protocolo",
+                  "key": "Comprovante",
                   "value": "Gerado ao final"
                 }
               ]
@@ -1211,10 +1179,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -1236,11 +1202,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "shield_check",
+                "name": "coins",
                 "type": "system"
               },
-              "title": "Cancelamento de Seguro Conta",
-              "subtitle": "Cancele proteção da conta"
+              "title": "Resgatar Capitalização",
+              "subtitle": "Solicite resgate de título de capitalização"
             }
           }
         },
@@ -1255,8 +1221,8 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Pré-requisitos",
-                  "value": "Saldo zerado e pendências resolvidas"
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
@@ -1264,7 +1230,7 @@
                     "type": "system"
                   },
                   "key": "Prazo",
-                  "value": "Dias úteis (varia)"
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
@@ -1272,7 +1238,7 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Disponível no app"
+                  "value": "Gerado ao final"
                 }
               ]
             }
@@ -1283,10 +1249,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -1309,11 +1273,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "chart_line",
+                "name": "layers",
                 "type": "system"
               },
-              "title": "Cancelamento de Previdência (aporte)",
-              "subtitle": "Cancele um aporte agendado"
+              "title": "Resgatar COE (vencimento)",
+              "subtitle": "Resgate no vencimento do COE (se aplicável)"
             }
           }
         },
@@ -1322,9 +1286,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Regras do produto se aplicam"
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Confirmação após validação"
             }
           }
         },
@@ -1340,15 +1304,15 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Prazo",
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
@@ -1356,7 +1320,7 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
                 }
               ]
             }
@@ -1367,10 +1331,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -1392,11 +1354,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "coins",
+                "name": "file_text",
                 "type": "system"
               },
-              "title": "Cancelamento de Capitalização",
-              "subtitle": "Cancele título de capitalização"
+              "title": "Resgatar Debêntures (venda)",
+              "subtitle": "Venda no mercado secundário (se disponível)"
             }
           }
         },
@@ -1412,15 +1374,15 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Prazo",
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
@@ -1428,7 +1390,7 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
                 }
               ]
             }
@@ -1439,10 +1401,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -1464,11 +1424,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "settings",
+                "name": "file",
                 "type": "system"
               },
-              "title": "Cancelamento de Investimento Automático",
-              "subtitle": "Desative aportes automáticos"
+              "title": "Resgatar CRI/CRA (venda)",
+              "subtitle": "Venda no mercado secundário (se disponível)"
             }
           }
         },
@@ -1477,8 +1437,8 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
               "value": "Disponível"
             }
           }
@@ -1488,10 +1448,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -1513,11 +1471,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "target",
+                "name": "bank",
                 "type": "system"
               },
-              "title": "Cancelamento de Meta Financeira",
-              "subtitle": "Remova meta/caixinha (se disponível)"
+              "title": "Resgatar Letra Financeira",
+              "subtitle": "Resgate no vencimento (se aplicável)"
             }
           }
         },
@@ -1526,9 +1484,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Regras do produto se aplicam"
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Confirmação após validação"
             }
           }
         }
@@ -1537,10 +1495,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -1562,11 +1518,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "box",
+                "name": "banknote",
                 "type": "system"
               },
-              "title": "Cancelamento de Caixinha",
-              "subtitle": "Cancele uma caixinha/objetivo (se disponível)"
+              "title": "Resgatar Letras de Câmbio",
+              "subtitle": "Resgate no vencimento (se aplicável)"
             }
           }
         },
@@ -1575,7 +1531,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         }
@@ -1584,10 +1540,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -1610,11 +1564,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "calendar",
+                "name": "wallet",
                 "type": "system"
               },
-              "title": "Cancelamento de Pix Agendado",
-              "subtitle": "Cancele um Pix agendado"
+              "title": "Resgatar Conta Remunerada",
+              "subtitle": "Transfira saldo remunerado para conta"
             }
           }
         },
@@ -1623,7 +1577,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         },
@@ -1638,8 +1592,8 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Status",
-                  "value": "Cancelável enquanto pendente"
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
@@ -1647,15 +1601,15 @@
                     "type": "system"
                   },
                   "key": "Prazo",
-                  "value": "Imediato na confirmação"
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Histórico",
-                  "value": "Fica registrado"
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
                 }
               ]
             }
@@ -1666,10 +1620,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -1692,11 +1644,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "clock",
+                "name": "box",
                 "type": "system"
               },
-              "title": "Cancelamento de Transferência Agendada",
-              "subtitle": "Cancele uma transferência programada"
+              "title": "Resgatar Caixinha/Objetivo",
+              "subtitle": "Resgate da caixinha para conta (se disponível)"
             }
           }
         },
@@ -1705,9 +1657,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Imediato quando permitido"
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Confirmação após validação"
             }
           }
         },
@@ -1722,8 +1674,8 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Status",
-                  "value": "Cancelável enquanto pendente"
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
@@ -1731,15 +1683,15 @@
                     "type": "system"
                   },
                   "key": "Prazo",
-                  "value": "Imediato na confirmação"
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Histórico",
-                  "value": "Fica registrado"
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
                 }
               ]
             }
@@ -1750,10 +1702,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -1775,11 +1725,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "refresh_cw",
+                "name": "target",
                 "type": "system"
               },
-              "title": "Cancelamento de Débito Automático",
-              "subtitle": "Cancele débito automático cadastrado"
+              "title": "Resgatar Meta Financeira",
+              "subtitle": "Resgate de valores de uma meta"
             }
           }
         },
@@ -1788,9 +1738,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Status: Em análise"
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Regras do produto se aplicam"
             }
           }
         }
@@ -1799,10 +1749,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -1824,11 +1772,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "receipt",
+                "name": "settings",
                 "type": "system"
               },
-              "title": "Cancelamento de Boleto Agendado",
-              "subtitle": "Cancele pagamento de boleto agendado"
+              "title": "Resgatar Investimento Automático",
+              "subtitle": "Interrompa e resgate saldo (se aplicável)"
             }
           }
         },
@@ -1837,7 +1785,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         }
@@ -1846,10 +1794,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -1872,11 +1818,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "smartphone",
+                "name": "life_buoy",
                 "type": "system"
               },
-              "title": "Cancelamento de Recarga Agendada",
-              "subtitle": "Cancele recarga recorrente (se disponível)"
+              "title": "Resgatar Reserva de Emergência",
+              "subtitle": "Resgate de produtos de alta liquidez"
             }
           }
         },
@@ -1885,8 +1831,8 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
               "value": "Disponível"
             }
           }
@@ -1903,15 +1849,15 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Prazo",
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
@@ -1919,7 +1865,7 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
                 }
               ]
             }
@@ -1930,10 +1876,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -1955,11 +1899,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "qrcode",
+                "name": "clock",
                 "type": "system"
               },
-              "title": "Cancelamento de Pagamento por QR",
-              "subtitle": "Cancele pagamento pendente (se possível)"
+              "title": "Resgatar Aplicação com Liquidez Diária",
+              "subtitle": "Resgate imediato quando permitido"
             }
           }
         },
@@ -1968,7 +1912,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         }
@@ -1977,10 +1921,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "crítico",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -2003,11 +1945,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "link",
+                "name": "zap",
                 "type": "system"
               },
-              "title": "Cancelamento de Open Finance",
-              "subtitle": "Revogue consentimentos do Open Finance"
+              "title": "Resgatar Aplicação em D+0",
+              "subtitle": "Resgate com cotização D+0 (se disponível)"
             }
           }
         },
@@ -2016,7 +1958,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         },
@@ -2031,24 +1973,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Consentimentos",
-                  "value": "Revogação imediata"
+                  "key": "Cotização",
+                  "value": "D+N (varia)"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Instituições",
-                  "value": "Selecione quais remover"
+                  "key": "Liquidação",
+                  "value": "Após cotização"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Impacto",
-                  "value": "Interrompe compartilhamento"
+                  "key": "Tributação",
+                  "value": "Conforme regras"
                 }
               ]
             }
@@ -2059,10 +2001,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -2085,11 +2025,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "smartphone",
+                "name": "calendar",
                 "type": "system"
               },
-              "title": "Cancelamento de Dispositivo Confiável",
-              "subtitle": "Remova aparelho autorizado"
+              "title": "Resgatar Aplicação em D+1",
+              "subtitle": "Resgate com cotização D+1 (se disponível)"
             }
           }
         },
@@ -2098,7 +2038,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         },
@@ -2113,24 +2053,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "key": "Cotização",
+                  "value": "D+N (varia)"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Liquidação",
+                  "value": "Após cotização"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "key": "Tributação",
+                  "value": "Conforme regras"
                 }
               ]
             }
@@ -2141,10 +2081,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "crítico",
-      "complexity": "médio"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -2166,11 +2104,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "lock",
+                "name": "calendar",
                 "type": "system"
               },
-              "title": "Cancelamento de Biometria",
-              "subtitle": "Desative biometria para autorizações"
+              "title": "Resgatar Aplicação em D+2",
+              "subtitle": "Resgate com cotização D+2 (se disponível)"
             }
           }
         },
@@ -2179,9 +2117,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Disponível"
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Cotização D+1/D+2"
             }
           }
         }
@@ -2190,10 +2128,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -2215,11 +2151,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "bell",
+                "name": "lock",
                 "type": "system"
               },
-              "title": "Cancelamento de Notificações",
-              "subtitle": "Desative alertas específicos"
+              "title": "Resgatar Aplicação com Carência",
+              "subtitle": "Resgate após carência (quando aplicável)"
             }
           }
         },
@@ -2228,7 +2164,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         }
@@ -2237,10 +2173,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -2262,11 +2196,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "gift",
+                "name": "percent",
                 "type": "system"
               },
-              "title": "Cancelamento de Programa de Pontos",
-              "subtitle": "Cancele participação no programa (se aplicável)"
+              "title": "Resgatar com IR Regressivo",
+              "subtitle": "Simule imposto no resgate (quando aplicável)"
             }
           }
         },
@@ -2275,7 +2209,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         }
@@ -2284,10 +2218,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -2309,11 +2241,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "coins",
+                "name": "percent",
                 "type": "system"
               },
-              "title": "Cancelamento de Cashback Plus",
-              "subtitle": "Desative benefício de cashback (se disponível)"
+              "title": "Resgatar com IR Progressivo",
+              "subtitle": "Simule imposto no resgate (quando aplicável)"
             }
           }
         },
@@ -2329,15 +2261,15 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Prazo",
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
@@ -2345,7 +2277,7 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
                 }
               ]
             }
@@ -2356,10 +2288,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -2381,11 +2311,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "file",
+                "name": "calculator",
                 "type": "system"
               },
-              "title": "Cancelamento de Assinatura de Serviços",
-              "subtitle": "Cancele assinaturas cobradas na conta"
+              "title": "Resgatar com Simulação",
+              "subtitle": "Simule valores antes de confirmar"
             }
           }
         },
@@ -2394,7 +2324,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         }
@@ -2403,10 +2333,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -2429,11 +2357,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "zap",
+                "name": "file_text",
                 "type": "system"
               },
-              "title": "Cancelamento de Limite Pix Extra",
-              "subtitle": "Remova ajuste extra de limite (se disponível)"
+              "title": "Resgatar com Comprovante",
+              "subtitle": "Gere comprovante do resgate"
             }
           }
         },
@@ -2442,7 +2370,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         },
@@ -2458,15 +2386,15 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Prazo",
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
@@ -2474,7 +2402,7 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
                 }
               ]
             }
@@ -2485,10 +2413,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -2510,11 +2436,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "credit_card",
+                "name": "arrow_down",
                 "type": "system"
               },
-              "title": "Cancelamento de Cartão Pré-pago",
-              "subtitle": "Cancele/encerre cartão pré-pago (se disponível)"
+              "title": "Resgatar e Transferir para Conta",
+              "subtitle": "Resgate e envie para sua conta corrente"
             }
           }
         },
@@ -2523,9 +2449,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Regras do produto se aplicam"
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Confirmação após validação"
             }
           }
         }
@@ -2534,10 +2460,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -2560,11 +2484,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "credit_card",
+                "name": "repeat",
                 "type": "system"
               },
-              "title": "Cancelamento de Cartão de Débito",
-              "subtitle": "Solicite cancelamento do cartão de débito"
+              "title": "Resgatar e Reaplicar",
+              "subtitle": "Resgate e reaplique em outro produto"
             }
           }
         },
@@ -2573,7 +2497,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         },
@@ -2589,15 +2513,15 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Prazo",
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
@@ -2605,7 +2529,7 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
                 }
               ]
             }
@@ -2616,10 +2540,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "baixo"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -2641,11 +2563,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "banknote",
+                "name": "credit_card",
                 "type": "system"
               },
-              "title": "Cancelamento de Saque Pix",
-              "subtitle": "Cancele saque Pix pendente (se possível)"
+              "title": "Resgatar para Pagar Fatura",
+              "subtitle": "Resgate para pagar a fatura do cartão"
             }
           }
         },
@@ -2654,9 +2576,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Somente antes da execução"
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Disponível"
             }
           }
         }
@@ -2665,10 +2587,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -2690,11 +2610,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "coins",
+                "name": "receipt",
                 "type": "system"
               },
-              "title": "Cancelamento de Troco Pix",
-              "subtitle": "Cancele troco Pix pendente (se possível)"
+              "title": "Resgatar para Pagar Boleto",
+              "subtitle": "Resgate para quitar boleto"
             }
           }
         },
@@ -2710,15 +2630,15 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Prazo",
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
@@ -2726,7 +2646,7 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
                 }
               ]
             }
@@ -2737,10 +2657,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "crítico",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -2762,11 +2680,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "globe",
+                "name": "zap",
                 "type": "system"
               },
-              "title": "Cancelamento de Remessa Internacional",
-              "subtitle": "Cancele remessa antes do envio (se possível)"
+              "title": "Resgatar para Pix",
+              "subtitle": "Resgate para enviar via Pix"
             }
           }
         },
@@ -2775,7 +2693,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         }
@@ -2784,10 +2702,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "crítico",
-      "complexity": "médio"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -2809,11 +2725,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "refresh_cw",
+                "name": "arrow_left_right",
                 "type": "system"
               },
-              "title": "Cancelamento de Câmbio Programado",
-              "subtitle": "Cancele ordem/câmbio agendado (se disponível)"
+              "title": "Resgatar para Transferência (TED/TEF)",
+              "subtitle": "Resgate para transferir para outra conta"
             }
           }
         },
@@ -2829,15 +2745,15 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Prazo",
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
@@ -2845,7 +2761,7 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
                 }
               ]
             }
@@ -2856,10 +2772,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -2881,11 +2795,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "bar_chart",
+                "name": "chart_line",
                 "type": "system"
               },
-              "title": "Cancelamento de Ordem de Compra (Ações)",
-              "subtitle": "Cancele ordem aberta em bolsa"
+              "title": "Resgatar para Previdência (aporte)",
+              "subtitle": "Resgatar de um produto e aportar em previdência"
             }
           }
         },
@@ -2894,7 +2808,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         }
@@ -2903,10 +2817,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -2931,8 +2843,8 @@
                 "name": "trending_up",
                 "type": "system"
               },
-              "title": "Cancelamento de Ordem de ETF",
-              "subtitle": "Cancele ordem aberta de ETF"
+              "title": "Resgatar para Investimentos (aporte)",
+              "subtitle": "Resgatar de um produto e aportar em outro"
             }
           }
         },
@@ -2947,24 +2859,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Status",
-                  "value": "Cancelável se não executada"
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Mercado",
-                  "value": "Sujeito a horário/pregão"
+                  "key": "Prazo",
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Confirmação",
-                  "value": "Atualiza em tempo real"
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
                 }
               ]
             }
@@ -2975,10 +2887,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -3001,11 +2911,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "pie_chart",
+                "name": "clock",
                 "type": "system"
               },
-              "title": "Cancelamento de Ordem de Fundo",
-              "subtitle": "Cancele aplicação/resgate pendente"
+              "title": "Resgatar com Agendamento",
+              "subtitle": "Agende resgate para uma data"
             }
           }
         },
@@ -3014,9 +2924,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Imediato se não executada"
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Confirmação após validação"
             }
           }
         },
@@ -3031,24 +2941,24 @@
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Status",
-                  "value": "Cancelável se não executada"
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Mercado",
-                  "value": "Sujeito a horário/pregão"
+                  "key": "Prazo",
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Confirmação",
-                  "value": "Atualiza em tempo real"
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
                 }
               ]
             }
@@ -3059,10 +2969,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -3085,11 +2993,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "banknote",
+                "name": "sliders",
                 "type": "system"
               },
-              "title": "Cancelamento de Aplicação em CDB",
-              "subtitle": "Cancele aplicação antes da confirmação (se possível)"
+              "title": "Resgatar com Limite Diário",
+              "subtitle": "Respeite limites/horários de resgate (se aplicável)"
             }
           }
         },
@@ -3098,7 +3006,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         },
@@ -3114,15 +3022,15 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Prazo",
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
@@ -3130,7 +3038,7 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
                 }
               ]
             }
@@ -3141,10 +3049,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -3167,11 +3073,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "landmark",
+                "name": "lock",
                 "type": "system"
               },
-              "title": "Cancelamento de Aplicação em LCI/LCA",
-              "subtitle": "Cancele aplicação antes da confirmação (se possível)"
+              "title": "Resgatar com Autenticação Forte",
+              "subtitle": "Confirme com biometria ou token"
             }
           }
         },
@@ -3180,7 +3086,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         },
@@ -3196,15 +3102,15 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Prazo",
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
@@ -3212,7 +3118,7 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
                 }
               ]
             }
@@ -3223,10 +3129,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -3249,11 +3153,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "government",
+                "name": "list",
                 "type": "system"
               },
-              "title": "Cancelamento de Agendamento Tesouro",
-              "subtitle": "Cancele compra agendada de Tesouro"
+              "title": "Resgatar com Histórico",
+              "subtitle": "Consulte histórico de resgates"
             }
           }
         },
@@ -3262,9 +3166,9 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
-              "value": "Status: Em análise"
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Regras do produto se aplicam"
             }
           }
         },
@@ -3280,15 +3184,15 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Prazo",
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
@@ -3296,7 +3200,7 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
                 }
               ]
             }
@@ -3307,10 +3211,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "alto"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -3333,11 +3235,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "headphones",
+                "name": "info",
                 "type": "system"
               },
-              "title": "Cancelamento de Atendimento",
-              "subtitle": "Cancele solicitação/atendimento em aberto"
+              "title": "Resgatar com Regras do Produto",
+              "subtitle": "Confira prazos e condições antes de resgatar"
             }
           }
         },
@@ -3346,7 +3248,7 @@
           "component": {
             "type": "text",
             "data": {
-              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
             }
           }
         },
@@ -3362,15 +3264,15 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Prazo",
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
@@ -3378,7 +3280,7 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
                 }
               ]
             }
@@ -3389,10 +3291,8 @@
   },
   {
     "meta_info": {
-      "category": "cancelar",
-      "agent_id": "agent-produtos-cancelar-v1",
-      "sensitivity": "sensível",
-      "complexity": "médio"
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
     },
     "surface_update": {
       "components": [
@@ -3415,11 +3315,11 @@
             "type": "header",
             "data": {
               "icon": {
-                "name": "refresh_cw",
+                "name": "coins",
                 "type": "system"
               },
-              "title": "Cancelamento de Renegociação",
-              "subtitle": "Cancele proposta de renegociação (se possível)"
+              "title": "Resgatar Cashback",
+              "subtitle": "Resgate saldo de cashback (se disponível)"
             }
           }
         },
@@ -3428,8 +3328,8 @@
           "component": {
             "type": "informative",
             "data": {
-              "title": "Condição",
-              "subtitle": "O que considerar ao cancelar",
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
               "value": "Disponível"
             }
           }
@@ -3446,15 +3346,15 @@
                     "type": "system"
                   },
                   "key": "Etapas",
-                  "value": "Selecionar → Revisar → Confirmar"
+                  "value": "Selecionar → Informar valor → Confirmar"
                 },
                 {
                   "icon": {
                     "name": "info",
                     "type": "system"
                   },
-                  "key": "Autenticação",
-                  "value": "Biometria/Token (quando necessário)"
+                  "key": "Prazo",
+                  "value": "Varia por produto"
                 },
                 {
                   "icon": {
@@ -3462,7 +3362,7 @@
                     "type": "system"
                   },
                   "key": "Comprovante",
-                  "value": "Gerado após concluir"
+                  "value": "Gerado ao final"
                 }
               ]
             }

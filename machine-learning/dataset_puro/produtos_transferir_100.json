@@ -1,0 +1,6572 @@
+[
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-1-header",
+                "section-1-text",
+                "section-1-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-1-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "key",
+                "type": "system"
+              },
+              "title": "Transferir via Pix (chave)",
+              "subtitle": "Envie Pix usando chave (CPF, e-mail, celular)"
+            }
+          }
+        },
+        {
+          "id": "section-1-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-1-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Entrada",
+                  "value": "Chave/QR/Copia e Cola"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidação",
+                  "value": "Instantânea"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Disponível no histórico"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-2-header",
+                "section-2-text",
+                "section-2-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-2-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "qrcode",
+                "type": "system"
+              },
+              "title": "Transferir via Pix (QR Code)",
+              "subtitle": "Envie Pix escaneando QR Code"
+            }
+          }
+        },
+        {
+          "id": "section-2-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-2-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Entrada",
+                  "value": "Chave/QR/Copia e Cola"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidação",
+                  "value": "Instantânea"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Disponível no histórico"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-3-header",
+                "section-3-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-3-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "clipboard",
+                "type": "system"
+              },
+              "title": "Transferir via Pix (Copia e Cola)",
+              "subtitle": "Envie Pix com código copia e cola"
+            }
+          }
+        },
+        {
+          "id": "section-3-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-4-header",
+                "section-4-info",
+                "section-4-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-4-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "calendar",
+                "type": "system"
+              },
+              "title": "Transferir via Pix (Agendado)",
+              "subtitle": "Agende um Pix para data futura"
+            }
+          }
+        },
+        {
+          "id": "section-4-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Instantâneo"
+            }
+          }
+        },
+        {
+          "id": "section-4-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Entrada",
+                  "value": "Chave/QR/Copia e Cola"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidação",
+                  "value": "Instantânea"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Disponível no histórico"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-5-header",
+                "section-5-info",
+                "section-5-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-5-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "repeat",
+                "type": "system"
+              },
+              "title": "Transferir via Pix (Recorrente)",
+              "subtitle": "Configure Pix recorrente (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-5-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Sujeito a limites"
+            }
+          }
+        },
+        {
+          "id": "section-5-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Entrada",
+                  "value": "Chave/QR/Copia e Cola"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidação",
+                  "value": "Instantânea"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Disponível no histórico"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-6-header",
+                "section-6-text",
+                "section-6-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-6-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file_text",
+                "type": "system"
+              },
+              "title": "Transferir via Pix (Comprovante)",
+              "subtitle": "Envie Pix e gere comprovante"
+            }
+          }
+        },
+        {
+          "id": "section-6-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-6-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Entrada",
+                  "value": "Chave/QR/Copia e Cola"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidação",
+                  "value": "Instantânea"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Disponível no histórico"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-7-header",
+                "section-7-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-7-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "users",
+                "type": "system"
+              },
+              "title": "Transferir via Pix (Contatos)",
+              "subtitle": "Envie Pix para contatos favoritos"
+            }
+          }
+        },
+        {
+          "id": "section-7-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Entrada",
+                  "value": "Chave/QR/Copia e Cola"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidação",
+                  "value": "Instantânea"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Disponível no histórico"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-8-header",
+                "section-8-text",
+                "section-8-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-8-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "sliders",
+                "type": "system"
+              },
+              "title": "Transferir via Pix (Com Limite)",
+              "subtitle": "Envie Pix respeitando limites diurno/noturno"
+            }
+          }
+        },
+        {
+          "id": "section-8-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-8-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Entrada",
+                  "value": "Chave/QR/Copia e Cola"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidação",
+                  "value": "Instantânea"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Disponível no histórico"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-9-header",
+                "section-9-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-9-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "moon",
+                "type": "system"
+              },
+              "title": "Transferir via Pix (Noturno)",
+              "subtitle": "Envie Pix na janela noturna"
+            }
+          }
+        },
+        {
+          "id": "section-9-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Entrada",
+                  "value": "Chave/QR/Copia e Cola"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidação",
+                  "value": "Instantânea"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Disponível no histórico"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-10-header",
+                "section-10-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-10-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "zap",
+                "type": "system"
+              },
+              "title": "Transferir via Pix (Cobrança)",
+              "subtitle": "Pague/transferir via cobrança Pix"
+            }
+          }
+        },
+        {
+          "id": "section-10-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Instantâneo"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-11-header",
+                "section-11-text",
+                "section-11-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-11-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "arrow_left_right",
+                "type": "system"
+              },
+              "title": "Transferir TED",
+              "subtitle": "Envie TED para outro banco"
+            }
+          }
+        },
+        {
+          "id": "section-11-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-11-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Dados",
+                  "value": "Banco/Agência/Conta"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Horário",
+                  "value": "Sujeito a corte"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Tarifas",
+                  "value": "Conforme pacote"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-12-header",
+                "section-12-text",
+                "section-12-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-12-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "calendar",
+                "type": "system"
+              },
+              "title": "Transferir TED Agendada",
+              "subtitle": "Agende TED para uma data"
+            }
+          }
+        },
+        {
+          "id": "section-12-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-12-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Dados",
+                  "value": "Banco/Agência/Conta"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Horário",
+                  "value": "Sujeito a corte"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Tarifas",
+                  "value": "Conforme pacote"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-13-header",
+                "section-13-info",
+                "section-13-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-13-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "repeat",
+                "type": "system"
+              },
+              "title": "Transferir TEF",
+              "subtitle": "Envie transferência interna (mesmo banco)"
+            }
+          }
+        },
+        {
+          "id": "section-13-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Confirme dados do recebedor"
+            }
+          }
+        },
+        {
+          "id": "section-13-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Destino",
+                  "value": "Conta interna"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Geralmente imediato"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Histórico",
+                  "value": "Registrado"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-14-header",
+                "section-14-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-14-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "calendar",
+                "type": "system"
+              },
+              "title": "Transferir TEF Agendada",
+              "subtitle": "Agende TEF para uma data"
+            }
+          }
+        },
+        {
+          "id": "section-14-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Destino",
+                  "value": "Conta interna"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Geralmente imediato"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Histórico",
+                  "value": "Registrado"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-15-header",
+                "section-15-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-15-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "piggy_bank",
+                "type": "system"
+              },
+              "title": "Transferir para Conta Poupança",
+              "subtitle": "Transfira para poupança"
+            }
+          }
+        },
+        {
+          "id": "section-15-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-16-header",
+                "section-16-text",
+                "section-16-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-16-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "arrow_down",
+                "type": "system"
+              },
+              "title": "Transferir da Poupança para Conta",
+              "subtitle": "Transfira saldo da poupança para conta"
+            }
+          }
+        },
+        {
+          "id": "section-16-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-16-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-17-header",
+                "section-17-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-17-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "trending_up",
+                "type": "system"
+              },
+              "title": "Transferir para Investimentos",
+              "subtitle": "Transfira recursos para conta investimento"
+            }
+          }
+        },
+        {
+          "id": "section-17-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-18-header",
+                "section-18-info",
+                "section-18-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-18-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "arrow_down",
+                "type": "system"
+              },
+              "title": "Transferir de Investimentos para Conta",
+              "subtitle": "Traga recursos de investimentos para conta"
+            }
+          }
+        },
+        {
+          "id": "section-18-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Autenticação pode ser solicitada"
+            }
+          }
+        },
+        {
+          "id": "section-18-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-19-header",
+                "section-19-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-19-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "chart_line",
+                "type": "system"
+              },
+              "title": "Transferir para Previdência",
+              "subtitle": "Envie aporte para previdência"
+            }
+          }
+        },
+        {
+          "id": "section-19-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-20-header",
+                "section-20-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-20-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "layers",
+                "type": "system"
+              },
+              "title": "Transferir entre Minhas Contas",
+              "subtitle": "Transfira entre suas contas"
+            }
+          }
+        },
+        {
+          "id": "section-20-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Confirme dados do recebedor"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-21-header",
+                "section-21-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-21-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "users",
+                "type": "system"
+              },
+              "title": "Transferir entre Contas Conjuntas",
+              "subtitle": "Transfira entre contas conjuntas (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-21-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Autenticação pode ser solicitada"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-22-header",
+                "section-22-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-22-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "user",
+                "type": "system"
+              },
+              "title": "Transferir para Terceiros",
+              "subtitle": "Transfira para outra pessoa"
+            }
+          }
+        },
+        {
+          "id": "section-22-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-23-header",
+                "section-23-text",
+                "section-23-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-23-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bookmark",
+                "type": "system"
+              },
+              "title": "Transferir para Favorecido",
+              "subtitle": "Transfira para favorecido cadastrado"
+            }
+          }
+        },
+        {
+          "id": "section-23-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-23-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-24-header",
+                "section-24-info",
+                "section-24-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-24-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "user_plus",
+                "type": "system"
+              },
+              "title": "Transferir para Novo Favorecido",
+              "subtitle": "Cadastre e transfira para novo favorecido"
+            }
+          }
+        },
+        {
+          "id": "section-24-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Autenticação pode ser solicitada"
+            }
+          }
+        },
+        {
+          "id": "section-24-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-25-header",
+                "section-25-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-25-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file_text",
+                "type": "system"
+              },
+              "title": "Transferir com Comprovante",
+              "subtitle": "Gere comprovante ao final"
+            }
+          }
+        },
+        {
+          "id": "section-25-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Gere comprovante ao final"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-26-header",
+                "section-26-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-26-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "clock",
+                "type": "system"
+              },
+              "title": "Transferir com Agendamento",
+              "subtitle": "Agende uma transferência"
+            }
+          }
+        },
+        {
+          "id": "section-26-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-27-header",
+                "section-27-info",
+                "section-27-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-27-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "repeat",
+                "type": "system"
+              },
+              "title": "Transferir com Recorrência",
+              "subtitle": "Configure transferências recorrentes"
+            }
+          }
+        },
+        {
+          "id": "section-27-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Pode ser cancelado enquanto pendente"
+            }
+          }
+        },
+        {
+          "id": "section-27-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Data",
+                  "value": "Programada"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Cancelamento",
+                  "value": "Enquanto pendente"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Notificações",
+                  "value": "Ativáveis"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-28-header",
+                "section-28-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-28-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "lock",
+                "type": "system"
+              },
+              "title": "Transferir com Autenticação Forte",
+              "subtitle": "Confirme com biometria/token"
+            }
+          }
+        },
+        {
+          "id": "section-28-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-29-header",
+                "section-29-text",
+                "section-29-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-29-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "sliders",
+                "type": "system"
+              },
+              "title": "Transferir com Limite Diário",
+              "subtitle": "Respeite limites por canal e período"
+            }
+          }
+        },
+        {
+          "id": "section-29-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-29-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-30-header",
+                "section-30-text",
+                "section-30-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-30-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "list",
+                "type": "system"
+              },
+              "title": "Transferir com Histórico",
+              "subtitle": "Consulte histórico de transferências"
+            }
+          }
+        },
+        {
+          "id": "section-30-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-30-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-31-header",
+                "section-31-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-31-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "briefcase",
+                "type": "system"
+              },
+              "title": "Transferir para Conta Salário",
+              "subtitle": "Transfira para conta salário"
+            }
+          }
+        },
+        {
+          "id": "section-31-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Confirme dados do recebedor"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-32-header",
+                "section-32-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-32-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "briefcase",
+                "type": "system"
+              },
+              "title": "Transferir para Conta PJ",
+              "subtitle": "Transfira para conta empresarial"
+            }
+          }
+        },
+        {
+          "id": "section-32-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-33-header",
+                "section-33-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-33-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "plane",
+                "type": "system"
+              },
+              "title": "Transferir para Conta Internacional",
+              "subtitle": "Envie para conta internacional (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-33-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-34-header",
+                "section-34-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-34-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "globe",
+                "type": "system"
+              },
+              "title": "Transferir Remessa Internacional",
+              "subtitle": "Envie dinheiro para o exterior (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-34-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Moeda",
+                  "value": "Selecione moeda"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Taxas",
+                  "value": "IOF/Spread (se aplicável)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Pode variar"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-35-header",
+                "section-35-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-35-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "calendar",
+                "type": "system"
+              },
+              "title": "Transferir Remessa (Agendada)",
+              "subtitle": "Agende remessa internacional (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-35-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-36-header",
+                "section-36-text",
+                "section-36-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-36-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "globe",
+                "type": "system"
+              },
+              "title": "Transferir Câmbio",
+              "subtitle": "Compre moeda e transfira (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-36-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-36-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Moeda",
+                  "value": "Selecione moeda"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Taxas",
+                  "value": "IOF/Spread (se aplicável)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Pode variar"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-37-header",
+                "section-37-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-37-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "wallet",
+                "type": "system"
+              },
+              "title": "Transferir para Carteira Digital",
+              "subtitle": "Adicione saldo/transferência para wallet (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-37-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Autenticação pode ser solicitada"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-38-header",
+                "section-38-text",
+                "section-38-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-38-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "credit_card",
+                "type": "system"
+              },
+              "title": "Transferir para Cartão Pré-pago",
+              "subtitle": "Carregue cartão pré-pago (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-38-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-38-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-39-header",
+                "section-39-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-39-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "credit_card",
+                "type": "system"
+              },
+              "title": "Transferir para Cartão de Crédito (pagamento)",
+              "subtitle": "Envie pagamento para fatura/cartão"
+            }
+          }
+        },
+        {
+          "id": "section-39-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Confirme dados do recebedor"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-40-header",
+                "section-40-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-40-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "hand_coins",
+                "type": "system"
+              },
+              "title": "Transferir para Empréstimo (pagamento)",
+              "subtitle": "Envie pagamento para parcela do empréstimo"
+            }
+          }
+        },
+        {
+          "id": "section-40-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-41-header",
+                "section-41-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-41-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "car",
+                "type": "system"
+              },
+              "title": "Transferir para Financiamento (pagamento)",
+              "subtitle": "Envie pagamento para financiamento"
+            }
+          }
+        },
+        {
+          "id": "section-41-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-42-header",
+                "section-42-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-42-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "repeat",
+                "type": "system"
+              },
+              "title": "Transferir para Consórcio (pagamento)",
+              "subtitle": "Envie pagamento para consórcio"
+            }
+          }
+        },
+        {
+          "id": "section-42-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-43-header",
+                "section-43-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-43-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shield_check",
+                "type": "system"
+              },
+              "title": "Transferir para Seguro (pagamento)",
+              "subtitle": "Envie pagamento para seguro"
+            }
+          }
+        },
+        {
+          "id": "section-43-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-44-header",
+                "section-44-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-44-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "coins",
+                "type": "system"
+              },
+              "title": "Transferir para Capitalização (pagamento)",
+              "subtitle": "Envie pagamento para capitalização"
+            }
+          }
+        },
+        {
+          "id": "section-44-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-45-header",
+                "section-45-info",
+                "section-45-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-45-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "receipt",
+                "type": "system"
+              },
+              "title": "Transferir para Boleto (pagamento)",
+              "subtitle": "Envie pagamento para boleto"
+            }
+          }
+        },
+        {
+          "id": "section-45-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Autenticação pode ser solicitada"
+            }
+          }
+        },
+        {
+          "id": "section-45-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-46-header",
+                "section-46-text",
+                "section-46-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-46-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "zap",
+                "type": "system"
+              },
+              "title": "Transferir para Pix Cobrança (pagamento)",
+              "subtitle": "Pague cobrança via Pix"
+            }
+          }
+        },
+        {
+          "id": "section-46-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-46-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Entrada",
+                  "value": "Chave/QR/Copia e Cola"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidação",
+                  "value": "Instantânea"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Disponível no histórico"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-47-header",
+                "section-47-text",
+                "section-47-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-47-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "share",
+                "type": "system"
+              },
+              "title": "Transferir com Split",
+              "subtitle": "Divida e transfira valores (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-47-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-47-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-48-header",
+                "section-48-info",
+                "section-48-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-48-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "split",
+                "type": "system"
+              },
+              "title": "Transferir Pix Parcelado",
+              "subtitle": "Envie Pix parcelado (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-48-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Disponível 24/7"
+            }
+          }
+        },
+        {
+          "id": "section-48-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Entrada",
+                  "value": "Chave/QR/Copia e Cola"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidação",
+                  "value": "Instantânea"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Disponível no histórico"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-49-header",
+                "section-49-text",
+                "section-49-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-49-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "message_circle",
+                "type": "system"
+              },
+              "title": "Transferir com Mensagem",
+              "subtitle": "Envie mensagem junto à transferência (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-49-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-49-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-50-header",
+                "section-50-info",
+                "section-50-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-50-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "check_circle",
+                "type": "system"
+              },
+              "title": "Transferir com Confirmação",
+              "subtitle": "Revise dados antes de confirmar"
+            }
+          }
+        },
+        {
+          "id": "section-50-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Confirme dados do recebedor"
+            }
+          }
+        },
+        {
+          "id": "section-50-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-51-header",
+                "section-51-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-51-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "key",
+                "type": "system"
+              },
+              "title": "Transferir com Validação de Chave",
+              "subtitle": "Valide chave Pix antes de enviar"
+            }
+          }
+        },
+        {
+          "id": "section-51-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Gere comprovante ao final"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-52-header",
+                "section-52-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-52-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "user",
+                "type": "system"
+              },
+              "title": "Transferir com Nome do Favorecido",
+              "subtitle": "Mostre nome do recebedor para conferência"
+            }
+          }
+        },
+        {
+          "id": "section-52-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Autenticação pode ser solicitada"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-53-header",
+                "section-53-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-53-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "id_card",
+                "type": "system"
+              },
+              "title": "Transferir com CPF/CNPJ",
+              "subtitle": "Transfira usando CPF/CNPJ"
+            }
+          }
+        },
+        {
+          "id": "section-53-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-54-header",
+                "section-54-info",
+                "section-54-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-54-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bank",
+                "type": "system"
+              },
+              "title": "Transferir com Agência e Conta",
+              "subtitle": "Transfira usando agência e conta"
+            }
+          }
+        },
+        {
+          "id": "section-54-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Gere comprovante ao final"
+            }
+          }
+        },
+        {
+          "id": "section-54-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-55-header",
+                "section-55-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-55-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bank",
+                "type": "system"
+              },
+              "title": "Transferir com Banco de Destino",
+              "subtitle": "Selecione banco e tipo de conta"
+            }
+          }
+        },
+        {
+          "id": "section-55-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-56-header",
+                "section-56-info",
+                "section-56-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-56-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bank",
+                "type": "system"
+              },
+              "title": "Transferir com Tipo de Conta",
+              "subtitle": "Conta corrente/poupança"
+            }
+          }
+        },
+        {
+          "id": "section-56-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Autenticação pode ser solicitada"
+            }
+          }
+        },
+        {
+          "id": "section-56-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-57-header",
+                "section-57-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-57-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "sliders",
+                "type": "system"
+              },
+              "title": "Transferir com Valor Máximo",
+              "subtitle": "Aplique limite por transação"
+            }
+          }
+        },
+        {
+          "id": "section-57-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-58-header",
+                "section-58-text",
+                "section-58-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-58-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shield",
+                "type": "system"
+              },
+              "title": "Transferir com Aprovação",
+              "subtitle": "Aprovação extra para altos valores (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-58-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-58-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-59-header",
+                "section-59-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-59-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "users",
+                "type": "system"
+              },
+              "title": "Transferir com Dupla Autorização",
+              "subtitle": "Dupla autorização (PJ, se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-59-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-60-header",
+                "section-60-info",
+                "section-60-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-60-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "truck",
+                "type": "system"
+              },
+              "title": "Transferir para Fornecedor (PJ)",
+              "subtitle": "Transfira para fornecedor"
+            }
+          }
+        },
+        {
+          "id": "section-60-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Processamento em lote"
+            }
+          }
+        },
+        {
+          "id": "section-60-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Aprovação",
+                  "value": "Dupla autorização (quando aplicável)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Formato",
+                  "value": "Lote/templates"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovantes",
+                  "value": "Gerados"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-61-header",
+                "section-61-info",
+                "section-61-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-61-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "briefcase",
+                "type": "system"
+              },
+              "title": "Transferir para Folha (PJ)",
+              "subtitle": "Transfira para folha de pagamento (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-61-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Dupla autorização (quando aplicável)"
+            }
+          }
+        },
+        {
+          "id": "section-61-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Aprovação",
+                  "value": "Dupla autorização (quando aplicável)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Formato",
+                  "value": "Lote/templates"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovantes",
+                  "value": "Gerados"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-62-header",
+                "section-62-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-62-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file_text",
+                "type": "system"
+              },
+              "title": "Transferir para Impostos (PJ)",
+              "subtitle": "Transfira/pague tributos (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-62-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Exportação/arquivos (se disponível)"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-63-header",
+                "section-63-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-63-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bookmark",
+                "type": "system"
+              },
+              "title": "Transferir para Beneficiário",
+              "subtitle": "Transfira para beneficiário cadastrado"
+            }
+          }
+        },
+        {
+          "id": "section-63-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-64-header",
+                "section-64-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-64-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "heart",
+                "type": "system"
+              },
+              "title": "Transferir para Doação",
+              "subtitle": "Envie doação para instituição"
+            }
+          }
+        },
+        {
+          "id": "section-64-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-65-header",
+                "section-65-info",
+                "section-65-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-65-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "settings",
+                "type": "system"
+              },
+              "title": "Transferir para Investimento Automático",
+              "subtitle": "Aporte para regra automática"
+            }
+          }
+        },
+        {
+          "id": "section-65-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Autenticação pode ser solicitada"
+            }
+          }
+        },
+        {
+          "id": "section-65-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-66-header",
+                "section-66-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-66-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "target",
+                "type": "system"
+              },
+              "title": "Transferir para Meta Financeira",
+              "subtitle": "Aporte em meta/caixinha"
+            }
+          }
+        },
+        {
+          "id": "section-66-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-67-header",
+                "section-67-text",
+                "section-67-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-67-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "arrow_down",
+                "type": "system"
+              },
+              "title": "Transferir da Meta para Conta",
+              "subtitle": "Resgate de meta para conta"
+            }
+          }
+        },
+        {
+          "id": "section-67-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-67-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-68-header",
+                "section-68-info",
+                "section-68-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-68-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "box",
+                "type": "system"
+              },
+              "title": "Transferir de Caixinha para Conta",
+              "subtitle": "Resgate de caixinha para conta"
+            }
+          }
+        },
+        {
+          "id": "section-68-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Confirme dados do recebedor"
+            }
+          }
+        },
+        {
+          "id": "section-68-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-69-header",
+                "section-69-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-69-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "wallet",
+                "type": "system"
+              },
+              "title": "Transferir de Conta Remunerada",
+              "subtitle": "Mover saldo remunerado para conta"
+            }
+          }
+        },
+        {
+          "id": "section-69-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-70-header",
+                "section-70-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-70-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "wallet",
+                "type": "system"
+              },
+              "title": "Transferir para Conta Remunerada",
+              "subtitle": "Mover saldo para conta remunerada (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-70-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Gere comprovante ao final"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-71-header",
+                "section-71-text",
+                "section-71-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-71-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bell",
+                "type": "system"
+              },
+              "title": "Transferir com Notificação",
+              "subtitle": "Receba notificação de conclusão"
+            }
+          }
+        },
+        {
+          "id": "section-71-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-71-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-72-header",
+                "section-72-info",
+                "section-72-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-72-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bell",
+                "type": "system"
+              },
+              "title": "Transferir com Alerta",
+              "subtitle": "Ative alertas para transferências"
+            }
+          }
+        },
+        {
+          "id": "section-72-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Autenticação pode ser solicitada"
+            }
+          }
+        },
+        {
+          "id": "section-72-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-73-header",
+                "section-73-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-73-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "x_circle",
+                "type": "system"
+              },
+              "title": "Transferir com Cancelamento",
+              "subtitle": "Cancele enquanto pendente (quando aplicável)"
+            }
+          }
+        },
+        {
+          "id": "section-73-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-74-header",
+                "section-74-info",
+                "section-74-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-74-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "download",
+                "type": "system"
+              },
+              "title": "Transferir com Comprovante PDF",
+              "subtitle": "Baixe comprovante em PDF"
+            }
+          }
+        },
+        {
+          "id": "section-74-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Autenticação pode ser solicitada"
+            }
+          }
+        },
+        {
+          "id": "section-74-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-75-header",
+                "section-75-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-75-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "share",
+                "type": "system"
+              },
+              "title": "Transferir com Compartilhar",
+              "subtitle": "Compartilhe comprovante"
+            }
+          }
+        },
+        {
+          "id": "section-75-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Gere comprovante ao final"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-76-header",
+                "section-76-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-76-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "star",
+                "type": "system"
+              },
+              "title": "Transferir com Favoritos",
+              "subtitle": "Use lista de favoritos"
+            }
+          }
+        },
+        {
+          "id": "section-76-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Confirme dados do recebedor"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-77-header",
+                "section-77-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-77-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "repeat",
+                "type": "system"
+              },
+              "title": "Transferir com Repetir Última",
+              "subtitle": "Repita última transferência"
+            }
+          }
+        },
+        {
+          "id": "section-77-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-78-header",
+                "section-78-info",
+                "section-78-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-78-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "layout",
+                "type": "system"
+              },
+              "title": "Transferir com Templates (PJ)",
+              "subtitle": "Use templates de pagamentos (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-78-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Dupla autorização (quando aplicável)"
+            }
+          }
+        },
+        {
+          "id": "section-78-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Aprovação",
+                  "value": "Dupla autorização (quando aplicável)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Formato",
+                  "value": "Lote/templates"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovantes",
+                  "value": "Gerados"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-79-header",
+                "section-79-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-79-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "layers",
+                "type": "system"
+              },
+              "title": "Transferir em Lote (PJ)",
+              "subtitle": "Transferências em lote (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-79-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Aprovação",
+                  "value": "Dupla autorização (quando aplicável)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Formato",
+                  "value": "Lote/templates"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovantes",
+                  "value": "Gerados"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-80-header",
+                "section-80-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-80-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "qrcode",
+                "type": "system"
+              },
+              "title": "Transferir via QR Estático",
+              "subtitle": "Pix QR estático (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-80-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-81-header",
+                "section-81-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-81-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "qrcode",
+                "type": "system"
+              },
+              "title": "Transferir via QR Dinâmico",
+              "subtitle": "Pix QR dinâmico (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-81-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-82-header",
+                "section-82-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-82-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "lock",
+                "type": "system"
+              },
+              "title": "Transferir para Conta de Custódia",
+              "subtitle": "Envie para conta de custódia (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-82-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-83-header",
+                "section-83-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-83-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "trending_up",
+                "type": "system"
+              },
+              "title": "Transferir para Corretora",
+              "subtitle": "Envie para corretora/custódia (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-83-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Autenticação pode ser solicitada"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-84-header",
+                "section-84-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-84-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "arrow_down",
+                "type": "system"
+              },
+              "title": "Transferir de Corretora",
+              "subtitle": "Receba de corretora/custódia (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-84-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Gere comprovante ao final"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-85-header",
+                "section-85-info",
+                "section-85-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-85-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shield",
+                "type": "system"
+              },
+              "title": "Transferir para Cartão Virtual (carga)",
+              "subtitle": "Carregar cartão virtual (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-85-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Confirme dados do recebedor"
+            }
+          }
+        },
+        {
+          "id": "section-85-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-86-header",
+                "section-86-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-86-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "users",
+                "type": "system"
+              },
+              "title": "Transferir para Cartão Adicional (ajuste)",
+              "subtitle": "Ajustar limite/repasse (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-86-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-87-header",
+                "section-87-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-87-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "banknote",
+                "type": "system"
+              },
+              "title": "Transferir para Cartão (saque)",
+              "subtitle": "Transferência para saque/cartão (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-87-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Confirme dados do recebedor"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-88-header",
+                "section-88-text",
+                "section-88-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-88-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "link",
+                "type": "system"
+              },
+              "title": "Transferir para Open Finance",
+              "subtitle": "Mover dados/consentimento (informativo)"
+            }
+          }
+        },
+        {
+          "id": "section-88-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-88-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-89-header",
+                "section-89-text",
+                "section-89-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-89-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "lock",
+                "type": "system"
+              },
+              "title": "Transferir com Segurança",
+              "subtitle": "Camadas extras de segurança"
+            }
+          }
+        },
+        {
+          "id": "section-89-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-89-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-90-header",
+                "section-90-info",
+                "section-90-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-90-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "smartphone",
+                "type": "system"
+              },
+              "title": "Transferir com Dispositivo Confiável",
+              "subtitle": "Requer dispositivo confiável (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-90-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Autenticação pode ser solicitada"
+            }
+          }
+        },
+        {
+          "id": "section-90-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-91-header",
+                "section-91-info",
+                "section-91-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-91-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "map_pin",
+                "type": "system"
+              },
+              "title": "Transferir com Geolocalização",
+              "subtitle": "Validação por local (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-91-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Autenticação pode ser solicitada"
+            }
+          }
+        },
+        {
+          "id": "section-91-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-92-header",
+                "section-92-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-92-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "life_buoy",
+                "type": "system"
+              },
+              "title": "Transferir para Emergência",
+              "subtitle": "Envio rápido em caso de emergência"
+            }
+          }
+        },
+        {
+          "id": "section-92-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Autenticação pode ser solicitada"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-93-header",
+                "section-93-text",
+                "section-93-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-93-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "user_plus",
+                "type": "system"
+              },
+              "title": "Transferir para Conta de Terceiros (novo)",
+              "subtitle": "Adicionar novo favorecido e transferir"
+            }
+          }
+        },
+        {
+          "id": "section-93-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-93-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-94-header",
+                "section-94-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-94-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "tag",
+                "type": "system"
+              },
+              "title": "Transferir usando Alias",
+              "subtitle": "Transferir usando apelido do favorecido (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-94-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Gere comprovante ao final"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-95-header",
+                "section-95-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-95-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "percent",
+                "type": "system"
+              },
+              "title": "Transferir com Taxa",
+              "subtitle": "Confira taxas (TED/remessa, se aplicável)"
+            }
+          }
+        },
+        {
+          "id": "section-95-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-96-header",
+                "section-96-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-96-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "globe",
+                "type": "system"
+              },
+              "title": "Transferir com Câmbio Automático",
+              "subtitle": "Conversão automática (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-96-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de transferir",
+              "value": "Prazo varia por canal"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-97-header",
+                "section-97-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-97-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "clock",
+                "type": "system"
+              },
+              "title": "Transferir com Horário de Corte",
+              "subtitle": "Respeite horário de corte (TED/remessa)"
+            }
+          }
+        },
+        {
+          "id": "section-97-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-98-header",
+                "section-98-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-98-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "info",
+                "type": "system"
+              },
+              "title": "Transferir com Status",
+              "subtitle": "Acompanhe status (pendente/concluído)"
+            }
+          }
+        },
+        {
+          "id": "section-98-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-99-header",
+                "section-99-text",
+                "section-99-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-99-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "layers",
+                "type": "system"
+              },
+              "title": "Transferir entre Contas de Investimento",
+              "subtitle": "Mova recursos entre carteiras (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-99-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-99-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "transferir",
+      "agent_id": "agent-produtos-transferir-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-100-header",
+                "section-100-text",
+                "section-100-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-100-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "life_buoy",
+                "type": "system"
+              },
+              "title": "Transferir para Conta de Reserva",
+              "subtitle": "Separe dinheiro na reserva/caixinha (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-100-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe dados do destinatário, revise nome/CPF/CNPJ (quando disponível), confirme valor e finalize. Autenticação forte pode ser necessária."
+            }
+          }
+        },
+        {
+          "id": "section-100-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Preencher → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+]
