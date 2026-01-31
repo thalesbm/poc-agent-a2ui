@@ -1,0 +1,3374 @@
+[
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-1-header",
+                "section-1-text",
+                "section-1-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-1-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "wallet",
+                "type": "system"
+              },
+              "title": "Visualizar Saldo",
+              "subtitle": "Veja o saldo disponível em tempo real"
+            }
+          }
+        },
+        {
+          "id": "section-1-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        },
+        {
+          "id": "section-1-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-2-header",
+                "section-2-text",
+                "section-2-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-2-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "list",
+                "type": "system"
+              },
+              "title": "Visualizar Extrato",
+              "subtitle": "Veja movimentações por período e filtros"
+            }
+          }
+        },
+        {
+          "id": "section-2-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        },
+        {
+          "id": "section-2-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Período",
+                  "value": "Hoje / 7 dias / 30 dias"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Categorias",
+                  "value": "Entrada, saída, transferências"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Exportar",
+                  "value": "PDF/CSV (se disponível)"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-3-header",
+                "section-3-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-3-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "credit_card",
+                "type": "system"
+              },
+              "title": "Visualizar Fatura do Cartão",
+              "subtitle": "Veja a fatura aberta e fechada"
+            }
+          }
+        },
+        {
+          "id": "section-3-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-4-header",
+                "section-4-info",
+                "section-4-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-4-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "gauge",
+                "type": "system"
+              },
+              "title": "Visualizar Limite do Cartão",
+              "subtitle": "Veja limite total, usado e disponível"
+            }
+          }
+        },
+        {
+          "id": "section-4-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Disponível: R$ 6.200,00"
+            }
+          }
+        },
+        {
+          "id": "section-4-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-5-header",
+                "section-5-info",
+                "section-5-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-5-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shopping_bag",
+                "type": "system"
+              },
+              "title": "Visualizar Compras Recentes",
+              "subtitle": "Veja compras recentes do cartão"
+            }
+          }
+        },
+        {
+          "id": "section-5-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Com filtros e detalhes"
+            }
+          }
+        },
+        {
+          "id": "section-5-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-6-header",
+                "section-6-text",
+                "section-6-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-6-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "split",
+                "type": "system"
+              },
+              "title": "Visualizar Parcelamentos",
+              "subtitle": "Veja parcelas ativas e próximas"
+            }
+          }
+        },
+        {
+          "id": "section-6-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        },
+        {
+          "id": "section-6-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-7-header",
+                "section-7-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-7-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shield",
+                "type": "system"
+              },
+              "title": "Visualizar Cartão Virtual",
+              "subtitle": "Veja dados e status do cartão virtual"
+            }
+          }
+        },
+        {
+          "id": "section-7-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-8-header",
+                "section-8-text",
+                "section-8-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-8-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "users",
+                "type": "system"
+              },
+              "title": "Visualizar Cartões Adicionais",
+              "subtitle": "Veja cartões adicionais e limites"
+            }
+          }
+        },
+        {
+          "id": "section-8-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        },
+        {
+          "id": "section-8-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-9-header",
+                "section-9-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-9-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "gift",
+                "type": "system"
+              },
+              "title": "Visualizar Benefícios do Cartão",
+              "subtitle": "Veja pontos, cashback e ofertas"
+            }
+          }
+        },
+        {
+          "id": "section-9-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-10-header",
+                "section-10-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-10-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "layers",
+                "type": "system"
+              },
+              "title": "Visualizar Contas e Saldos",
+              "subtitle": "Veja todas as contas e saldos consolidados"
+            }
+          }
+        },
+        {
+          "id": "section-10-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "R$ 2.845,17"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-11-header",
+                "section-11-text",
+                "section-11-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-11-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "key",
+                "type": "system"
+              },
+              "title": "Visualizar Pix - Chaves",
+              "subtitle": "Veja chaves cadastradas e status"
+            }
+          }
+        },
+        {
+          "id": "section-11-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        },
+        {
+          "id": "section-11-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Visões",
+                  "value": "Enviado, recebido, agendado"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovantes",
+                  "value": "Disponíveis"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Limites e contatos"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-12-header",
+                "section-12-text",
+                "section-12-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-12-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "zap",
+                "type": "system"
+              },
+              "title": "Visualizar Pix - Limites",
+              "subtitle": "Veja limites diurno/noturno"
+            }
+          }
+        },
+        {
+          "id": "section-12-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        },
+        {
+          "id": "section-12-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Visões",
+                  "value": "Enviado, recebido, agendado"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovantes",
+                  "value": "Disponíveis"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Limites e contatos"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-13-header",
+                "section-13-info",
+                "section-13-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-13-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "clock",
+                "type": "system"
+              },
+              "title": "Visualizar Pix - Histórico",
+              "subtitle": "Veja histórico de Pix enviados/recebidos"
+            }
+          }
+        },
+        {
+          "id": "section-13-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Atualizado agora"
+            }
+          }
+        },
+        {
+          "id": "section-13-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Visões",
+                  "value": "Enviado, recebido, agendado"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovantes",
+                  "value": "Disponíveis"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Limites e contatos"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-14-header",
+                "section-14-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-14-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "arrow_left_right",
+                "type": "system"
+              },
+              "title": "Visualizar Transferências",
+              "subtitle": "Veja transferências realizadas e agendadas"
+            }
+          }
+        },
+        {
+          "id": "section-14-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-15-header",
+                "section-15-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-15-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "receipt",
+                "type": "system"
+              },
+              "title": "Visualizar Boletos",
+              "subtitle": "Veja boletos pagos e pendentes"
+            }
+          }
+        },
+        {
+          "id": "section-15-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-16-header",
+                "section-16-text",
+                "section-16-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-16-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "check_circle",
+                "type": "system"
+              },
+              "title": "Visualizar Pagamentos",
+              "subtitle": "Veja pagamentos realizados e agendados"
+            }
+          }
+        },
+        {
+          "id": "section-16-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        },
+        {
+          "id": "section-16-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-17-header",
+                "section-17-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-17-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "refresh_cw",
+                "type": "system"
+              },
+              "title": "Visualizar Débito Automático",
+              "subtitle": "Veja débitos automáticos cadastrados"
+            }
+          }
+        },
+        {
+          "id": "section-17-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-18-header",
+                "section-18-info",
+                "section-18-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-18-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "hand_coins",
+                "type": "system"
+              },
+              "title": "Visualizar Empréstimos",
+              "subtitle": "Veja contratos, parcelas e saldo devedor"
+            }
+          }
+        },
+        {
+          "id": "section-18-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Com filtros e detalhes"
+            }
+          }
+        },
+        {
+          "id": "section-18-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-19-header",
+                "section-19-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-19-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file_text",
+                "type": "system"
+              },
+              "title": "Visualizar Consignado",
+              "subtitle": "Veja contratos e margem consignável"
+            }
+          }
+        },
+        {
+          "id": "section-19-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-20-header",
+                "section-20-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-20-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "alert_circle",
+                "type": "system"
+              },
+              "title": "Visualizar Cheque Especial",
+              "subtitle": "Veja limite e encargos"
+            }
+          }
+        },
+        {
+          "id": "section-20-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Atualizado agora"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-21-header",
+                "section-21-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-21-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "car",
+                "type": "system"
+              },
+              "title": "Visualizar Financiamento Veicular",
+              "subtitle": "Veja parcelas e amortizações"
+            }
+          }
+        },
+        {
+          "id": "section-21-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Com filtros e detalhes"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-22-header",
+                "section-22-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-22-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "home",
+                "type": "system"
+              },
+              "title": "Visualizar Financiamento Imobiliário",
+              "subtitle": "Veja saldo, parcelas e histórico"
+            }
+          }
+        },
+        {
+          "id": "section-22-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-23-header",
+                "section-23-text",
+                "section-23-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-23-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "repeat",
+                "type": "system"
+              },
+              "title": "Visualizar Consórcios",
+              "subtitle": "Veja cotas, parcelas e assembleias"
+            }
+          }
+        },
+        {
+          "id": "section-23-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        },
+        {
+          "id": "section-23-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-24-header",
+                "section-24-info",
+                "section-24-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-24-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shield_check",
+                "type": "system"
+              },
+              "title": "Visualizar Seguros",
+              "subtitle": "Veja apólices e coberturas"
+            }
+          }
+        },
+        {
+          "id": "section-24-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Com filtros e detalhes"
+            }
+          }
+        },
+        {
+          "id": "section-24-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-25-header",
+                "section-25-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-25-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "car",
+                "type": "system"
+              },
+              "title": "Visualizar Seguro Auto",
+              "subtitle": "Veja apólice, franquia e assistências"
+            }
+          }
+        },
+        {
+          "id": "section-25-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Disponível no app"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-26-header",
+                "section-26-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-26-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "home_shield",
+                "type": "system"
+              },
+              "title": "Visualizar Seguro Residencial",
+              "subtitle": "Veja coberturas e serviços"
+            }
+          }
+        },
+        {
+          "id": "section-26-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-27-header",
+                "section-27-info",
+                "section-27-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-27-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "heart",
+                "type": "system"
+              },
+              "title": "Visualizar Seguro Vida",
+              "subtitle": "Veja coberturas e beneficiários"
+            }
+          }
+        },
+        {
+          "id": "section-27-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Atualizado agora"
+            }
+          }
+        },
+        {
+          "id": "section-27-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-28-header",
+                "section-28-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-28-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "chart_line",
+                "type": "system"
+              },
+              "title": "Visualizar Previdência",
+              "subtitle": "Veja saldo, aportes e rentabilidade"
+            }
+          }
+        },
+        {
+          "id": "section-28-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-29-header",
+                "section-29-text",
+                "section-29-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-29-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "coins",
+                "type": "system"
+              },
+              "title": "Visualizar Capitalização",
+              "subtitle": "Veja título e regras de resgate"
+            }
+          }
+        },
+        {
+          "id": "section-29-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        },
+        {
+          "id": "section-29-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-30-header",
+                "section-30-text",
+                "section-30-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-30-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "pie_chart",
+                "type": "system"
+              },
+              "title": "Visualizar Investimentos (Consolidado)",
+              "subtitle": "Veja posição total e distribuição"
+            }
+          }
+        },
+        {
+          "id": "section-30-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        },
+        {
+          "id": "section-30-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Visões",
+                  "value": "Consolidado e por ativo"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Performance",
+                  "value": "Por período"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Documentos",
+                  "value": "Informes e notas"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-31-header",
+                "section-31-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-31-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "banknote",
+                "type": "system"
+              },
+              "title": "Visualizar CDB",
+              "subtitle": "Veja posição, vencimento e rendimento"
+            }
+          }
+        },
+        {
+          "id": "section-31-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Posição atual"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-32-header",
+                "section-32-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-32-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "landmark",
+                "type": "system"
+              },
+              "title": "Visualizar LCI/LCA",
+              "subtitle": "Veja posição e vencimentos"
+            }
+          }
+        },
+        {
+          "id": "section-32-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-33-header",
+                "section-33-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-33-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "government",
+                "type": "system"
+              },
+              "title": "Visualizar Tesouro Direto",
+              "subtitle": "Veja posição e marcação a mercado"
+            }
+          }
+        },
+        {
+          "id": "section-33-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-34-header",
+                "section-34-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-34-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "pie_chart",
+                "type": "system"
+              },
+              "title": "Visualizar Fundos",
+              "subtitle": "Veja cotas, rentabilidade e taxas"
+            }
+          }
+        },
+        {
+          "id": "section-34-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-35-header",
+                "section-35-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-35-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bar_chart",
+                "type": "system"
+              },
+              "title": "Visualizar Ações",
+              "subtitle": "Veja posição e preço médio"
+            }
+          }
+        },
+        {
+          "id": "section-35-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-36-header",
+                "section-36-text",
+                "section-36-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-36-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "trending_up",
+                "type": "system"
+              },
+              "title": "Visualizar ETFs",
+              "subtitle": "Veja posição e variação"
+            }
+          }
+        },
+        {
+          "id": "section-36-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        },
+        {
+          "id": "section-36-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-37-header",
+                "section-37-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-37-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "building",
+                "type": "system"
+              },
+              "title": "Visualizar FIIs",
+              "subtitle": "Veja posição e dividendos"
+            }
+          }
+        },
+        {
+          "id": "section-37-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Rentabilidade no período"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-38-header",
+                "section-38-text",
+                "section-38-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-38-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bitcoin",
+                "type": "system"
+              },
+              "title": "Visualizar Criptomoedas",
+              "subtitle": "Veja saldo e variação"
+            }
+          }
+        },
+        {
+          "id": "section-38-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        },
+        {
+          "id": "section-38-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-39-header",
+                "section-39-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-39-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "gift",
+                "type": "system"
+              },
+              "title": "Visualizar Proventos",
+              "subtitle": "Veja dividendos, JCP e rendimentos"
+            }
+          }
+        },
+        {
+          "id": "section-39-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Atualizado agora"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-40-header",
+                "section-40-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-40-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file",
+                "type": "system"
+              },
+              "title": "Visualizar Informe de Rendimentos",
+              "subtitle": "Veja documentos para IR"
+            }
+          }
+        },
+        {
+          "id": "section-40-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-41-header",
+                "section-41-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-41-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file_text",
+                "type": "system"
+              },
+              "title": "Visualizar Notas de Corretagem",
+              "subtitle": "Veja notas e operações"
+            }
+          }
+        },
+        {
+          "id": "section-41-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-42-header",
+                "section-42-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-42-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "chart_line",
+                "type": "system"
+              },
+              "title": "Visualizar Rentabilidade",
+              "subtitle": "Veja performance por período"
+            }
+          }
+        },
+        {
+          "id": "section-42-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-43-header",
+                "section-43-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-43-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "target",
+                "type": "system"
+              },
+              "title": "Visualizar Metas Financeiras",
+              "subtitle": "Veja progresso de objetivos/caixinhas"
+            }
+          }
+        },
+        {
+          "id": "section-43-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-44-header",
+                "section-44-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-44-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "life_buoy",
+                "type": "system"
+              },
+              "title": "Visualizar Reserva de Emergência",
+              "subtitle": "Veja saldo e rendimento da reserva"
+            }
+          }
+        },
+        {
+          "id": "section-44-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-45-header",
+                "section-45-info",
+                "section-45-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-45-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "percent",
+                "type": "system"
+              },
+              "title": "Visualizar Tarifas",
+              "subtitle": "Veja pacote e cobranças"
+            }
+          }
+        },
+        {
+          "id": "section-45-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Com filtros e detalhes"
+            }
+          }
+        },
+        {
+          "id": "section-45-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-46-header",
+                "section-46-text",
+                "section-46-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-46-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "sliders",
+                "type": "system"
+              },
+              "title": "Visualizar Limites de Transação",
+              "subtitle": "Veja limites por canal e período"
+            }
+          }
+        },
+        {
+          "id": "section-46-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        },
+        {
+          "id": "section-46-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-47-header",
+                "section-47-text",
+                "section-47-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-47-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "smartphone",
+                "type": "system"
+              },
+              "title": "Visualizar Dispositivos Confiáveis",
+              "subtitle": "Veja aparelhos autorizados"
+            }
+          }
+        },
+        {
+          "id": "section-47-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        },
+        {
+          "id": "section-47-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-48-header",
+                "section-48-info",
+                "section-48-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-48-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "lock",
+                "type": "system"
+              },
+              "title": "Visualizar Segurança",
+              "subtitle": "Veja configurações de biometria e senha"
+            }
+          }
+        },
+        {
+          "id": "section-48-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "Disponível no app"
+            }
+          }
+        },
+        {
+          "id": "section-48-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-49-header",
+                "section-49-text",
+                "section-49-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-49-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "headphones",
+                "type": "system"
+              },
+              "title": "Visualizar Atendimento",
+              "subtitle": "Veja protocolos e solicitações"
+            }
+          }
+        },
+        {
+          "id": "section-49-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Acesse a tela de detalhes para filtrar, ordenar e exportar informações. Você também pode compartilhar comprovantes quando disponível."
+            }
+          }
+        },
+        {
+          "id": "section-49-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "visualizar",
+      "agent_id": "agent-produtos-visualizar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-50-header",
+                "section-50-info",
+                "section-50-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-50-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "link",
+                "type": "system"
+              },
+              "title": "Visualizar Open Finance",
+              "subtitle": "Veja consentimentos e instituições conectadas"
+            }
+          }
+        },
+        {
+          "id": "section-50-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Resumo rápido para visualização",
+              "value": "2 instituições conectadas"
+            }
+          }
+        },
+        {
+          "id": "section-50-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Filtros",
+                  "value": "Período, categoria e status"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ações",
+                  "value": "Detalhar, exportar, compartilhar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+]

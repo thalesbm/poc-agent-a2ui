@@ -1,0 +1,3374 @@
+[
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-1-header",
+                "section-1-text",
+                "section-1-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-1-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "receipt",
+                "type": "system"
+              },
+              "title": "Pagar Boleto",
+              "subtitle": "Pague boletos com código de barras ou linha digitável"
+            }
+          }
+        },
+        {
+          "id": "section-1-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        },
+        {
+          "id": "section-1-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Entrada",
+                  "value": "Código de barras ou linha digitável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Vencimento",
+                  "value": "Conforme boleto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Disponível no histórico"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-2-header",
+                "section-2-text",
+                "section-2-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-2-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "qrcode",
+                "type": "system"
+              },
+              "title": "Pagar Boleto por QR Code",
+              "subtitle": "Escaneie o QR Code do boleto e pague"
+            }
+          }
+        },
+        {
+          "id": "section-2-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        },
+        {
+          "id": "section-2-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Entrada",
+                  "value": "Código de barras ou linha digitável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Vencimento",
+                  "value": "Conforme boleto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Disponível no histórico"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-3-header",
+                "section-3-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-3-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "credit_card",
+                "type": "system"
+              },
+              "title": "Pagar Fatura do Cartão",
+              "subtitle": "Quite sua fatura total ou parcial"
+            }
+          }
+        },
+        {
+          "id": "section-3-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-4-header",
+                "section-4-info",
+                "section-4-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-4-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "refresh_cw",
+                "type": "system"
+              },
+              "title": "Pagar Fatura com Débito Automático",
+              "subtitle": "Ative e pague fatura automaticamente (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-4-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Valor mínimo: R$ 120,00"
+            }
+          }
+        },
+        {
+          "id": "section-4-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Opções",
+                  "value": "Total, mínimo ou outro valor"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Vencimento",
+                  "value": "Conforme fatura"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Impacto",
+                  "value": "Atualiza limite após compensação"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-5-header",
+                "section-5-info",
+                "section-5-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-5-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bolt",
+                "type": "system"
+              },
+              "title": "Pagar Conta de Luz",
+              "subtitle": "Pague sua conta de energia"
+            }
+          }
+        },
+        {
+          "id": "section-5-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Agendamento permitido"
+            }
+          }
+        },
+        {
+          "id": "section-5-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-6-header",
+                "section-6-text",
+                "section-6-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-6-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "droplet",
+                "type": "system"
+              },
+              "title": "Pagar Conta de Água",
+              "subtitle": "Pague sua conta de água"
+            }
+          }
+        },
+        {
+          "id": "section-6-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        },
+        {
+          "id": "section-6-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-7-header",
+                "section-7-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-7-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "flame",
+                "type": "system"
+              },
+              "title": "Pagar Conta de Gás",
+              "subtitle": "Pague sua conta de gás"
+            }
+          }
+        },
+        {
+          "id": "section-7-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-8-header",
+                "section-8-text",
+                "section-8-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-8-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "wifi",
+                "type": "system"
+              },
+              "title": "Pagar Internet/Telefone",
+              "subtitle": "Pague serviços de internet e telefonia"
+            }
+          }
+        },
+        {
+          "id": "section-8-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        },
+        {
+          "id": "section-8-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-9-header",
+                "section-9-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-9-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "building",
+                "type": "system"
+              },
+              "title": "Pagar Condomínio",
+              "subtitle": "Pague taxa de condomínio"
+            }
+          }
+        },
+        {
+          "id": "section-9-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-10-header",
+                "section-10-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-10-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "home",
+                "type": "system"
+              },
+              "title": "Pagar Aluguel",
+              "subtitle": "Pague aluguel via transferência/PIX/boletos"
+            }
+          }
+        },
+        {
+          "id": "section-10-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Disponível"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-11-header",
+                "section-11-text",
+                "section-11-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-11-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file_text",
+                "type": "system"
+              },
+              "title": "Pagar IPTU",
+              "subtitle": "Pague imposto municipal (IPTU)"
+            }
+          }
+        },
+        {
+          "id": "section-11-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        },
+        {
+          "id": "section-11-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-12-header",
+                "section-12-text",
+                "section-12-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-12-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "car",
+                "type": "system"
+              },
+              "title": "Pagar IPVA",
+              "subtitle": "Pague imposto do veículo (IPVA)"
+            }
+          }
+        },
+        {
+          "id": "section-12-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        },
+        {
+          "id": "section-12-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-13-header",
+                "section-13-info",
+                "section-13-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-13-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "alert_triangle",
+                "type": "system"
+              },
+              "title": "Pagar Multas",
+              "subtitle": "Pague multas de trânsito"
+            }
+          }
+        },
+        {
+          "id": "section-13-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Disponível"
+            }
+          }
+        },
+        {
+          "id": "section-13-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-14-header",
+                "section-14-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-14-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "graduation_cap",
+                "type": "system"
+              },
+              "title": "Pagar Escola/Faculdade",
+              "subtitle": "Pague mensalidade escolar"
+            }
+          }
+        },
+        {
+          "id": "section-14-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-15-header",
+                "section-15-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-15-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "heart",
+                "type": "system"
+              },
+              "title": "Pagar Plano de Saúde",
+              "subtitle": "Pague fatura do plano de saúde"
+            }
+          }
+        },
+        {
+          "id": "section-15-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-16-header",
+                "section-16-text",
+                "section-16-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-16-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shield_check",
+                "type": "system"
+              },
+              "title": "Pagar Seguro",
+              "subtitle": "Pague prêmio do seguro"
+            }
+          }
+        },
+        {
+          "id": "section-16-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        },
+        {
+          "id": "section-16-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-17-header",
+                "section-17-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-17-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "chart_line",
+                "type": "system"
+              },
+              "title": "Pagar Previdência",
+              "subtitle": "Pague/realize aporte em previdência"
+            }
+          }
+        },
+        {
+          "id": "section-17-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-18-header",
+                "section-18-info",
+                "section-18-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-18-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "repeat",
+                "type": "system"
+              },
+              "title": "Pagar Consórcio",
+              "subtitle": "Pague parcelas do consórcio"
+            }
+          }
+        },
+        {
+          "id": "section-18-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Agendamento permitido"
+            }
+          }
+        },
+        {
+          "id": "section-18-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-19-header",
+                "section-19-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-19-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "car",
+                "type": "system"
+              },
+              "title": "Pagar Financiamento",
+              "subtitle": "Pague parcela de financiamento"
+            }
+          }
+        },
+        {
+          "id": "section-19-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-20-header",
+                "section-20-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-20-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "hand_coins",
+                "type": "system"
+              },
+              "title": "Pagar Empréstimo",
+              "subtitle": "Pague parcelas do empréstimo"
+            }
+          }
+        },
+        {
+          "id": "section-20-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Disponível"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-21-header",
+                "section-21-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-21-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "percent",
+                "type": "system"
+              },
+              "title": "Pagar Taxas Bancárias",
+              "subtitle": "Pague tarifas e pacotes de serviços"
+            }
+          }
+        },
+        {
+          "id": "section-21-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Agendamento permitido"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-22-header",
+                "section-22-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-22-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file",
+                "type": "system"
+              },
+              "title": "Pagar DARF",
+              "subtitle": "Pague DARF para impostos federais"
+            }
+          }
+        },
+        {
+          "id": "section-22-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-23-header",
+                "section-23-text",
+                "section-23-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-23-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file_text",
+                "type": "system"
+              },
+              "title": "Pagar GPS (INSS)",
+              "subtitle": "Pague guia GPS do INSS"
+            }
+          }
+        },
+        {
+          "id": "section-23-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        },
+        {
+          "id": "section-23-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Dados",
+                  "value": "Receita/Contribuinte/Vencimento"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Validação",
+                  "value": "Confira antes de confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Disponível para download"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-24-header",
+                "section-24-info",
+                "section-24-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-24-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "briefcase",
+                "type": "system"
+              },
+              "title": "Pagar FGTS",
+              "subtitle": "Pague guia de FGTS (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-24-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Confirme dados do contribuinte"
+            }
+          }
+        },
+        {
+          "id": "section-24-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Dados",
+                  "value": "Receita/Contribuinte/Vencimento"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Validação",
+                  "value": "Confira antes de confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Disponível para download"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-25-header",
+                "section-25-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-25-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file",
+                "type": "system"
+              },
+              "title": "Pagar DAE",
+              "subtitle": "Pague DAE estadual/municipal (se aplicável)"
+            }
+          }
+        },
+        {
+          "id": "section-25-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Data de vencimento obrigatória"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-26-header",
+                "section-26-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-26-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "car",
+                "type": "system"
+              },
+              "title": "Pagar Detran",
+              "subtitle": "Pague taxas do Detran"
+            }
+          }
+        },
+        {
+          "id": "section-26-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-27-header",
+                "section-27-info",
+                "section-27-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-27-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "smartphone",
+                "type": "system"
+              },
+              "title": "Pagar Recarga de Celular",
+              "subtitle": "Faça recarga de celular pré-pago"
+            }
+          }
+        },
+        {
+          "id": "section-27-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Disponível"
+            }
+          }
+        },
+        {
+          "id": "section-27-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-28-header",
+                "section-28-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-28-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bus",
+                "type": "system"
+              },
+              "title": "Pagar Transporte",
+              "subtitle": "Pague recarga de transporte (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-28-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-29-header",
+                "section-29-text",
+                "section-29-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-29-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "tag",
+                "type": "system"
+              },
+              "title": "Pagar Pedágio/Tag",
+              "subtitle": "Pague serviços de tag/pedágio"
+            }
+          }
+        },
+        {
+          "id": "section-29-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        },
+        {
+          "id": "section-29-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-30-header",
+                "section-30-text",
+                "section-30-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-30-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "repeat",
+                "type": "system"
+              },
+              "title": "Pagar Assinaturas",
+              "subtitle": "Pague assinaturas recorrentes"
+            }
+          }
+        },
+        {
+          "id": "section-30-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        },
+        {
+          "id": "section-30-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-31-header",
+                "section-31-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-31-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "smartphone",
+                "type": "system"
+              },
+              "title": "Pagar Serviços Digitais",
+              "subtitle": "Pague apps e serviços digitais"
+            }
+          }
+        },
+        {
+          "id": "section-31-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Disponível"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-32-header",
+                "section-32-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-32-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shopping_cart",
+                "type": "system"
+              },
+              "title": "Pagar Mercado",
+              "subtitle": "Pague compras em mercado via QR/PIX"
+            }
+          }
+        },
+        {
+          "id": "section-32-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-33-header",
+                "section-33-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-33-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "utensils",
+                "type": "system"
+              },
+              "title": "Pagar Restaurante",
+              "subtitle": "Pague consumo em restaurante via QR/PIX"
+            }
+          }
+        },
+        {
+          "id": "section-33-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-34-header",
+                "section-34-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-34-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "pill",
+                "type": "system"
+              },
+              "title": "Pagar Farmácia",
+              "subtitle": "Pague em farmácia via QR/PIX"
+            }
+          }
+        },
+        {
+          "id": "section-34-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-35-header",
+                "section-35-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-35-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "fuel",
+                "type": "system"
+              },
+              "title": "Pagar Combustível",
+              "subtitle": "Pague abastecimento via app (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-35-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-36-header",
+                "section-36-text",
+                "section-36-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-36-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "heart",
+                "type": "system"
+              },
+              "title": "Pagar Doação",
+              "subtitle": "Pague doações para instituições"
+            }
+          }
+        },
+        {
+          "id": "section-36-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        },
+        {
+          "id": "section-36-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-37-header",
+                "section-37-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-37-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "zap",
+                "type": "system"
+              },
+              "title": "Pagar Pix Cobrança",
+              "subtitle": "Pague cobranças Pix"
+            }
+          }
+        },
+        {
+          "id": "section-37-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Disponível 24/7"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-38-header",
+                "section-38-text",
+                "section-38-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-38-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "qrcode",
+                "type": "system"
+              },
+              "title": "Pagar Pix QR Dinâmico",
+              "subtitle": "Pague QR dinâmico Pix"
+            }
+          }
+        },
+        {
+          "id": "section-38-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        },
+        {
+          "id": "section-38-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Entrada",
+                  "value": "QR/Copia e Cola/Chave"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidação",
+                  "value": "Instantânea"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Limites",
+                  "value": "Diurno/Noturno"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-39-header",
+                "section-39-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-39-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "clipboard",
+                "type": "system"
+              },
+              "title": "Pagar Pix Copia e Cola",
+              "subtitle": "Pague Pix com código copia e cola"
+            }
+          }
+        },
+        {
+          "id": "section-39-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Instantâneo"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-40-header",
+                "section-40-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-40-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "tap",
+                "type": "system"
+              },
+              "title": "Pagar com Aproximação",
+              "subtitle": "Pague por aproximação via carteira digital"
+            }
+          }
+        },
+        {
+          "id": "section-40-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-41-header",
+                "section-41-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-41-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "wallet",
+                "type": "system"
+              },
+              "title": "Pagar com Carteira Digital",
+              "subtitle": "Pague com Apple Pay/Google Pay (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-41-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-42-header",
+                "section-42-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-42-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "credit_card",
+                "type": "system"
+              },
+              "title": "Pagar com Débito",
+              "subtitle": "Pague com cartão de débito"
+            }
+          }
+        },
+        {
+          "id": "section-42-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-43-header",
+                "section-43-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-43-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "credit_card",
+                "type": "system"
+              },
+              "title": "Pagar com Crédito",
+              "subtitle": "Pague com cartão de crédito"
+            }
+          }
+        },
+        {
+          "id": "section-43-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-44-header",
+                "section-44-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-44-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "split",
+                "type": "system"
+              },
+              "title": "Pagar Parcelado",
+              "subtitle": "Pague parcelando (quando disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-44-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-45-header",
+                "section-45-info",
+                "section-45-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-45-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "coins",
+                "type": "system"
+              },
+              "title": "Pagar com Cashback",
+              "subtitle": "Use saldo de cashback (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-45-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Agendamento permitido"
+            }
+          }
+        },
+        {
+          "id": "section-45-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-46-header",
+                "section-46-text",
+                "section-46-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-46-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "gift",
+                "type": "system"
+              },
+              "title": "Pagar com Pontos",
+              "subtitle": "Use pontos para pagar (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-46-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        },
+        {
+          "id": "section-46-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-47-header",
+                "section-47-text",
+                "section-47-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-47-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "building",
+                "type": "system"
+              },
+              "title": "Pagar Guia de Condomínio (2ª via)",
+              "subtitle": "Pague 2ª via do condomínio"
+            }
+          }
+        },
+        {
+          "id": "section-47-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        },
+        {
+          "id": "section-47-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-48-header",
+                "section-48-info",
+                "section-48-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-48-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "calendar",
+                "type": "system"
+              },
+              "title": "Pagar Boleto Agendado",
+              "subtitle": "Agende e pague boletos em uma data"
+            }
+          }
+        },
+        {
+          "id": "section-48-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Agendável"
+            }
+          }
+        },
+        {
+          "id": "section-48-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Entrada",
+                  "value": "Código de barras ou linha digitável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Vencimento",
+                  "value": "Conforme boleto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Disponível no histórico"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-49-header",
+                "section-49-text",
+                "section-49-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-49-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "clock",
+                "type": "system"
+              },
+              "title": "Pagar com Data Futura",
+              "subtitle": "Agende pagamento para data futura"
+            }
+          }
+        },
+        {
+          "id": "section-49-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Informe os dados (código/QR/beneficiário), revise valor e vencimento e confirme o pagamento. Autenticação forte pode ser solicitada."
+            }
+          }
+        },
+        {
+          "id": "section-49-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "pagar",
+      "agent_id": "agent-produtos-pagar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-50-header",
+                "section-50-info",
+                "section-50-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-50-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file_text",
+                "type": "system"
+              },
+              "title": "Pagar com Comprovante",
+              "subtitle": "Gere comprovante após pagar"
+            }
+          }
+        },
+        {
+          "id": "section-50-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação principal antes de pagar",
+              "value": "Disponível"
+            }
+          }
+        },
+        {
+          "id": "section-50-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Inserir dados → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria/Token quando necessário"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+]

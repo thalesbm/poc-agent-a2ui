@@ -1,0 +1,6446 @@
+[
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-1-header",
+                "section-1-info",
+                "section-1-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-1-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "wallet",
+                "type": "system"
+              },
+              "title": "Informar Saldo em Conta",
+              "subtitle": "Mostre saldo disponível e saldo total"
+            }
+          }
+        },
+        {
+          "id": "section-1-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "R$ 2.845,17"
+            }
+          }
+        },
+        {
+          "id": "section-1-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-2-header",
+                "section-2-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-2-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "layers",
+                "type": "system"
+              },
+              "title": "Informar Saldo Consolidado",
+              "subtitle": "Mostre saldos de todas as contas"
+            }
+          }
+        },
+        {
+          "id": "section-2-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "R$ 2.845,17"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-3-header",
+                "section-3-text",
+                "section-3-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-3-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "list",
+                "type": "system"
+              },
+              "title": "Informar Extrato do Dia",
+              "subtitle": "Mostre movimentações de hoje"
+            }
+          }
+        },
+        {
+          "id": "section-3-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-3-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-4-header",
+                "section-4-text",
+                "section-4-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-4-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "calendar",
+                "type": "system"
+              },
+              "title": "Informar Extrato do Mês",
+              "subtitle": "Mostre movimentações do mês atual"
+            }
+          }
+        },
+        {
+          "id": "section-4-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-4-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-5-header",
+                "section-5-info",
+                "section-5-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-5-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "arrow_down_left",
+                "type": "system"
+              },
+              "title": "Informar Últimas Entradas",
+              "subtitle": "Mostre últimas entradas na conta"
+            }
+          }
+        },
+        {
+          "id": "section-5-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Ver detalhes na tela completa"
+            }
+          }
+        },
+        {
+          "id": "section-5-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-6-header",
+                "section-6-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-6-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "arrow_up_right",
+                "type": "system"
+              },
+              "title": "Informar Últimas Saídas",
+              "subtitle": "Mostre últimas saídas na conta"
+            }
+          }
+        },
+        {
+          "id": "section-6-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-7-header",
+                "section-7-info",
+                "section-7-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-7-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "calendar",
+                "type": "system"
+              },
+              "title": "Informar Vencimento da Fatura",
+              "subtitle": "Mostre data de vencimento e fechamento"
+            }
+          }
+        },
+        {
+          "id": "section-7-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Pagamento mínimo: R$ 120,00"
+            }
+          }
+        },
+        {
+          "id": "section-7-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Opções",
+                  "value": "Total/mínimo/outro valor"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Detalhes",
+                  "value": "Compras e parcelas"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Benefícios",
+                  "value": "Pontos/cashback"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-8-header",
+                "section-8-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-8-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "credit_card",
+                "type": "system"
+              },
+              "title": "Informar Valor da Fatura",
+              "subtitle": "Mostre valor total e mínimo da fatura"
+            }
+          }
+        },
+        {
+          "id": "section-8-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Opções",
+                  "value": "Total/mínimo/outro valor"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Detalhes",
+                  "value": "Compras e parcelas"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Benefícios",
+                  "value": "Pontos/cashback"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-9-header",
+                "section-9-info",
+                "section-9-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-9-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "gauge",
+                "type": "system"
+              },
+              "title": "Informar Limite do Cartão",
+              "subtitle": "Mostre limite total, usado e disponível"
+            }
+          }
+        },
+        {
+          "id": "section-9-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "R$ 6.200,00 disponível"
+            }
+          }
+        },
+        {
+          "id": "section-9-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Opções",
+                  "value": "Total/mínimo/outro valor"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Detalhes",
+                  "value": "Compras e parcelas"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Benefícios",
+                  "value": "Pontos/cashback"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-10-header",
+                "section-10-info",
+                "section-10-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-10-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shopping_bag",
+                "type": "system"
+              },
+              "title": "Informar Limite de Compras Online",
+              "subtitle": "Mostre limite para compras online"
+            }
+          }
+        },
+        {
+          "id": "section-10-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "R$ 6.200,00 disponível"
+            }
+          }
+        },
+        {
+          "id": "section-10-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-11-header",
+                "section-11-text",
+                "section-11-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-11-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "credit_card",
+                "type": "system"
+              },
+              "title": "Informar Status do Cartão",
+              "subtitle": "Mostre status (ativo/bloqueado) e última compra"
+            }
+          }
+        },
+        {
+          "id": "section-11-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-11-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Opções",
+                  "value": "Total/mínimo/outro valor"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Detalhes",
+                  "value": "Compras e parcelas"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Benefícios",
+                  "value": "Pontos/cashback"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-12-header",
+                "section-12-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-12-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shopping_bag",
+                "type": "system"
+              },
+              "title": "Informar Compras Recentes",
+              "subtitle": "Mostre últimas compras do cartão"
+            }
+          }
+        },
+        {
+          "id": "section-12-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-13-header",
+                "section-13-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-13-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "split",
+                "type": "system"
+              },
+              "title": "Informar Parcelamentos",
+              "subtitle": "Mostre parcelas ativas e próximas"
+            }
+          }
+        },
+        {
+          "id": "section-13-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-14-header",
+                "section-14-info",
+                "section-14-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-14-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shield",
+                "type": "system"
+              },
+              "title": "Informar Cartão Virtual",
+              "subtitle": "Mostre status e validade do cartão virtual"
+            }
+          }
+        },
+        {
+          "id": "section-14-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Ver detalhes na tela completa"
+            }
+          }
+        },
+        {
+          "id": "section-14-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Opções",
+                  "value": "Total/mínimo/outro valor"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Detalhes",
+                  "value": "Compras e parcelas"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Benefícios",
+                  "value": "Pontos/cashback"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-15-header",
+                "section-15-text",
+                "section-15-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-15-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "users",
+                "type": "system"
+              },
+              "title": "Informar Cartões Adicionais",
+              "subtitle": "Mostre cartões adicionais e limites"
+            }
+          }
+        },
+        {
+          "id": "section-15-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-15-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-16-header",
+                "section-16-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-16-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "coins",
+                "type": "system"
+              },
+              "title": "Informar Cashback",
+              "subtitle": "Mostre saldo e extrato de cashback"
+            }
+          }
+        },
+        {
+          "id": "section-16-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-17-header",
+                "section-17-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-17-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "gift",
+                "type": "system"
+              },
+              "title": "Informar Pontos",
+              "subtitle": "Mostre saldo de pontos e validade"
+            }
+          }
+        },
+        {
+          "id": "section-17-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-18-header",
+                "section-18-text",
+                "section-18-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-18-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "percent",
+                "type": "system"
+              },
+              "title": "Informar Pacote de Serviços",
+              "subtitle": "Mostre valor do pacote e isenções"
+            }
+          }
+        },
+        {
+          "id": "section-18-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-18-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-19-header",
+                "section-19-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-19-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "receipt",
+                "type": "system"
+              },
+              "title": "Informar Tarifas do Mês",
+              "subtitle": "Mostre tarifas cobradas no mês"
+            }
+          }
+        },
+        {
+          "id": "section-19-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-20-header",
+                "section-20-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-20-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "zap",
+                "type": "system"
+              },
+              "title": "Informar Limites Pix",
+              "subtitle": "Mostre limites diurno/noturno e janela"
+            }
+          }
+        },
+        {
+          "id": "section-20-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-21-header",
+                "section-21-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-21-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "moon",
+                "type": "system"
+              },
+              "title": "Informar Janela Noturna Pix",
+              "subtitle": "Mostre janela e limite noturno"
+            }
+          }
+        },
+        {
+          "id": "section-21-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Disponível 24/7"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-22-header",
+                "section-22-text",
+                "section-22-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-22-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "key",
+                "type": "system"
+              },
+              "title": "Informar Chaves Pix",
+              "subtitle": "Mostre chaves cadastradas e status"
+            }
+          }
+        },
+        {
+          "id": "section-22-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-22-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Limites e contatos confiáveis"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovantes",
+                  "value": "No histórico"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Janela",
+                  "value": "Noturno/Diurno"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-23-header",
+                "section-23-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-23-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "arrow_up_right",
+                "type": "system"
+              },
+              "title": "Informar Pix Enviados",
+              "subtitle": "Mostre últimos Pix enviados"
+            }
+          }
+        },
+        {
+          "id": "section-23-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Limites e contatos confiáveis"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovantes",
+                  "value": "No histórico"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Janela",
+                  "value": "Noturno/Diurno"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-24-header",
+                "section-24-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-24-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "arrow_down_left",
+                "type": "system"
+              },
+              "title": "Informar Pix Recebidos",
+              "subtitle": "Mostre últimos Pix recebidos"
+            }
+          }
+        },
+        {
+          "id": "section-24-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Limite noturno: R$ 1.000,00"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-25-header",
+                "section-25-text",
+                "section-25-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-25-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "calendar",
+                "type": "system"
+              },
+              "title": "Informar Pix Agendados",
+              "subtitle": "Mostre Pix programados e datas"
+            }
+          }
+        },
+        {
+          "id": "section-25-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-25-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Limites e contatos confiáveis"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovantes",
+                  "value": "No histórico"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Janela",
+                  "value": "Noturno/Diurno"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-26-header",
+                "section-26-text",
+                "section-26-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-26-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "arrow_left_right",
+                "type": "system"
+              },
+              "title": "Informar Transferências TED",
+              "subtitle": "Mostre últimas TEDs e status"
+            }
+          }
+        },
+        {
+          "id": "section-26-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-26-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-27-header",
+                "section-27-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-27-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "repeat",
+                "type": "system"
+              },
+              "title": "Informar Transferências TEF",
+              "subtitle": "Mostre últimas TEFs e status"
+            }
+          }
+        },
+        {
+          "id": "section-27-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Atualizado agora"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-28-header",
+                "section-28-info",
+                "section-28-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-28-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "receipt",
+                "type": "system"
+              },
+              "title": "Informar Boletos Pendentes",
+              "subtitle": "Mostre boletos pendentes e vencimentos"
+            }
+          }
+        },
+        {
+          "id": "section-28-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "2 agendamentos ativos"
+            }
+          }
+        },
+        {
+          "id": "section-28-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-29-header",
+                "section-29-info",
+                "section-29-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-29-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "check_circle",
+                "type": "system"
+              },
+              "title": "Informar Boletos Pagos",
+              "subtitle": "Mostre boletos pagos recentemente"
+            }
+          }
+        },
+        {
+          "id": "section-29-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "2 agendamentos ativos"
+            }
+          }
+        },
+        {
+          "id": "section-29-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-30-header",
+                "section-30-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-30-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "clock",
+                "type": "system"
+              },
+              "title": "Informar Pagamentos Agendados",
+              "subtitle": "Mostre pagamentos programados"
+            }
+          }
+        },
+        {
+          "id": "section-30-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Status: pendente"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-31-header",
+                "section-31-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-31-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "refresh_cw",
+                "type": "system"
+              },
+              "title": "Informar Débitos Automáticos",
+              "subtitle": "Mostre débitos automáticos ativos"
+            }
+          }
+        },
+        {
+          "id": "section-31-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Atualizado agora"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-32-header",
+                "section-32-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-32-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "download",
+                "type": "system"
+              },
+              "title": "Informar Comprovantes Recentes",
+              "subtitle": "Mostre comprovantes disponíveis para download"
+            }
+          }
+        },
+        {
+          "id": "section-32-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-33-header",
+                "section-33-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-33-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "hand_coins",
+                "type": "system"
+              },
+              "title": "Informar Empréstimos",
+              "subtitle": "Mostre contratos, parcelas e saldo devedor"
+            }
+          }
+        },
+        {
+          "id": "section-33-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-34-header",
+                "section-34-info",
+                "section-34-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-34-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "hand_coins",
+                "type": "system"
+              },
+              "title": "Informar Empréstimo Pessoal",
+              "subtitle": "Mostre taxa, parcelas e saldo"
+            }
+          }
+        },
+        {
+          "id": "section-34-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Disponível no app"
+            }
+          }
+        },
+        {
+          "id": "section-34-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-35-header",
+                "section-35-info",
+                "section-35-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-35-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file_text",
+                "type": "system"
+              },
+              "title": "Informar Empréstimo Consignado",
+              "subtitle": "Mostre margem consignável e parcelas"
+            }
+          }
+        },
+        {
+          "id": "section-35-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Ver detalhes na tela completa"
+            }
+          }
+        },
+        {
+          "id": "section-35-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-36-header",
+                "section-36-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-36-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "alert_circle",
+                "type": "system"
+              },
+              "title": "Informar Cheque Especial",
+              "subtitle": "Mostre limite e encargos"
+            }
+          }
+        },
+        {
+          "id": "section-36-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Ver detalhes na tela completa"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-37-header",
+                "section-37-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-37-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "car",
+                "type": "system"
+              },
+              "title": "Informar Financiamento Veicular",
+              "subtitle": "Mostre parcela, vencimento e saldo"
+            }
+          }
+        },
+        {
+          "id": "section-37-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-38-header",
+                "section-38-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-38-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "home",
+                "type": "system"
+              },
+              "title": "Informar Financiamento Imobiliário",
+              "subtitle": "Mostre saldo, parcelas e amortizações"
+            }
+          }
+        },
+        {
+          "id": "section-38-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Ver detalhes na tela completa"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-39-header",
+                "section-39-text",
+                "section-39-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-39-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "repeat",
+                "type": "system"
+              },
+              "title": "Informar Consórcio",
+              "subtitle": "Mostre cota, parcela e próxima assembleia"
+            }
+          }
+        },
+        {
+          "id": "section-39-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-39-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-40-header",
+                "section-40-info",
+                "section-40-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-40-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "car",
+                "type": "system"
+              },
+              "title": "Informar Seguro Auto",
+              "subtitle": "Mostre franquia e assistências"
+            }
+          }
+        },
+        {
+          "id": "section-40-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Apólice ativa"
+            }
+          }
+        },
+        {
+          "id": "section-40-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Coberturas",
+                  "value": "Conforme apólice"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Assistências",
+                  "value": "Quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Contato",
+                  "value": "Central/Chat"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-41-header",
+                "section-41-text",
+                "section-41-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-41-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "home_shield",
+                "type": "system"
+              },
+              "title": "Informar Seguro Residencial",
+              "subtitle": "Mostre coberturas e serviços"
+            }
+          }
+        },
+        {
+          "id": "section-41-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-41-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Coberturas",
+                  "value": "Conforme apólice"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Assistências",
+                  "value": "Quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Contato",
+                  "value": "Central/Chat"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-42-header",
+                "section-42-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-42-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "heart",
+                "type": "system"
+              },
+              "title": "Informar Seguro Vida",
+              "subtitle": "Mostre beneficiários e capital segurado"
+            }
+          }
+        },
+        {
+          "id": "section-42-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Apólice ativa"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-43-header",
+                "section-43-text",
+                "section-43-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-43-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shopping_bag",
+                "type": "system"
+              },
+              "title": "Informar Seguro Cartão",
+              "subtitle": "Mostre coberturas principais"
+            }
+          }
+        },
+        {
+          "id": "section-43-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-43-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Coberturas",
+                  "value": "Conforme apólice"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Assistências",
+                  "value": "Quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Contato",
+                  "value": "Central/Chat"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-44-header",
+                "section-44-info",
+                "section-44-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-44-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shield_check",
+                "type": "system"
+              },
+              "title": "Informar Seguro Conta",
+              "subtitle": "Mostre status da proteção"
+            }
+          }
+        },
+        {
+          "id": "section-44-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Assistência 24h"
+            }
+          }
+        },
+        {
+          "id": "section-44-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Coberturas",
+                  "value": "Conforme apólice"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Assistências",
+                  "value": "Quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Contato",
+                  "value": "Central/Chat"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-45-header",
+                "section-45-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-45-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "smartphone",
+                "type": "system"
+              },
+              "title": "Informar Seguro Celular",
+              "subtitle": "Mostre apólice e status"
+            }
+          }
+        },
+        {
+          "id": "section-45-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Assistência 24h"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-46-header",
+                "section-46-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-46-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "chart_line",
+                "type": "system"
+              },
+              "title": "Informar Previdência",
+              "subtitle": "Mostre saldo, aportes e rentabilidade"
+            }
+          }
+        },
+        {
+          "id": "section-46-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Atualizado agora"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-47-header",
+                "section-47-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-47-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "coins",
+                "type": "system"
+              },
+              "title": "Informar Capitalização",
+              "subtitle": "Mostre status e regras de resgate"
+            }
+          }
+        },
+        {
+          "id": "section-47-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Disponível no app"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-48-header",
+                "section-48-text",
+                "section-48-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-48-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "pie_chart",
+                "type": "system"
+              },
+              "title": "Informar Investimentos (Consolidado)",
+              "subtitle": "Mostre posição total e alocação"
+            }
+          }
+        },
+        {
+          "id": "section-48-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-48-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Visões",
+                  "value": "Consolidado e por ativo"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Risco",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Documentos",
+                  "value": "Informe/Notas"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-49-header",
+                "section-49-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-49-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "piggy_bank",
+                "type": "system"
+              },
+              "title": "Informar Poupança",
+              "subtitle": "Mostre saldo e rendimento estimado"
+            }
+          }
+        },
+        {
+          "id": "section-49-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Vencimento em 12 meses"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-50-header",
+                "section-50-info",
+                "section-50-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-50-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "banknote",
+                "type": "system"
+              },
+              "title": "Informar CDB",
+              "subtitle": "Mostre posição, vencimento e taxa"
+            }
+          }
+        },
+        {
+          "id": "section-50-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Vencimento em 12 meses"
+            }
+          }
+        },
+        {
+          "id": "section-50-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Visões",
+                  "value": "Consolidado e por ativo"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Risco",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Documentos",
+                  "value": "Informe/Notas"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-51-header",
+                "section-51-text",
+                "section-51-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-51-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "landmark",
+                "type": "system"
+              },
+              "title": "Informar LCI/LCA",
+              "subtitle": "Mostre posição e vencimentos"
+            }
+          }
+        },
+        {
+          "id": "section-51-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-51-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Visões",
+                  "value": "Consolidado e por ativo"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Risco",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Documentos",
+                  "value": "Informe/Notas"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-52-header",
+                "section-52-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-52-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "government",
+                "type": "system"
+              },
+              "title": "Informar Tesouro Direto",
+              "subtitle": "Mostre posição e marcação a mercado"
+            }
+          }
+        },
+        {
+          "id": "section-52-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-53-header",
+                "section-53-text",
+                "section-53-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-53-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "pie_chart",
+                "type": "system"
+              },
+              "title": "Informar Fundos",
+              "subtitle": "Mostre cotas, rentabilidade e taxas"
+            }
+          }
+        },
+        {
+          "id": "section-53-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-53-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Visões",
+                  "value": "Consolidado e por ativo"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Risco",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Documentos",
+                  "value": "Informe/Notas"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-54-header",
+                "section-54-text",
+                "section-54-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-54-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bar_chart",
+                "type": "system"
+              },
+              "title": "Informar Ações",
+              "subtitle": "Mostre posição, preço médio e variação"
+            }
+          }
+        },
+        {
+          "id": "section-54-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-54-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Visões",
+                  "value": "Consolidado e por ativo"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Risco",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Documentos",
+                  "value": "Informe/Notas"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-55-header",
+                "section-55-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-55-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "trending_up",
+                "type": "system"
+              },
+              "title": "Informar ETFs",
+              "subtitle": "Mostre posição e variação do dia"
+            }
+          }
+        },
+        {
+          "id": "section-55-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Visões",
+                  "value": "Consolidado e por ativo"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Risco",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Documentos",
+                  "value": "Informe/Notas"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-56-header",
+                "section-56-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-56-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "building",
+                "type": "system"
+              },
+              "title": "Informar FIIs",
+              "subtitle": "Mostre dividendos e posição"
+            }
+          }
+        },
+        {
+          "id": "section-56-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Visões",
+                  "value": "Consolidado e por ativo"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Risco",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Documentos",
+                  "value": "Informe/Notas"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-57-header",
+                "section-57-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-57-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bitcoin",
+                "type": "system"
+              },
+              "title": "Informar Criptomoedas",
+              "subtitle": "Mostre saldo e variação"
+            }
+          }
+        },
+        {
+          "id": "section-57-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Vencimento em 12 meses"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-58-header",
+                "section-58-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-58-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "gift",
+                "type": "system"
+              },
+              "title": "Informar Proventos",
+              "subtitle": "Mostre proventos recebidos no período"
+            }
+          }
+        },
+        {
+          "id": "section-58-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-59-header",
+                "section-59-text",
+                "section-59-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-59-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "chart_line",
+                "type": "system"
+              },
+              "title": "Informar Rentabilidade",
+              "subtitle": "Mostre performance por período"
+            }
+          }
+        },
+        {
+          "id": "section-59-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-59-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-60-header",
+                "section-60-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-60-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "layers",
+                "type": "system"
+              },
+              "title": "Informar Alocação da Carteira",
+              "subtitle": "Mostre distribuição por classe"
+            }
+          }
+        },
+        {
+          "id": "section-60-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Atualizado agora"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-61-header",
+                "section-61-text",
+                "section-61-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-61-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "user",
+                "type": "system"
+              },
+              "title": "Informar Perfil de Investidor",
+              "subtitle": "Mostre perfil atual e validade"
+            }
+          }
+        },
+        {
+          "id": "section-61-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-61-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Visões",
+                  "value": "Consolidado e por ativo"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Risco",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Documentos",
+                  "value": "Informe/Notas"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-62-header",
+                "section-62-info",
+                "section-62-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-62-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "target",
+                "type": "system"
+              },
+              "title": "Informar Metas Financeiras",
+              "subtitle": "Mostre progresso das metas/caixinhas"
+            }
+          }
+        },
+        {
+          "id": "section-62-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Disponível no app"
+            }
+          }
+        },
+        {
+          "id": "section-62-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-63-header",
+                "section-63-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-63-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "life_buoy",
+                "type": "system"
+              },
+              "title": "Informar Reserva de Emergência",
+              "subtitle": "Mostre saldo e liquidez"
+            }
+          }
+        },
+        {
+          "id": "section-63-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-64-header",
+                "section-64-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-64-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "plane",
+                "type": "system"
+              },
+              "title": "Informar Conta Internacional",
+              "subtitle": "Mostre saldo e limites (se aplicável)"
+            }
+          }
+        },
+        {
+          "id": "section-64-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Atualizado agora"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-65-header",
+                "section-65-text",
+                "section-65-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-65-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "globe",
+                "type": "system"
+              },
+              "title": "Informar Câmbio",
+              "subtitle": "Mostre cotação e saldo em moeda (se aplicável)"
+            }
+          }
+        },
+        {
+          "id": "section-65-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-65-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-66-header",
+                "section-66-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-66-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "banknote",
+                "type": "system"
+              },
+              "title": "Informar Limite de Saque",
+              "subtitle": "Mostre limite diário de saque"
+            }
+          }
+        },
+        {
+          "id": "section-66-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-67-header",
+                "section-67-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-67-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "sliders",
+                "type": "system"
+              },
+              "title": "Informar Limites de Transação",
+              "subtitle": "Mostre limites por canal e período"
+            }
+          }
+        },
+        {
+          "id": "section-67-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "R$ 6.200,00 disponível"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-68-header",
+                "section-68-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-68-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "tap",
+                "type": "system"
+              },
+              "title": "Informar Compras por Aproximação",
+              "subtitle": "Mostre status do contactless"
+            }
+          }
+        },
+        {
+          "id": "section-68-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-69-header",
+                "section-69-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-69-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "smartphone",
+                "type": "system"
+              },
+              "title": "Informar Dispositivos Confiáveis",
+              "subtitle": "Mostre aparelhos autorizados"
+            }
+          }
+        },
+        {
+          "id": "section-69-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-70-header",
+                "section-70-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-70-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "lock",
+                "type": "system"
+              },
+              "title": "Informar Segurança",
+              "subtitle": "Mostre status de biometria e senha"
+            }
+          }
+        },
+        {
+          "id": "section-70-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-71-header",
+                "section-71-text",
+                "section-71-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-71-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bell",
+                "type": "system"
+              },
+              "title": "Informar Alertas",
+              "subtitle": "Mostre alertas e notificações ativas"
+            }
+          }
+        },
+        {
+          "id": "section-71-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-71-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-72-header",
+                "section-72-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-72-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "headphones",
+                "type": "system"
+              },
+              "title": "Informar Atendimento",
+              "subtitle": "Mostre protocolos e solicitações"
+            }
+          }
+        },
+        {
+          "id": "section-72-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Atualizado agora"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-73-header",
+                "section-73-text",
+                "section-73-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-73-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "link",
+                "type": "system"
+              },
+              "title": "Informar Open Finance",
+              "subtitle": "Mostre consentimentos ativos e instituições"
+            }
+          }
+        },
+        {
+          "id": "section-73-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-73-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-74-header",
+                "section-74-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-74-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "briefcase",
+                "type": "system"
+              },
+              "title": "Informar Portabilidade de Salário",
+              "subtitle": "Mostre status e banco de origem"
+            }
+          }
+        },
+        {
+          "id": "section-74-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-75-header",
+                "section-75-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-75-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bookmark",
+                "type": "system"
+              },
+              "title": "Informar Favorecidos",
+              "subtitle": "Mostre favorecidos cadastrados"
+            }
+          }
+        },
+        {
+          "id": "section-75-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-76-header",
+                "section-76-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-76-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "users",
+                "type": "system"
+              },
+              "title": "Informar Contatos Confiáveis",
+              "subtitle": "Mostre lista de contatos confiáveis"
+            }
+          }
+        },
+        {
+          "id": "section-76-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Ver detalhes na tela completa"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-77-header",
+                "section-77-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-77-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "repeat",
+                "type": "system"
+              },
+              "title": "Informar Recorrências",
+              "subtitle": "Mostre transferências/pagamentos recorrentes"
+            }
+          }
+        },
+        {
+          "id": "section-77-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-78-header",
+                "section-78-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-78-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file",
+                "type": "system"
+              },
+              "title": "Informar Assinaturas",
+              "subtitle": "Mostre assinaturas ativas na conta/cartão"
+            }
+          }
+        },
+        {
+          "id": "section-78-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-79-header",
+                "section-79-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-79-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "refresh_cw",
+                "type": "system"
+              },
+              "title": "Informar Estornos",
+              "subtitle": "Mostre estornos e ajustes recentes"
+            }
+          }
+        },
+        {
+          "id": "section-79-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-80-header",
+                "section-80-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-80-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file_text",
+                "type": "system"
+              },
+              "title": "Informar Contestação",
+              "subtitle": "Mostre status de contestação (se houver)"
+            }
+          }
+        },
+        {
+          "id": "section-80-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-81-header",
+                "section-81-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-81-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "repeat",
+                "type": "system"
+              },
+              "title": "Informar Reemissão de Cartão",
+              "subtitle": "Mostre status de reemissão"
+            }
+          }
+        },
+        {
+          "id": "section-81-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Atualizado agora"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-82-header",
+                "section-82-text",
+                "section-82-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-82-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "map_pin",
+                "type": "system"
+              },
+              "title": "Informar Endereço de Entrega",
+              "subtitle": "Mostre endereço cadastrado"
+            }
+          }
+        },
+        {
+          "id": "section-82-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-82-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-83-header",
+                "section-83-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-83-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "id_card",
+                "type": "system"
+              },
+              "title": "Informar Dados Cadastrais",
+              "subtitle": "Mostre nome, contato e documentos"
+            }
+          }
+        },
+        {
+          "id": "section-83-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-84-header",
+                "section-84-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-84-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file",
+                "type": "system"
+              },
+              "title": "Informar Informe de Rendimentos",
+              "subtitle": "Mostre acesso a documentos de IR"
+            }
+          }
+        },
+        {
+          "id": "section-84-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-85-header",
+                "section-85-info",
+                "section-85-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-85-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file_text",
+                "type": "system"
+              },
+              "title": "Informar Notas de Corretagem",
+              "subtitle": "Mostre onde baixar notas"
+            }
+          }
+        },
+        {
+          "id": "section-85-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Atualizado agora"
+            }
+          }
+        },
+        {
+          "id": "section-85-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-86-header",
+                "section-86-info",
+                "section-86-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-86-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "calculator",
+                "type": "system"
+              },
+              "title": "Informar Simulações",
+              "subtitle": "Mostre simulações salvas e propostas"
+            }
+          }
+        },
+        {
+          "id": "section-86-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Atualizado agora"
+            }
+          }
+        },
+        {
+          "id": "section-86-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-87-header",
+                "section-87-text",
+                "section-87-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-87-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "settings",
+                "type": "system"
+              },
+              "title": "Informar Investimento Automático",
+              "subtitle": "Mostre regras e aportes recorrentes"
+            }
+          }
+        },
+        {
+          "id": "section-87-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        },
+        {
+          "id": "section-87-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Visões",
+                  "value": "Consolidado e por ativo"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Risco",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Documentos",
+                  "value": "Informe/Notas"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-88-header",
+                "section-88-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-88-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "clock",
+                "type": "system"
+              },
+              "title": "Informar Resgates Pendentes",
+              "subtitle": "Mostre resgates em processamento"
+            }
+          }
+        },
+        {
+          "id": "section-88-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-89-header",
+                "section-89-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-89-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "clock",
+                "type": "system"
+              },
+              "title": "Informar Aplicações Pendentes",
+              "subtitle": "Mostre aplicações em processamento"
+            }
+          }
+        },
+        {
+          "id": "section-89-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-90-header",
+                "section-90-info",
+                "section-90-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-90-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "info",
+                "type": "system"
+              },
+              "title": "Informar Avisos e Comunicados",
+              "subtitle": "Mostre mensagens importantes do banco"
+            }
+          }
+        },
+        {
+          "id": "section-90-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Disponível no app"
+            }
+          }
+        },
+        {
+          "id": "section-90-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-91-header",
+                "section-91-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-91-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "zap",
+                "type": "system"
+              },
+              "title": "Informar Cobranças Pix (PJ)",
+              "subtitle": "Mostre cobranças Pix emitidas (PJ)"
+            }
+          }
+        },
+        {
+          "id": "section-91-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Limites e contatos confiáveis"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovantes",
+                  "value": "No histórico"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Janela",
+                  "value": "Noturno/Diurno"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-92-header",
+                "section-92-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-92-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "receipt",
+                "type": "system"
+              },
+              "title": "Informar Emissão de Boletos (PJ)",
+              "subtitle": "Mostre boletos emitidos (PJ)"
+            }
+          }
+        },
+        {
+          "id": "section-92-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-93-header",
+                "section-93-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-93-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "credit_card",
+                "type": "system"
+              },
+              "title": "Informar Vendas (Maquininha PJ)",
+              "subtitle": "Mostre vendas e repasses (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-93-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-94-header",
+                "section-94-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-94-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "coins",
+                "type": "system"
+              },
+              "title": "Informar Antecipação de Recebíveis (PJ)",
+              "subtitle": "Mostre status e taxas (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-94-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-95-header",
+                "section-95-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-95-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "layers",
+                "type": "system"
+              },
+              "title": "Informar Gestão de Caixa (PJ)",
+              "subtitle": "Mostre fluxo de caixa e conciliação (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-95-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Ver detalhes na tela completa"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-96-header",
+                "section-96-info",
+                "section-96-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-96-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "percent",
+                "type": "system"
+              },
+              "title": "Informar Taxas de Empréstimo",
+              "subtitle": "Mostre taxas e ofertas disponíveis"
+            }
+          }
+        },
+        {
+          "id": "section-96-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Ver detalhes na tela completa"
+            }
+          }
+        },
+        {
+          "id": "section-96-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-97-header",
+                "section-97-info",
+                "section-97-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-97-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shield_check",
+                "type": "system"
+              },
+              "title": "Informar Bloqueios de Segurança",
+              "subtitle": "Mostre status de bloqueio preventivo"
+            }
+          }
+        },
+        {
+          "id": "section-97-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Ver detalhes na tela completa"
+            }
+          }
+        },
+        {
+          "id": "section-97-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fonte",
+                  "value": "Dados do seu app/banco"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atualização",
+                  "value": "Em tempo real quando aplicável"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ação",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-98-header",
+                "section-98-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-98-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "log_in",
+                "type": "system"
+              },
+              "title": "Informar Histórico de Login",
+              "subtitle": "Mostre acessos recentes à conta"
+            }
+          }
+        },
+        {
+          "id": "section-98-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Os dados podem variar conforme compensação, horários de corte e regras do produto. Abra a tela de detalhes para informações completas."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-99-header",
+                "section-99-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-99-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "calendar",
+                "type": "system"
+              },
+              "title": "Informar Status de Agendamentos",
+              "subtitle": "Mostre agendamentos ativos e próximos"
+            }
+          }
+        },
+        {
+          "id": "section-99-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Status: pendente"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "informar",
+      "agent_id": "agent-produtos-informar-v2"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-100-header",
+                "section-100-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-100-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file_text",
+                "type": "system"
+              },
+              "title": "Informar Guia de Impostos",
+              "subtitle": "Mostre guias/impostos pendentes e pagos"
+            }
+          }
+        },
+        {
+          "id": "section-100-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Informação",
+              "subtitle": "Resumo gerado para você",
+              "value": "Atualizado agora"
+            }
+          }
+        }
+      ]
+    }
+  }
+]

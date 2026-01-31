@@ -1,0 +1,3374 @@
+[
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-1-header",
+                "section-1-text",
+                "section-1-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-1-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "credit_card",
+                "type": "system"
+              },
+              "title": "Cancelamento de Cartão de Crédito",
+              "subtitle": "Cancele seu cartão e acompanhe o status"
+            }
+          }
+        },
+        {
+          "id": "section-1-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        },
+        {
+          "id": "section-1-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-2-header",
+                "section-2-text",
+                "section-2-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-2-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "users",
+                "type": "system"
+              },
+              "title": "Cancelamento de Cartão Adicional",
+              "subtitle": "Remova um cartão adicional"
+            }
+          }
+        },
+        {
+          "id": "section-2-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        },
+        {
+          "id": "section-2-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-3-header",
+                "section-3-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-3-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shield",
+                "type": "system"
+              },
+              "title": "Cancelamento de Cartão Virtual",
+              "subtitle": "Desative o cartão virtual atual"
+            }
+          }
+        },
+        {
+          "id": "section-3-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-4-header",
+                "section-4-info",
+                "section-4-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-4-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "wallet",
+                "type": "system"
+              },
+              "title": "Cancelamento de Conta Corrente",
+              "subtitle": "Solicite encerramento da conta"
+            }
+          }
+        },
+        {
+          "id": "section-4-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Condição",
+              "subtitle": "O que considerar ao cancelar",
+              "value": "Sujeito a validações"
+            }
+          }
+        },
+        {
+          "id": "section-4-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Pré-requisitos",
+                  "value": "Saldo zerado e pendências resolvidas"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Dias úteis (varia)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Disponível no app"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-5-header",
+                "section-5-info",
+                "section-5-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-5-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "briefcase",
+                "type": "system"
+              },
+              "title": "Cancelamento de Conta PJ",
+              "subtitle": "Encerramento de conta empresarial"
+            }
+          }
+        },
+        {
+          "id": "section-5-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Condição",
+              "subtitle": "O que considerar ao cancelar",
+              "value": "Processamento em até 5 dias úteis"
+            }
+          }
+        },
+        {
+          "id": "section-5-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Pré-requisitos",
+                  "value": "Saldo zerado e pendências resolvidas"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Dias úteis (varia)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Disponível no app"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-6-header",
+                "section-6-text",
+                "section-6-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-6-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "plane",
+                "type": "system"
+              },
+              "title": "Cancelamento de Conta Internacional",
+              "subtitle": "Solicite encerramento da conta internacional"
+            }
+          }
+        },
+        {
+          "id": "section-6-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        },
+        {
+          "id": "section-6-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Pré-requisitos",
+                  "value": "Saldo zerado e pendências resolvidas"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Dias úteis (varia)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Disponível no app"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-7-header",
+                "section-7-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-7-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "alert_circle",
+                "type": "system"
+              },
+              "title": "Cancelamento de Cheque Especial",
+              "subtitle": "Remova o limite emergencial (se elegível)"
+            }
+          }
+        },
+        {
+          "id": "section-7-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-8-header",
+                "section-8-text",
+                "section-8-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-8-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "hand_coins",
+                "type": "system"
+              },
+              "title": "Cancelamento de Empréstimo (proposta)",
+              "subtitle": "Cancele a proposta antes da contratação"
+            }
+          }
+        },
+        {
+          "id": "section-8-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        },
+        {
+          "id": "section-8-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-9-header",
+                "section-9-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-9-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "repeat",
+                "type": "system"
+              },
+              "title": "Cancelamento de Empréstimo (portabilidade)",
+              "subtitle": "Cancele solicitação de portabilidade"
+            }
+          }
+        },
+        {
+          "id": "section-9-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-10-header",
+                "section-10-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-10-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file_text",
+                "type": "system"
+              },
+              "title": "Cancelamento de Consignado (proposta)",
+              "subtitle": "Cancele a proposta do consignado"
+            }
+          }
+        },
+        {
+          "id": "section-10-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Condição",
+              "subtitle": "O que considerar ao cancelar",
+              "value": "Disponível"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-11-header",
+                "section-11-text",
+                "section-11-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-11-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "car",
+                "type": "system"
+              },
+              "title": "Cancelamento de Financiamento (proposta)",
+              "subtitle": "Cancele a proposta de financiamento"
+            }
+          }
+        },
+        {
+          "id": "section-11-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        },
+        {
+          "id": "section-11-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-12-header",
+                "section-12-text",
+                "section-12-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-12-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "repeat",
+                "type": "system"
+              },
+              "title": "Cancelamento de Consórcio (adesão)",
+              "subtitle": "Cancele adesão a um consórcio"
+            }
+          }
+        },
+        {
+          "id": "section-12-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        },
+        {
+          "id": "section-12-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-13-header",
+                "section-13-info",
+                "section-13-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-13-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "car",
+                "type": "system"
+              },
+              "title": "Cancelamento de Seguro Auto",
+              "subtitle": "Cancele sua apólice de seguro auto"
+            }
+          }
+        },
+        {
+          "id": "section-13-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Condição",
+              "subtitle": "O que considerar ao cancelar",
+              "value": "Pró-rata conforme regras"
+            }
+          }
+        },
+        {
+          "id": "section-13-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Cobranças",
+                  "value": "Pró-rata/ajustes (conforme regras)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Carência",
+                  "value": "Pode existir"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Protocolo",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-14-header",
+                "section-14-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-14-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "home_shield",
+                "type": "system"
+              },
+              "title": "Cancelamento de Seguro Residencial",
+              "subtitle": "Cancele seguro residencial"
+            }
+          }
+        },
+        {
+          "id": "section-14-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Cobranças",
+                  "value": "Pró-rata/ajustes (conforme regras)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Carência",
+                  "value": "Pode existir"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Protocolo",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-15-header",
+                "section-15-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-15-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "heart",
+                "type": "system"
+              },
+              "title": "Cancelamento de Seguro Vida",
+              "subtitle": "Cancele seguro de vida"
+            }
+          }
+        },
+        {
+          "id": "section-15-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Cobranças",
+                  "value": "Pró-rata/ajustes (conforme regras)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Carência",
+                  "value": "Pode existir"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Protocolo",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-16-header",
+                "section-16-text",
+                "section-16-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-16-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shopping_bag",
+                "type": "system"
+              },
+              "title": "Cancelamento de Seguro Cartão",
+              "subtitle": "Cancele proteção do cartão"
+            }
+          }
+        },
+        {
+          "id": "section-16-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        },
+        {
+          "id": "section-16-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Cobranças",
+                  "value": "Pró-rata/ajustes (conforme regras)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Carência",
+                  "value": "Pode existir"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Protocolo",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-17-header",
+                "section-17-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-17-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shield_check",
+                "type": "system"
+              },
+              "title": "Cancelamento de Seguro Conta",
+              "subtitle": "Cancele proteção da conta"
+            }
+          }
+        },
+        {
+          "id": "section-17-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Pré-requisitos",
+                  "value": "Saldo zerado e pendências resolvidas"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Dias úteis (varia)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Disponível no app"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-18-header",
+                "section-18-info",
+                "section-18-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-18-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "chart_line",
+                "type": "system"
+              },
+              "title": "Cancelamento de Previdência (aporte)",
+              "subtitle": "Cancele um aporte agendado"
+            }
+          }
+        },
+        {
+          "id": "section-18-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Condição",
+              "subtitle": "O que considerar ao cancelar",
+              "value": "Regras do produto se aplicam"
+            }
+          }
+        },
+        {
+          "id": "section-18-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-19-header",
+                "section-19-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-19-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "coins",
+                "type": "system"
+              },
+              "title": "Cancelamento de Capitalização",
+              "subtitle": "Cancele título de capitalização"
+            }
+          }
+        },
+        {
+          "id": "section-19-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-20-header",
+                "section-20-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-20-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "settings",
+                "type": "system"
+              },
+              "title": "Cancelamento de Investimento Automático",
+              "subtitle": "Desative aportes automáticos"
+            }
+          }
+        },
+        {
+          "id": "section-20-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Condição",
+              "subtitle": "O que considerar ao cancelar",
+              "value": "Disponível"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-21-header",
+                "section-21-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-21-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "target",
+                "type": "system"
+              },
+              "title": "Cancelamento de Meta Financeira",
+              "subtitle": "Remova meta/caixinha (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-21-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Condição",
+              "subtitle": "O que considerar ao cancelar",
+              "value": "Regras do produto se aplicam"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-22-header",
+                "section-22-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-22-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "box",
+                "type": "system"
+              },
+              "title": "Cancelamento de Caixinha",
+              "subtitle": "Cancele uma caixinha/objetivo (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-22-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-23-header",
+                "section-23-text",
+                "section-23-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-23-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "calendar",
+                "type": "system"
+              },
+              "title": "Cancelamento de Pix Agendado",
+              "subtitle": "Cancele um Pix agendado"
+            }
+          }
+        },
+        {
+          "id": "section-23-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        },
+        {
+          "id": "section-23-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Cancelável enquanto pendente"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Imediato na confirmação"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Histórico",
+                  "value": "Fica registrado"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-24-header",
+                "section-24-info",
+                "section-24-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-24-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "clock",
+                "type": "system"
+              },
+              "title": "Cancelamento de Transferência Agendada",
+              "subtitle": "Cancele uma transferência programada"
+            }
+          }
+        },
+        {
+          "id": "section-24-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Condição",
+              "subtitle": "O que considerar ao cancelar",
+              "value": "Imediato quando permitido"
+            }
+          }
+        },
+        {
+          "id": "section-24-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Cancelável enquanto pendente"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Imediato na confirmação"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Histórico",
+                  "value": "Fica registrado"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-25-header",
+                "section-25-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-25-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "refresh_cw",
+                "type": "system"
+              },
+              "title": "Cancelamento de Débito Automático",
+              "subtitle": "Cancele débito automático cadastrado"
+            }
+          }
+        },
+        {
+          "id": "section-25-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Condição",
+              "subtitle": "O que considerar ao cancelar",
+              "value": "Status: Em análise"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-26-header",
+                "section-26-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-26-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "receipt",
+                "type": "system"
+              },
+              "title": "Cancelamento de Boleto Agendado",
+              "subtitle": "Cancele pagamento de boleto agendado"
+            }
+          }
+        },
+        {
+          "id": "section-26-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-27-header",
+                "section-27-info",
+                "section-27-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-27-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "smartphone",
+                "type": "system"
+              },
+              "title": "Cancelamento de Recarga Agendada",
+              "subtitle": "Cancele recarga recorrente (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-27-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Condição",
+              "subtitle": "O que considerar ao cancelar",
+              "value": "Disponível"
+            }
+          }
+        },
+        {
+          "id": "section-27-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-28-header",
+                "section-28-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-28-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "qrcode",
+                "type": "system"
+              },
+              "title": "Cancelamento de Pagamento por QR",
+              "subtitle": "Cancele pagamento pendente (se possível)"
+            }
+          }
+        },
+        {
+          "id": "section-28-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-29-header",
+                "section-29-text",
+                "section-29-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-29-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "link",
+                "type": "system"
+              },
+              "title": "Cancelamento de Open Finance",
+              "subtitle": "Revogue consentimentos do Open Finance"
+            }
+          }
+        },
+        {
+          "id": "section-29-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        },
+        {
+          "id": "section-29-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Consentimentos",
+                  "value": "Revogação imediata"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Instituições",
+                  "value": "Selecione quais remover"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Impacto",
+                  "value": "Interrompe compartilhamento"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-30-header",
+                "section-30-text",
+                "section-30-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-30-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "smartphone",
+                "type": "system"
+              },
+              "title": "Cancelamento de Dispositivo Confiável",
+              "subtitle": "Remova aparelho autorizado"
+            }
+          }
+        },
+        {
+          "id": "section-30-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        },
+        {
+          "id": "section-30-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-31-header",
+                "section-31-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-31-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "lock",
+                "type": "system"
+              },
+              "title": "Cancelamento de Biometria",
+              "subtitle": "Desative biometria para autorizações"
+            }
+          }
+        },
+        {
+          "id": "section-31-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Condição",
+              "subtitle": "O que considerar ao cancelar",
+              "value": "Disponível"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-32-header",
+                "section-32-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-32-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bell",
+                "type": "system"
+              },
+              "title": "Cancelamento de Notificações",
+              "subtitle": "Desative alertas específicos"
+            }
+          }
+        },
+        {
+          "id": "section-32-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-33-header",
+                "section-33-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-33-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "gift",
+                "type": "system"
+              },
+              "title": "Cancelamento de Programa de Pontos",
+              "subtitle": "Cancele participação no programa (se aplicável)"
+            }
+          }
+        },
+        {
+          "id": "section-33-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-34-header",
+                "section-34-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-34-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "coins",
+                "type": "system"
+              },
+              "title": "Cancelamento de Cashback Plus",
+              "subtitle": "Desative benefício de cashback (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-34-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-35-header",
+                "section-35-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-35-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file",
+                "type": "system"
+              },
+              "title": "Cancelamento de Assinatura de Serviços",
+              "subtitle": "Cancele assinaturas cobradas na conta"
+            }
+          }
+        },
+        {
+          "id": "section-35-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-36-header",
+                "section-36-text",
+                "section-36-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-36-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "zap",
+                "type": "system"
+              },
+              "title": "Cancelamento de Limite Pix Extra",
+              "subtitle": "Remova ajuste extra de limite (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-36-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        },
+        {
+          "id": "section-36-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-37-header",
+                "section-37-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-37-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "credit_card",
+                "type": "system"
+              },
+              "title": "Cancelamento de Cartão Pré-pago",
+              "subtitle": "Cancele/encerre cartão pré-pago (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-37-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Condição",
+              "subtitle": "O que considerar ao cancelar",
+              "value": "Regras do produto se aplicam"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-38-header",
+                "section-38-text",
+                "section-38-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-38-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "credit_card",
+                "type": "system"
+              },
+              "title": "Cancelamento de Cartão de Débito",
+              "subtitle": "Solicite cancelamento do cartão de débito"
+            }
+          }
+        },
+        {
+          "id": "section-38-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        },
+        {
+          "id": "section-38-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-39-header",
+                "section-39-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-39-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "banknote",
+                "type": "system"
+              },
+              "title": "Cancelamento de Saque Pix",
+              "subtitle": "Cancele saque Pix pendente (se possível)"
+            }
+          }
+        },
+        {
+          "id": "section-39-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Condição",
+              "subtitle": "O que considerar ao cancelar",
+              "value": "Somente antes da execução"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-40-header",
+                "section-40-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-40-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "coins",
+                "type": "system"
+              },
+              "title": "Cancelamento de Troco Pix",
+              "subtitle": "Cancele troco Pix pendente (se possível)"
+            }
+          }
+        },
+        {
+          "id": "section-40-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-41-header",
+                "section-41-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-41-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "globe",
+                "type": "system"
+              },
+              "title": "Cancelamento de Remessa Internacional",
+              "subtitle": "Cancele remessa antes do envio (se possível)"
+            }
+          }
+        },
+        {
+          "id": "section-41-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-42-header",
+                "section-42-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-42-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "refresh_cw",
+                "type": "system"
+              },
+              "title": "Cancelamento de Câmbio Programado",
+              "subtitle": "Cancele ordem/câmbio agendado (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-42-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-43-header",
+                "section-43-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-43-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bar_chart",
+                "type": "system"
+              },
+              "title": "Cancelamento de Ordem de Compra (Ações)",
+              "subtitle": "Cancele ordem aberta em bolsa"
+            }
+          }
+        },
+        {
+          "id": "section-43-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-44-header",
+                "section-44-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-44-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "trending_up",
+                "type": "system"
+              },
+              "title": "Cancelamento de Ordem de ETF",
+              "subtitle": "Cancele ordem aberta de ETF"
+            }
+          }
+        },
+        {
+          "id": "section-44-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Cancelável se não executada"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Mercado",
+                  "value": "Sujeito a horário/pregão"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Confirmação",
+                  "value": "Atualiza em tempo real"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-45-header",
+                "section-45-info",
+                "section-45-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-45-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "pie_chart",
+                "type": "system"
+              },
+              "title": "Cancelamento de Ordem de Fundo",
+              "subtitle": "Cancele aplicação/resgate pendente"
+            }
+          }
+        },
+        {
+          "id": "section-45-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Condição",
+              "subtitle": "O que considerar ao cancelar",
+              "value": "Imediato se não executada"
+            }
+          }
+        },
+        {
+          "id": "section-45-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Cancelável se não executada"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Mercado",
+                  "value": "Sujeito a horário/pregão"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Confirmação",
+                  "value": "Atualiza em tempo real"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-46-header",
+                "section-46-text",
+                "section-46-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-46-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "banknote",
+                "type": "system"
+              },
+              "title": "Cancelamento de Aplicação em CDB",
+              "subtitle": "Cancele aplicação antes da confirmação (se possível)"
+            }
+          }
+        },
+        {
+          "id": "section-46-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        },
+        {
+          "id": "section-46-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-47-header",
+                "section-47-text",
+                "section-47-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-47-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "landmark",
+                "type": "system"
+              },
+              "title": "Cancelamento de Aplicação em LCI/LCA",
+              "subtitle": "Cancele aplicação antes da confirmação (se possível)"
+            }
+          }
+        },
+        {
+          "id": "section-47-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        },
+        {
+          "id": "section-47-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-48-header",
+                "section-48-info",
+                "section-48-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-48-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "government",
+                "type": "system"
+              },
+              "title": "Cancelamento de Agendamento Tesouro",
+              "subtitle": "Cancele compra agendada de Tesouro"
+            }
+          }
+        },
+        {
+          "id": "section-48-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Condição",
+              "subtitle": "O que considerar ao cancelar",
+              "value": "Status: Em análise"
+            }
+          }
+        },
+        {
+          "id": "section-48-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-49-header",
+                "section-49-text",
+                "section-49-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-49-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "headphones",
+                "type": "system"
+              },
+              "title": "Cancelamento de Atendimento",
+              "subtitle": "Cancele solicitação/atendimento em aberto"
+            }
+          }
+        },
+        {
+          "id": "section-49-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Revise impactos (tarifas, saldo, cobranças futuras) e confirme o cancelamento. Algumas solicitações podem exigir autenticação forte."
+            }
+          }
+        },
+        {
+          "id": "section-49-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "cancelar",
+      "agent_id": "agent-produtos-cancelar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-50-header",
+                "section-50-info",
+                "section-50-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-50-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "refresh_cw",
+                "type": "system"
+              },
+              "title": "Cancelamento de Renegociação",
+              "subtitle": "Cancele proposta de renegociação (se possível)"
+            }
+          }
+        },
+        {
+          "id": "section-50-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Condição",
+              "subtitle": "O que considerar ao cancelar",
+              "value": "Disponível"
+            }
+          }
+        },
+        {
+          "id": "section-50-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Revisar → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Autenticação",
+                  "value": "Biometria/Token (quando necessário)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado após concluir"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+]

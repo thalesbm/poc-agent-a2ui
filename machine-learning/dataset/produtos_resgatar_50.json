@@ -1,0 +1,3374 @@
+[
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-1-header",
+                "section-1-text",
+                "section-1-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-1-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "banknote",
+                "type": "system"
+              },
+              "title": "Resgatar CDB",
+              "subtitle": "Solicite resgate total ou parcial do CDB (se elegível)"
+            }
+          }
+        },
+        {
+          "id": "section-1-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        },
+        {
+          "id": "section-1-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Elegibilidade",
+                  "value": "Liquidez/carência/vencimento"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Impostos",
+                  "value": "Conforme prazo"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Destino",
+                  "value": "Conta corrente"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-2-header",
+                "section-2-text",
+                "section-2-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-2-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "landmark",
+                "type": "system"
+              },
+              "title": "Resgatar LCI/LCA",
+              "subtitle": "Resgate no vencimento ou conforme liquidez (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-2-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        },
+        {
+          "id": "section-2-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Elegibilidade",
+                  "value": "Liquidez/carência/vencimento"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Impostos",
+                  "value": "Conforme prazo"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Destino",
+                  "value": "Conta corrente"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-3-header",
+                "section-3-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-3-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "piggy_bank",
+                "type": "system"
+              },
+              "title": "Resgatar Poupança",
+              "subtitle": "Transfira da poupança para a conta"
+            }
+          }
+        },
+        {
+          "id": "section-3-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-4-header",
+                "section-4-info",
+                "section-4-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-4-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "government",
+                "type": "system"
+              },
+              "title": "Resgatar Tesouro Selic",
+              "subtitle": "Venda/resgate título Tesouro Selic"
+            }
+          }
+        },
+        {
+          "id": "section-4-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Cotização D+1/D+2"
+            }
+          }
+        },
+        {
+          "id": "section-4-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-5-header",
+                "section-5-info",
+                "section-5-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-5-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "government",
+                "type": "system"
+              },
+              "title": "Resgatar Tesouro IPCA+",
+              "subtitle": "Venda/resgate título Tesouro IPCA+"
+            }
+          }
+        },
+        {
+          "id": "section-5-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Sujeito a mercado"
+            }
+          }
+        },
+        {
+          "id": "section-5-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-6-header",
+                "section-6-text",
+                "section-6-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-6-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "government",
+                "type": "system"
+              },
+              "title": "Resgatar Tesouro Prefixado",
+              "subtitle": "Venda/resgate título prefixado"
+            }
+          }
+        },
+        {
+          "id": "section-6-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        },
+        {
+          "id": "section-6-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-7-header",
+                "section-7-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-7-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "pie_chart",
+                "type": "system"
+              },
+              "title": "Resgatar Fundo de Renda Fixa",
+              "subtitle": "Solicite resgate do fundo e acompanhe cotização"
+            }
+          }
+        },
+        {
+          "id": "section-7-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Cotização",
+                  "value": "D+N (varia)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidação",
+                  "value": "Após cotização"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Tributação",
+                  "value": "Conforme regras"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-8-header",
+                "section-8-text",
+                "section-8-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-8-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "layers",
+                "type": "system"
+              },
+              "title": "Resgatar Fundo Multimercado",
+              "subtitle": "Solicite resgate e acompanhe prazo"
+            }
+          }
+        },
+        {
+          "id": "section-8-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        },
+        {
+          "id": "section-8-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Cotização",
+                  "value": "D+N (varia)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidação",
+                  "value": "Após cotização"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Tributação",
+                  "value": "Conforme regras"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-9-header",
+                "section-9-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-9-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bar_chart",
+                "type": "system"
+              },
+              "title": "Resgatar Fundo de Ações",
+              "subtitle": "Solicite resgate e acompanhe cotização"
+            }
+          }
+        },
+        {
+          "id": "section-9-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Cotização",
+                  "value": "D+N (varia)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidação",
+                  "value": "Após cotização"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Tributação",
+                  "value": "Conforme regras"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-10-header",
+                "section-10-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-10-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "building",
+                "type": "system"
+              },
+              "title": "Resgatar FII (venda)",
+              "subtitle": "Venda cotas de FII no mercado (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-10-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Depende do pregão"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-11-header",
+                "section-11-text",
+                "section-11-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-11-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bar_chart",
+                "type": "system"
+              },
+              "title": "Vender Ações",
+              "subtitle": "Venda ações no home broker"
+            }
+          }
+        },
+        {
+          "id": "section-11-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        },
+        {
+          "id": "section-11-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ordem",
+                  "value": "Mercado/Limitada"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Pregão",
+                  "value": "Horário do mercado"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidação",
+                  "value": "D+2 (exemplo)"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-12-header",
+                "section-12-text",
+                "section-12-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-12-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "trending_up",
+                "type": "system"
+              },
+              "title": "Vender ETFs",
+              "subtitle": "Venda ETFs no home broker"
+            }
+          }
+        },
+        {
+          "id": "section-12-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        },
+        {
+          "id": "section-12-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ordem",
+                  "value": "Mercado/Limitada"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Pregão",
+                  "value": "Horário do mercado"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidação",
+                  "value": "D+2 (exemplo)"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-13-header",
+                "section-13-info",
+                "section-13-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-13-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "globe",
+                "type": "system"
+              },
+              "title": "Vender BDRs",
+              "subtitle": "Venda BDRs no home broker"
+            }
+          }
+        },
+        {
+          "id": "section-13-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Depende do pregão"
+            }
+          }
+        },
+        {
+          "id": "section-13-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Ordem",
+                  "value": "Mercado/Limitada"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Pregão",
+                  "value": "Horário do mercado"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidação",
+                  "value": "D+2 (exemplo)"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-14-header",
+                "section-14-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-14-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bitcoin",
+                "type": "system"
+              },
+              "title": "Vender Criptomoedas",
+              "subtitle": "Venda criptoativos (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-14-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Execução",
+                  "value": "Disponível 24/7 (quando aplicável)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Taxas",
+                  "value": "Pode haver spread"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Risco",
+                  "value": "Alta volatilidade"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-15-header",
+                "section-15-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-15-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "chart_line",
+                "type": "system"
+              },
+              "title": "Resgatar Previdência (parcial)",
+              "subtitle": "Resgate parcial de previdência (regras do plano)"
+            }
+          }
+        },
+        {
+          "id": "section-15-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-16-header",
+                "section-16-text",
+                "section-16-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-16-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "chart_line",
+                "type": "system"
+              },
+              "title": "Resgatar Previdência (total)",
+              "subtitle": "Resgate total de previdência (regras do plano)"
+            }
+          }
+        },
+        {
+          "id": "section-16-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        },
+        {
+          "id": "section-16-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-17-header",
+                "section-17-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-17-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "coins",
+                "type": "system"
+              },
+              "title": "Resgatar Capitalização",
+              "subtitle": "Solicite resgate de título de capitalização"
+            }
+          }
+        },
+        {
+          "id": "section-17-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-18-header",
+                "section-18-info",
+                "section-18-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-18-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "layers",
+                "type": "system"
+              },
+              "title": "Resgatar COE (vencimento)",
+              "subtitle": "Resgate no vencimento do COE (se aplicável)"
+            }
+          }
+        },
+        {
+          "id": "section-18-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Confirmação após validação"
+            }
+          }
+        },
+        {
+          "id": "section-18-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-19-header",
+                "section-19-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-19-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file_text",
+                "type": "system"
+              },
+              "title": "Resgatar Debêntures (venda)",
+              "subtitle": "Venda no mercado secundário (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-19-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-20-header",
+                "section-20-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-20-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file",
+                "type": "system"
+              },
+              "title": "Resgatar CRI/CRA (venda)",
+              "subtitle": "Venda no mercado secundário (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-20-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Disponível"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-21-header",
+                "section-21-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-21-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bank",
+                "type": "system"
+              },
+              "title": "Resgatar Letra Financeira",
+              "subtitle": "Resgate no vencimento (se aplicável)"
+            }
+          }
+        },
+        {
+          "id": "section-21-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Confirmação após validação"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-22-header",
+                "section-22-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-22-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "banknote",
+                "type": "system"
+              },
+              "title": "Resgatar Letras de Câmbio",
+              "subtitle": "Resgate no vencimento (se aplicável)"
+            }
+          }
+        },
+        {
+          "id": "section-22-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-23-header",
+                "section-23-text",
+                "section-23-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-23-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "wallet",
+                "type": "system"
+              },
+              "title": "Resgatar Conta Remunerada",
+              "subtitle": "Transfira saldo remunerado para conta"
+            }
+          }
+        },
+        {
+          "id": "section-23-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        },
+        {
+          "id": "section-23-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-24-header",
+                "section-24-info",
+                "section-24-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-24-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "box",
+                "type": "system"
+              },
+              "title": "Resgatar Caixinha/Objetivo",
+              "subtitle": "Resgate da caixinha para conta (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-24-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Confirmação após validação"
+            }
+          }
+        },
+        {
+          "id": "section-24-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-25-header",
+                "section-25-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-25-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "target",
+                "type": "system"
+              },
+              "title": "Resgatar Meta Financeira",
+              "subtitle": "Resgate de valores de uma meta"
+            }
+          }
+        },
+        {
+          "id": "section-25-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Regras do produto se aplicam"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-26-header",
+                "section-26-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-26-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "settings",
+                "type": "system"
+              },
+              "title": "Resgatar Investimento Automático",
+              "subtitle": "Interrompa e resgate saldo (se aplicável)"
+            }
+          }
+        },
+        {
+          "id": "section-26-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-27-header",
+                "section-27-info",
+                "section-27-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-27-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "life_buoy",
+                "type": "system"
+              },
+              "title": "Resgatar Reserva de Emergência",
+              "subtitle": "Resgate de produtos de alta liquidez"
+            }
+          }
+        },
+        {
+          "id": "section-27-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Disponível"
+            }
+          }
+        },
+        {
+          "id": "section-27-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-28-header",
+                "section-28-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-28-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "clock",
+                "type": "system"
+              },
+              "title": "Resgatar Aplicação com Liquidez Diária",
+              "subtitle": "Resgate imediato quando permitido"
+            }
+          }
+        },
+        {
+          "id": "section-28-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-29-header",
+                "section-29-text",
+                "section-29-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-29-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "zap",
+                "type": "system"
+              },
+              "title": "Resgatar Aplicação em D+0",
+              "subtitle": "Resgate com cotização D+0 (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-29-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        },
+        {
+          "id": "section-29-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Cotização",
+                  "value": "D+N (varia)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidação",
+                  "value": "Após cotização"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Tributação",
+                  "value": "Conforme regras"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-30-header",
+                "section-30-text",
+                "section-30-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-30-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "calendar",
+                "type": "system"
+              },
+              "title": "Resgatar Aplicação em D+1",
+              "subtitle": "Resgate com cotização D+1 (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-30-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        },
+        {
+          "id": "section-30-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Cotização",
+                  "value": "D+N (varia)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidação",
+                  "value": "Após cotização"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Tributação",
+                  "value": "Conforme regras"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-31-header",
+                "section-31-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-31-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "calendar",
+                "type": "system"
+              },
+              "title": "Resgatar Aplicação em D+2",
+              "subtitle": "Resgate com cotização D+2 (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-31-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Cotização D+1/D+2"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-32-header",
+                "section-32-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-32-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "lock",
+                "type": "system"
+              },
+              "title": "Resgatar Aplicação com Carência",
+              "subtitle": "Resgate após carência (quando aplicável)"
+            }
+          }
+        },
+        {
+          "id": "section-32-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-33-header",
+                "section-33-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-33-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "percent",
+                "type": "system"
+              },
+              "title": "Resgatar com IR Regressivo",
+              "subtitle": "Simule imposto no resgate (quando aplicável)"
+            }
+          }
+        },
+        {
+          "id": "section-33-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-34-header",
+                "section-34-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-34-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "percent",
+                "type": "system"
+              },
+              "title": "Resgatar com IR Progressivo",
+              "subtitle": "Simule imposto no resgate (quando aplicável)"
+            }
+          }
+        },
+        {
+          "id": "section-34-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-35-header",
+                "section-35-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-35-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "calculator",
+                "type": "system"
+              },
+              "title": "Resgatar com Simulação",
+              "subtitle": "Simule valores antes de confirmar"
+            }
+          }
+        },
+        {
+          "id": "section-35-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-36-header",
+                "section-36-text",
+                "section-36-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-36-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file_text",
+                "type": "system"
+              },
+              "title": "Resgatar com Comprovante",
+              "subtitle": "Gere comprovante do resgate"
+            }
+          }
+        },
+        {
+          "id": "section-36-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        },
+        {
+          "id": "section-36-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-37-header",
+                "section-37-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-37-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "arrow_down",
+                "type": "system"
+              },
+              "title": "Resgatar e Transferir para Conta",
+              "subtitle": "Resgate e envie para sua conta corrente"
+            }
+          }
+        },
+        {
+          "id": "section-37-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Confirmação após validação"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-38-header",
+                "section-38-text",
+                "section-38-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-38-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "repeat",
+                "type": "system"
+              },
+              "title": "Resgatar e Reaplicar",
+              "subtitle": "Resgate e reaplique em outro produto"
+            }
+          }
+        },
+        {
+          "id": "section-38-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        },
+        {
+          "id": "section-38-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-39-header",
+                "section-39-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-39-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "credit_card",
+                "type": "system"
+              },
+              "title": "Resgatar para Pagar Fatura",
+              "subtitle": "Resgate para pagar a fatura do cartão"
+            }
+          }
+        },
+        {
+          "id": "section-39-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Disponível"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-40-header",
+                "section-40-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-40-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "receipt",
+                "type": "system"
+              },
+              "title": "Resgatar para Pagar Boleto",
+              "subtitle": "Resgate para quitar boleto"
+            }
+          }
+        },
+        {
+          "id": "section-40-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-41-header",
+                "section-41-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-41-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "zap",
+                "type": "system"
+              },
+              "title": "Resgatar para Pix",
+              "subtitle": "Resgate para enviar via Pix"
+            }
+          }
+        },
+        {
+          "id": "section-41-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-42-header",
+                "section-42-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-42-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "arrow_left_right",
+                "type": "system"
+              },
+              "title": "Resgatar para Transferência (TED/TEF)",
+              "subtitle": "Resgate para transferir para outra conta"
+            }
+          }
+        },
+        {
+          "id": "section-42-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-43-header",
+                "section-43-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-43-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "chart_line",
+                "type": "system"
+              },
+              "title": "Resgatar para Previdência (aporte)",
+              "subtitle": "Resgatar de um produto e aportar em previdência"
+            }
+          }
+        },
+        {
+          "id": "section-43-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-44-header",
+                "section-44-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-44-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "trending_up",
+                "type": "system"
+              },
+              "title": "Resgatar para Investimentos (aporte)",
+              "subtitle": "Resgatar de um produto e aportar em outro"
+            }
+          }
+        },
+        {
+          "id": "section-44-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-45-header",
+                "section-45-info",
+                "section-45-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-45-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "clock",
+                "type": "system"
+              },
+              "title": "Resgatar com Agendamento",
+              "subtitle": "Agende resgate para uma data"
+            }
+          }
+        },
+        {
+          "id": "section-45-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Confirmação após validação"
+            }
+          }
+        },
+        {
+          "id": "section-45-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-46-header",
+                "section-46-text",
+                "section-46-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-46-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "sliders",
+                "type": "system"
+              },
+              "title": "Resgatar com Limite Diário",
+              "subtitle": "Respeite limites/horários de resgate (se aplicável)"
+            }
+          }
+        },
+        {
+          "id": "section-46-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        },
+        {
+          "id": "section-46-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-47-header",
+                "section-47-text",
+                "section-47-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-47-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "lock",
+                "type": "system"
+              },
+              "title": "Resgatar com Autenticação Forte",
+              "subtitle": "Confirme com biometria ou token"
+            }
+          }
+        },
+        {
+          "id": "section-47-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        },
+        {
+          "id": "section-47-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-48-header",
+                "section-48-info",
+                "section-48-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-48-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "list",
+                "type": "system"
+              },
+              "title": "Resgatar com Histórico",
+              "subtitle": "Consulte histórico de resgates"
+            }
+          }
+        },
+        {
+          "id": "section-48-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Regras do produto se aplicam"
+            }
+          }
+        },
+        {
+          "id": "section-48-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-49-header",
+                "section-49-text",
+                "section-49-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-49-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "info",
+                "type": "system"
+              },
+              "title": "Resgatar com Regras do Produto",
+              "subtitle": "Confira prazos e condições antes de resgatar"
+            }
+          }
+        },
+        {
+          "id": "section-49-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o investimento, informe valor (total/parcial) e revise prazos de cotização/liquidação e impostos antes de confirmar o resgate."
+            }
+          }
+        },
+        {
+          "id": "section-49-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "resgatar",
+      "agent_id": "agent-produtos-resgatar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-50-header",
+                "section-50-info",
+                "section-50-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-50-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "coins",
+                "type": "system"
+              },
+              "title": "Resgatar Cashback",
+              "subtitle": "Resgate saldo de cashback (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-50-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "O que observar no resgate",
+              "value": "Disponível"
+            }
+          }
+        },
+        {
+          "id": "section-50-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Selecionar → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Varia por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovante",
+                  "value": "Gerado ao final"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+]

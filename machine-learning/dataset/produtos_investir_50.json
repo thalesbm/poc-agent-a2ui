@@ -1,0 +1,3374 @@
+[
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-1-header",
+                "section-1-text",
+                "section-1-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-1-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "banknote",
+                "type": "system"
+              },
+              "title": "Aplicar em CDB",
+              "subtitle": "Invista em CDB com prazo e taxa escolhidos"
+            }
+          }
+        },
+        {
+          "id": "section-1-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        },
+        {
+          "id": "section-1-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Escolhido na aplicação"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidez",
+                  "value": "Diária ou no vencimento"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Impostos",
+                  "value": "Conforme regras"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-2-header",
+                "section-2-text",
+                "section-2-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-2-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "landmark",
+                "type": "system"
+              },
+              "title": "Aplicar em LCI/LCA",
+              "subtitle": "Invista em LCI/LCA (isenção de IR quando aplicável)"
+            }
+          }
+        },
+        {
+          "id": "section-2-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        },
+        {
+          "id": "section-2-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Escolhido na aplicação"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidez",
+                  "value": "Diária ou no vencimento"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Impostos",
+                  "value": "Conforme regras"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-3-header",
+                "section-3-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-3-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "piggy_bank",
+                "type": "system"
+              },
+              "title": "Aplicar em Poupança",
+              "subtitle": "Aplique na poupança e acompanhe rendimento"
+            }
+          }
+        },
+        {
+          "id": "section-3-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-4-header",
+                "section-4-info",
+                "section-4-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-4-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "government",
+                "type": "system"
+              },
+              "title": "Aplicar em Tesouro Selic",
+              "subtitle": "Invista em título pós-fixado do Tesouro"
+            }
+          }
+        },
+        {
+          "id": "section-4-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação útil antes de investir",
+              "value": "A partir de R$ 100,00"
+            }
+          }
+        },
+        {
+          "id": "section-4-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Escolhido na aplicação"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidez",
+                  "value": "Diária ou no vencimento"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Impostos",
+                  "value": "Conforme regras"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-5-header",
+                "section-5-info",
+                "section-5-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-5-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "government",
+                "type": "system"
+              },
+              "title": "Aplicar em Tesouro IPCA+",
+              "subtitle": "Invista em título atrelado à inflação"
+            }
+          }
+        },
+        {
+          "id": "section-5-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação útil antes de investir",
+              "value": "Cobertura FGC (quando aplicável)"
+            }
+          }
+        },
+        {
+          "id": "section-5-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Escolhido na aplicação"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidez",
+                  "value": "Diária ou no vencimento"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Impostos",
+                  "value": "Conforme regras"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-6-header",
+                "section-6-text",
+                "section-6-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-6-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "government",
+                "type": "system"
+              },
+              "title": "Aplicar em Tesouro Prefixado",
+              "subtitle": "Invista com taxa prefixada"
+            }
+          }
+        },
+        {
+          "id": "section-6-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        },
+        {
+          "id": "section-6-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Escolhido na aplicação"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidez",
+                  "value": "Diária ou no vencimento"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Impostos",
+                  "value": "Conforme regras"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-7-header",
+                "section-7-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-7-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "pie_chart",
+                "type": "system"
+              },
+              "title": "Aplicar em Fundos de Renda Fixa",
+              "subtitle": "Escolha fundos de renda fixa por perfil"
+            }
+          }
+        },
+        {
+          "id": "section-7-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Cotização",
+                  "value": "D+N (varia por fundo)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Taxas",
+                  "value": "Adm/performance (se aplicável)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Risco",
+                  "value": "Conforme classe"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-8-header",
+                "section-8-text",
+                "section-8-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-8-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "layers",
+                "type": "system"
+              },
+              "title": "Aplicar em Fundos Multimercado",
+              "subtitle": "Diversifique com fundos multimercado"
+            }
+          }
+        },
+        {
+          "id": "section-8-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        },
+        {
+          "id": "section-8-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Cotização",
+                  "value": "D+N (varia por fundo)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Taxas",
+                  "value": "Adm/performance (se aplicável)"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Risco",
+                  "value": "Conforme classe"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-9-header",
+                "section-9-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-9-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bar_chart",
+                "type": "system"
+              },
+              "title": "Aplicar em Fundos de Ações",
+              "subtitle": "Invista em fundos com exposição em bolsa"
+            }
+          }
+        },
+        {
+          "id": "section-9-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Tipo de ordem",
+                  "value": "Mercado/Limitada/Stop"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Pregão",
+                  "value": "Horário do mercado"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Custos",
+                  "value": "Taxas e corretagem (se houver)"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-10-header",
+                "section-10-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-10-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "building",
+                "type": "system"
+              },
+              "title": "Aplicar em Fundo Imobiliário (FII)",
+              "subtitle": "Invista em FIIs (quando disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-10-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação útil antes de investir",
+              "value": "Sujeito à oscilação de mercado"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-11-header",
+                "section-11-text",
+                "section-11-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-11-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bar_chart",
+                "type": "system"
+              },
+              "title": "Comprar Ações",
+              "subtitle": "Monte carteira com ações no home broker"
+            }
+          }
+        },
+        {
+          "id": "section-11-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        },
+        {
+          "id": "section-11-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Tipo de ordem",
+                  "value": "Mercado/Limitada/Stop"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Pregão",
+                  "value": "Horário do mercado"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Custos",
+                  "value": "Taxas e corretagem (se houver)"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-12-header",
+                "section-12-text",
+                "section-12-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-12-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "trending_up",
+                "type": "system"
+              },
+              "title": "Comprar ETFs",
+              "subtitle": "Invista em ETFs nacionais ou internacionais"
+            }
+          }
+        },
+        {
+          "id": "section-12-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        },
+        {
+          "id": "section-12-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Tipo de ordem",
+                  "value": "Mercado/Limitada/Stop"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Pregão",
+                  "value": "Horário do mercado"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Custos",
+                  "value": "Taxas e corretagem (se houver)"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-13-header",
+                "section-13-info",
+                "section-13-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-13-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "globe",
+                "type": "system"
+              },
+              "title": "Comprar BDRs",
+              "subtitle": "Invista em recibos de ações estrangeiras"
+            }
+          }
+        },
+        {
+          "id": "section-13-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação útil antes de investir",
+              "value": "Sujeito à oscilação de mercado"
+            }
+          }
+        },
+        {
+          "id": "section-13-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Tipo de ordem",
+                  "value": "Mercado/Limitada/Stop"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Pregão",
+                  "value": "Horário do mercado"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Custos",
+                  "value": "Taxas e corretagem (se houver)"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-14-header",
+                "section-14-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-14-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bitcoin",
+                "type": "system"
+              },
+              "title": "Comprar Criptomoedas",
+              "subtitle": "Invista em criptoativos (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-14-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Escolher → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Riscos",
+                  "value": "Variam por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Acompanhamento",
+                  "value": "Posição e extrato no app"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-15-header",
+                "section-15-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-15-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "coins",
+                "type": "system"
+              },
+              "title": "Comprar Ouro/Prata",
+              "subtitle": "Invista em ouro/prata via produtos disponíveis"
+            }
+          }
+        },
+        {
+          "id": "section-15-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Escolher → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Riscos",
+                  "value": "Variam por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Acompanhamento",
+                  "value": "Posição e extrato no app"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-16-header",
+                "section-16-text",
+                "section-16-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-16-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "layers",
+                "type": "system"
+              },
+              "title": "Aplicar em COE",
+              "subtitle": "Contrate COE estruturado (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-16-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        },
+        {
+          "id": "section-16-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Escolher → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Riscos",
+                  "value": "Variam por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Acompanhamento",
+                  "value": "Posição e extrato no app"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-17-header",
+                "section-17-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-17-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file_text",
+                "type": "system"
+              },
+              "title": "Aplicar em Debêntures",
+              "subtitle": "Invista em títulos privados (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-17-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Escolher → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Riscos",
+                  "value": "Variam por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Acompanhamento",
+                  "value": "Posição e extrato no app"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-18-header",
+                "section-18-info",
+                "section-18-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-18-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file",
+                "type": "system"
+              },
+              "title": "Aplicar em CRI/CRA",
+              "subtitle": "Invista em CRI/CRA (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-18-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação útil antes de investir",
+              "value": "Conforme regras do produto"
+            }
+          }
+        },
+        {
+          "id": "section-18-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Escolher → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Riscos",
+                  "value": "Variam por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Acompanhamento",
+                  "value": "Posição e extrato no app"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-19-header",
+                "section-19-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-19-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bank",
+                "type": "system"
+              },
+              "title": "Aplicar em Letra Financeira",
+              "subtitle": "Invista em LF (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-19-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Escolher → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Riscos",
+                  "value": "Variam por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Acompanhamento",
+                  "value": "Posição e extrato no app"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-20-header",
+                "section-20-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-20-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "banknote",
+                "type": "system"
+              },
+              "title": "Aplicar em Letras de Câmbio",
+              "subtitle": "Invista em LC (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-20-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação útil antes de investir",
+              "value": "Disponível"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-21-header",
+                "section-21-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-21-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "chart_line",
+                "type": "system"
+              },
+              "title": "Aporte em Previdência (PGBL/VGBL)",
+              "subtitle": "Faça aporte em previdência privada"
+            }
+          }
+        },
+        {
+          "id": "section-21-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação útil antes de investir",
+              "value": "Prazo de longo prazo"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-22-header",
+                "section-22-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-22-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "calendar",
+                "type": "system"
+              },
+              "title": "Aporte Programado",
+              "subtitle": "Crie aportes recorrentes mensais"
+            }
+          }
+        },
+        {
+          "id": "section-22-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-23-header",
+                "section-23-text",
+                "section-23-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-23-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "settings",
+                "type": "system"
+              },
+              "title": "Investimento Automático",
+              "subtitle": "Ative aportes automáticos por regra"
+            }
+          }
+        },
+        {
+          "id": "section-23-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        },
+        {
+          "id": "section-23-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Escolher → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Riscos",
+                  "value": "Variam por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Acompanhamento",
+                  "value": "Posição e extrato no app"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-24-header",
+                "section-24-info",
+                "section-24-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-24-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "repeat",
+                "type": "system"
+              },
+              "title": "Reinvestir Dividendos",
+              "subtitle": "Ative reinvestimento (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-24-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação útil antes de investir",
+              "value": "Conforme regras do produto"
+            }
+          }
+        },
+        {
+          "id": "section-24-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Escolher → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Riscos",
+                  "value": "Variam por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Acompanhamento",
+                  "value": "Posição e extrato no app"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-25-header",
+                "section-25-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-25-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "clock",
+                "type": "system"
+              },
+              "title": "Resgate Programado",
+              "subtitle": "Agende resgates para uma data"
+            }
+          }
+        },
+        {
+          "id": "section-25-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação útil antes de investir",
+              "value": "Recomendado por perfil"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-26-header",
+                "section-26-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-26-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "sliders",
+                "type": "system"
+              },
+              "title": "Rebalancear Carteira",
+              "subtitle": "Ajuste percentuais por classe de ativos"
+            }
+          }
+        },
+        {
+          "id": "section-26-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-27-header",
+                "section-27-info",
+                "section-27-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-27-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "target",
+                "type": "system"
+              },
+              "title": "Alocar por Perfil de Risco",
+              "subtitle": "Sugestão de alocação conforme perfil"
+            }
+          }
+        },
+        {
+          "id": "section-27-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação útil antes de investir",
+              "value": "Disponível"
+            }
+          }
+        },
+        {
+          "id": "section-27-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Objetivo",
+                  "value": "Defina prazo e meta"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Alocação",
+                  "value": "Percentuais por classe"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Rebalanceamento",
+                  "value": "Periódico"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-28-header",
+                "section-28-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-28-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "calculator",
+                "type": "system"
+              },
+              "title": "Simular Rentabilidade",
+              "subtitle": "Faça simulações por prazo e valor"
+            }
+          }
+        },
+        {
+          "id": "section-28-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-29-header",
+                "section-29-text",
+                "section-29-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-29-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "life_buoy",
+                "type": "system"
+              },
+              "title": "Montar Reserva de Emergência",
+              "subtitle": "Aplicar em produtos de alta liquidez"
+            }
+          }
+        },
+        {
+          "id": "section-29-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        },
+        {
+          "id": "section-29-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Escolher → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Riscos",
+                  "value": "Variam por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Acompanhamento",
+                  "value": "Posição e extrato no app"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-30-header",
+                "section-30-text",
+                "section-30-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-30-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "target",
+                "type": "system"
+              },
+              "title": "Investir para Objetivo",
+              "subtitle": "Aplicar para metas (viagem, carro, casa)"
+            }
+          }
+        },
+        {
+          "id": "section-30-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        },
+        {
+          "id": "section-30-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Escolher → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Riscos",
+                  "value": "Variam por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Acompanhamento",
+                  "value": "Posição e extrato no app"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-31-header",
+                "section-31-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-31-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "globe",
+                "type": "system"
+              },
+              "title": "Comprar Fundo Cambial",
+              "subtitle": "Proteção cambial via fundo (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-31-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação útil antes de investir",
+              "value": "Disponível"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-32-header",
+                "section-32-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-32-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "chart_line",
+                "type": "system"
+              },
+              "title": "Comprar Fundo de Inflação",
+              "subtitle": "Proteção contra inflação via fundo"
+            }
+          }
+        },
+        {
+          "id": "section-32-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-33-header",
+                "section-33-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-33-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file_text",
+                "type": "system"
+              },
+              "title": "Comprar Fundo de Crédito Privado",
+              "subtitle": "Crédito privado com diferentes riscos"
+            }
+          }
+        },
+        {
+          "id": "section-33-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-34-header",
+                "section-34-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-34-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "trending_up",
+                "type": "system"
+              },
+              "title": "Investir em Renda Variável",
+              "subtitle": "Explorar ações, ETFs e FIIs"
+            }
+          }
+        },
+        {
+          "id": "section-34-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Escolher → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Riscos",
+                  "value": "Variam por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Acompanhamento",
+                  "value": "Posição e extrato no app"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-35-header",
+                "section-35-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-35-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "banknote",
+                "type": "system"
+              },
+              "title": "Investir em Renda Fixa",
+              "subtitle": "Explorar CDB, LCI/LCA e Tesouro"
+            }
+          }
+        },
+        {
+          "id": "section-35-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-36-header",
+                "section-36-text",
+                "section-36-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-36-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "wallet",
+                "type": "system"
+              },
+              "title": "Aplicar em Caixa/Conta Remunerada",
+              "subtitle": "Deixe saldo rendendo (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-36-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        },
+        {
+          "id": "section-36-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Escolher → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Riscos",
+                  "value": "Variam por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Acompanhamento",
+                  "value": "Posição e extrato no app"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-37-header",
+                "section-37-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-37-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bank",
+                "type": "system"
+              },
+              "title": "Comprar Título Bancário",
+              "subtitle": "Explore títulos emitidos por bancos"
+            }
+          }
+        },
+        {
+          "id": "section-37-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação útil antes de investir",
+              "value": "Conforme regras do produto"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-38-header",
+                "section-38-text",
+                "section-38-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-38-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "sparkles",
+                "type": "system"
+              },
+              "title": "Investir em Carteira Recomendada",
+              "subtitle": "Sugestão de carteira por tema"
+            }
+          }
+        },
+        {
+          "id": "section-38-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        },
+        {
+          "id": "section-38-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Objetivo",
+                  "value": "Defina prazo e meta"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Alocação",
+                  "value": "Percentuais por classe"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Rebalanceamento",
+                  "value": "Periódico"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-39-header",
+                "section-39-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-39-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "sparkles",
+                "type": "system"
+              },
+              "title": "Investir em Temas (Tech, ESG)",
+              "subtitle": "Carteiras temáticas (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-39-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação útil antes de investir",
+              "value": "Disponível"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-40-header",
+                "section-40-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-40-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "zap",
+                "type": "system"
+              },
+              "title": "Ordem a Mercado",
+              "subtitle": "Comprar/vender com execução imediata"
+            }
+          }
+        },
+        {
+          "id": "section-40-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Tipo de ordem",
+                  "value": "Mercado/Limitada/Stop"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Pregão",
+                  "value": "Horário do mercado"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Custos",
+                  "value": "Taxas e corretagem (se houver)"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-41-header",
+                "section-41-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-41-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "tag",
+                "type": "system"
+              },
+              "title": "Ordem Limitada",
+              "subtitle": "Defina preço alvo para comprar/vender"
+            }
+          }
+        },
+        {
+          "id": "section-41-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-42-header",
+                "section-42-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-42-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "alert_triangle",
+                "type": "system"
+              },
+              "title": "Stop Loss/Stop Gain",
+              "subtitle": "Ordem condicionada (se disponível)"
+            }
+          }
+        },
+        {
+          "id": "section-42-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Tipo de ordem",
+                  "value": "Mercado/Limitada/Stop"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Pregão",
+                  "value": "Horário do mercado"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Custos",
+                  "value": "Taxas e corretagem (se houver)"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-43-header",
+                "section-43-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-43-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "split",
+                "type": "system"
+              },
+              "title": "Comprar Fracionário",
+              "subtitle": "Compre ativos por lote fracionário"
+            }
+          }
+        },
+        {
+          "id": "section-43-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-44-header",
+                "section-44-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-44-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "clock",
+                "type": "system"
+              },
+              "title": "Aplicar com Liquidez Diária",
+              "subtitle": "Produtos com resgate diário"
+            }
+          }
+        },
+        {
+          "id": "section-44-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Prazo",
+                  "value": "Escolhido na aplicação"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Liquidez",
+                  "value": "Diária ou no vencimento"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Impostos",
+                  "value": "Conforme regras"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-45-header",
+                "section-45-info",
+                "section-45-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-45-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "calendar",
+                "type": "system"
+              },
+              "title": "Aplicar com Prazo Longo",
+              "subtitle": "Produtos para longo prazo"
+            }
+          }
+        },
+        {
+          "id": "section-45-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação útil antes de investir",
+              "value": "Conforme regras do produto"
+            }
+          }
+        },
+        {
+          "id": "section-45-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Escolher → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Riscos",
+                  "value": "Variam por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Acompanhamento",
+                  "value": "Posição e extrato no app"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-46-header",
+                "section-46-text",
+                "section-46-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-46-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "coins",
+                "type": "system"
+              },
+              "title": "Investir com Aporte Mínimo",
+              "subtitle": "Opções com valor inicial baixo"
+            }
+          }
+        },
+        {
+          "id": "section-46-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        },
+        {
+          "id": "section-46-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Escolher → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Riscos",
+                  "value": "Variam por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Acompanhamento",
+                  "value": "Posição e extrato no app"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-47-header",
+                "section-47-text",
+                "section-47-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-47-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shield_check",
+                "type": "system"
+              },
+              "title": "Investir com Proteção (FGC)",
+              "subtitle": "Produtos cobertos pelo FGC (quando aplicável)"
+            }
+          }
+        },
+        {
+          "id": "section-47-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        },
+        {
+          "id": "section-47-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Escolher → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Riscos",
+                  "value": "Variam por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Acompanhamento",
+                  "value": "Posição e extrato no app"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-48-header",
+                "section-48-info",
+                "section-48-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-48-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "hand_coins",
+                "type": "system"
+              },
+              "title": "Investir com Objetivo de Renda",
+              "subtitle": "Estratégias para geração de renda"
+            }
+          }
+        },
+        {
+          "id": "section-48-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação útil antes de investir",
+              "value": "Recomendado por perfil"
+            }
+          }
+        },
+        {
+          "id": "section-48-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Etapas",
+                  "value": "Escolher → Informar valor → Confirmar"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Riscos",
+                  "value": "Variam por produto"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Acompanhamento",
+                  "value": "Posição e extrato no app"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-49-header",
+                "section-49-text",
+                "section-49-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-49-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "gift",
+                "type": "system"
+              },
+              "title": "Investir em Carteira de Dividendos",
+              "subtitle": "Foco em ativos pagadores de proventos"
+            }
+          }
+        },
+        {
+          "id": "section-49-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Selecione o produto, informe valor e prazo (quando aplicável) e revise riscos, custos e tributação antes de confirmar a aplicação."
+            }
+          }
+        },
+        {
+          "id": "section-49-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Objetivo",
+                  "value": "Defina prazo e meta"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Alocação",
+                  "value": "Percentuais por classe"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Rebalanceamento",
+                  "value": "Periódico"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "investir",
+      "agent_id": "agent-produtos-investir-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-50-header",
+                "section-50-info",
+                "section-50-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-50-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shield",
+                "type": "system"
+              },
+              "title": "Investir em Carteira Conservadora",
+              "subtitle": "Foco em estabilidade e liquidez"
+            }
+          }
+        },
+        {
+          "id": "section-50-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Destaque",
+              "subtitle": "Informação útil antes de investir",
+              "value": "Disponível"
+            }
+          }
+        },
+        {
+          "id": "section-50-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Objetivo",
+                  "value": "Defina prazo e meta"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Alocação",
+                  "value": "Percentuais por classe"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Rebalanceamento",
+                  "value": "Periódico"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+]
