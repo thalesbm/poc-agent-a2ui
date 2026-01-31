@@ -1,0 +1,3302 @@
+[
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-1-header",
+                "section-1-info",
+                "section-1-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-1-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "wallet",
+                "type": "system"
+              },
+              "title": "Saldo em Conta",
+              "subtitle": "Confira seu saldo disponível e a previsão do dia"
+            }
+          }
+        },
+        {
+          "id": "section-1-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "R$ 2.845,17"
+            }
+          }
+        },
+        {
+          "id": "section-1-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Disponível"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Última atualização",
+                  "value": "Agora"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atalho",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-2-header",
+                "section-2-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-2-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "list",
+                "type": "system"
+              },
+              "title": "Extrato da Conta",
+              "subtitle": "Veja entradas e saídas por período"
+            }
+          }
+        },
+        {
+          "id": "section-2-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "Regular"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-3-header",
+                "section-3-text",
+                "section-3-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-3-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "credit_card",
+                "type": "system"
+              },
+              "title": "Fatura do Cartão",
+              "subtitle": "Acompanhe gastos e vencimento"
+            }
+          }
+        },
+        {
+          "id": "section-3-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Consulte detalhes, histórico e configurações relacionadas a este produto no aplicativo."
+            }
+          }
+        },
+        {
+          "id": "section-3-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Vencimento",
+                  "value": "Dia 10"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fechamento",
+                  "value": "Dia 03"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovantes",
+                  "value": "Disponíveis"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-4-header",
+                "section-4-text",
+                "section-4-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-4-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "gauge",
+                "type": "system"
+              },
+              "title": "Limite do Cartão",
+              "subtitle": "Consulte limite total e disponível"
+            }
+          }
+        },
+        {
+          "id": "section-4-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Consulte detalhes, histórico e configurações relacionadas a este produto no aplicativo."
+            }
+          }
+        },
+        {
+          "id": "section-4-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Vencimento",
+                  "value": "Dia 10"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fechamento",
+                  "value": "Dia 03"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovantes",
+                  "value": "Disponíveis"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-5-header",
+                "section-5-info",
+                "section-5-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-5-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shield",
+                "type": "system"
+              },
+              "title": "Cartão Virtual",
+              "subtitle": "Status e validade do cartão virtual"
+            }
+          }
+        },
+        {
+          "id": "section-5-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "Em análise"
+            }
+          }
+        },
+        {
+          "id": "section-5-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Vencimento",
+                  "value": "Dia 10"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fechamento",
+                  "value": "Dia 03"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovantes",
+                  "value": "Disponíveis"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-6-header",
+                "section-6-info",
+                "section-6-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-6-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "hand_coins",
+                "type": "system"
+              },
+              "title": "Empréstimo Pessoal",
+              "subtitle": "Condições, parcelas e saldo devedor"
+            }
+          }
+        },
+        {
+          "id": "section-6-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "Em análise"
+            }
+          }
+        },
+        {
+          "id": "section-6-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Disponível"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Última atualização",
+                  "value": "Agora"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atalho",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-7-header",
+                "section-7-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-7-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file_text",
+                "type": "system"
+              },
+              "title": "Empréstimo Consignado",
+              "subtitle": "Margem, parcelas e contratos"
+            }
+          }
+        },
+        {
+          "id": "section-7-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Disponível"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Última atualização",
+                  "value": "Agora"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atalho",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-8-header",
+                "section-8-info",
+                "section-8-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-8-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "alert_circle",
+                "type": "system"
+              },
+              "title": "Cheque Especial",
+              "subtitle": "Limite e encargos vigentes"
+            }
+          }
+        },
+        {
+          "id": "section-8-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "R$ 1.000,00"
+            }
+          }
+        },
+        {
+          "id": "section-8-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Disponível"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Última atualização",
+                  "value": "Agora"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atalho",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-9-header",
+                "section-9-info",
+                "section-9-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-9-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "car",
+                "type": "system"
+              },
+              "title": "Financiamento Veicular",
+              "subtitle": "Parcelas, saldo e boletos"
+            }
+          }
+        },
+        {
+          "id": "section-9-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "Regular"
+            }
+          }
+        },
+        {
+          "id": "section-9-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Disponível"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Última atualização",
+                  "value": "Agora"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atalho",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-10-header",
+                "section-10-text",
+                "section-10-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-10-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "home",
+                "type": "system"
+              },
+              "title": "Financiamento Imobiliário",
+              "subtitle": "Saldo, parcelas e amortizações"
+            }
+          }
+        },
+        {
+          "id": "section-10-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Consulte detalhes, histórico e configurações relacionadas a este produto no aplicativo."
+            }
+          }
+        },
+        {
+          "id": "section-10-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Disponível"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Última atualização",
+                  "value": "Agora"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atalho",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-11-header",
+                "section-11-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-11-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "repeat",
+                "type": "system"
+              },
+              "title": "Consórcio",
+              "subtitle": "Cotas, lances e parcelas"
+            }
+          }
+        },
+        {
+          "id": "section-11-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Consulte detalhes, histórico e configurações relacionadas a este produto no aplicativo."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-12-header",
+                "section-12-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-12-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "home_shield",
+                "type": "system"
+              },
+              "title": "Seguro Residencial",
+              "subtitle": "Apólice e coberturas"
+            }
+          }
+        },
+        {
+          "id": "section-12-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Consulte detalhes, histórico e configurações relacionadas a este produto no aplicativo."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-13-header",
+                "section-13-info",
+                "section-13-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-13-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "car",
+                "type": "system"
+              },
+              "title": "Seguro Auto",
+              "subtitle": "Apólice, franquia e assistências"
+            }
+          }
+        },
+        {
+          "id": "section-13-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "Em análise"
+            }
+          }
+        },
+        {
+          "id": "section-13-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Apólice",
+                  "value": "Ativa"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Coberturas",
+                  "value": "Ver no detalhe"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Assistência",
+                  "value": "24h"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-14-header",
+                "section-14-text",
+                "section-14-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-14-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shield_check",
+                "type": "system"
+              },
+              "title": "Seguro Conta",
+              "subtitle": "Coberturas e status de proteção"
+            }
+          }
+        },
+        {
+          "id": "section-14-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Consulte detalhes, histórico e configurações relacionadas a este produto no aplicativo."
+            }
+          }
+        },
+        {
+          "id": "section-14-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Apólice",
+                  "value": "Ativa"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Coberturas",
+                  "value": "Ver no detalhe"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Assistência",
+                  "value": "24h"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-15-header",
+                "section-15-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-15-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "shopping_bag",
+                "type": "system"
+              },
+              "title": "Seguro Cartão",
+              "subtitle": "Coberturas para compras e transações"
+            }
+          }
+        },
+        {
+          "id": "section-15-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Consulte detalhes, histórico e configurações relacionadas a este produto no aplicativo."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-16-header",
+                "section-16-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-16-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "chart_line",
+                "type": "system"
+              },
+              "title": "Previdência Privada",
+              "subtitle": "Saldo, rentabilidade e aportes"
+            }
+          }
+        },
+        {
+          "id": "section-16-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Disponível"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Última atualização",
+                  "value": "Agora"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atalho",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-17-header",
+                "section-17-text",
+                "section-17-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-17-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "piggy_bank",
+                "type": "system"
+              },
+              "title": "Poupança",
+              "subtitle": "Saldo, rendimento e aniversários"
+            }
+          }
+        },
+        {
+          "id": "section-17-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Consulte detalhes, histórico e configurações relacionadas a este produto no aplicativo."
+            }
+          }
+        },
+        {
+          "id": "section-17-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Posição",
+                  "value": "Atual"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Rentabilidade",
+                  "value": "Ver no detalhe"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Impostos",
+                  "value": "Conforme regras"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-18-header",
+                "section-18-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-18-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "banknote",
+                "type": "system"
+              },
+              "title": "CDB",
+              "subtitle": "Posição, vencimento e rendimento"
+            }
+          }
+        },
+        {
+          "id": "section-18-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Posição",
+                  "value": "Atual"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Rentabilidade",
+                  "value": "Ver no detalhe"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Impostos",
+                  "value": "Conforme regras"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-19-header",
+                "section-19-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-19-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "landmark",
+                "type": "system"
+              },
+              "title": "LCI/LCA",
+              "subtitle": "Posição e datas de vencimento"
+            }
+          }
+        },
+        {
+          "id": "section-19-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Consulte detalhes, histórico e configurações relacionadas a este produto no aplicativo."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-20-header",
+                "section-20-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-20-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "government",
+                "type": "system"
+              },
+              "title": "Tesouro Direto",
+              "subtitle": "Posição e marcação a mercado"
+            }
+          }
+        },
+        {
+          "id": "section-20-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "R$ 9.870,10"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-21-header",
+                "section-21-text",
+                "section-21-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-21-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "pie_chart",
+                "type": "system"
+              },
+              "title": "Fundos de Investimento",
+              "subtitle": "Cotas, rentabilidade e taxa"
+            }
+          }
+        },
+        {
+          "id": "section-21-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Consulte detalhes, histórico e configurações relacionadas a este produto no aplicativo."
+            }
+          }
+        },
+        {
+          "id": "section-21-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Posição",
+                  "value": "Atual"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Rentabilidade",
+                  "value": "Ver no detalhe"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Impostos",
+                  "value": "Conforme regras"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-22-header",
+                "section-22-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-22-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "trending_up",
+                "type": "system"
+              },
+              "title": "ETFs",
+              "subtitle": "Posição e variação do dia"
+            }
+          }
+        },
+        {
+          "id": "section-22-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Posição",
+                  "value": "Atual"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Rentabilidade",
+                  "value": "Ver no detalhe"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Impostos",
+                  "value": "Conforme regras"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-23-header",
+                "section-23-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-23-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bar_chart",
+                "type": "system"
+              },
+              "title": "Ações",
+              "subtitle": "Posição e preço médio"
+            }
+          }
+        },
+        {
+          "id": "section-23-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "R$ 15.430,90"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-24-header",
+                "section-24-text",
+                "section-24-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-24-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bitcoin",
+                "type": "system"
+              },
+              "title": "Criptomoedas",
+              "subtitle": "Saldo e variação"
+            }
+          }
+        },
+        {
+          "id": "section-24-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Consulte detalhes, histórico e configurações relacionadas a este produto no aplicativo."
+            }
+          }
+        },
+        {
+          "id": "section-24-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Posição",
+                  "value": "Atual"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Rentabilidade",
+                  "value": "Ver no detalhe"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Impostos",
+                  "value": "Conforme regras"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-25-header",
+                "section-25-text",
+                "section-25-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-25-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "globe",
+                "type": "system"
+              },
+              "title": "Câmbio",
+              "subtitle": "Cotação e saldo em moeda"
+            }
+          }
+        },
+        {
+          "id": "section-25-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Consulte detalhes, histórico e configurações relacionadas a este produto no aplicativo."
+            }
+          }
+        },
+        {
+          "id": "section-25-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Disponível"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Última atualização",
+                  "value": "Agora"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atalho",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-26-header",
+                "section-26-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-26-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "plane",
+                "type": "system"
+              },
+              "title": "Conta Internacional",
+              "subtitle": "Saldo e movimentações"
+            }
+          }
+        },
+        {
+          "id": "section-26-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "Ativo"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-27-header",
+                "section-27-info",
+                "section-27-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-27-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "zap",
+                "type": "system"
+              },
+              "title": "Pix - Limites",
+              "subtitle": "Limite diurno/noturno e efetivação"
+            }
+          }
+        },
+        {
+          "id": "section-27-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "R$ 1.000,00 (noturno)"
+            }
+          }
+        },
+        {
+          "id": "section-27-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Janela noturna",
+                  "value": "20:00–06:00"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Efetivação de alteração",
+                  "value": "Pode levar até 24h"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria habilitada"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-28-header",
+                "section-28-info",
+                "section-28-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-28-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "key",
+                "type": "system"
+              },
+              "title": "Pix - Chaves",
+              "subtitle": "Chaves cadastradas e status"
+            }
+          }
+        },
+        {
+          "id": "section-28-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "R$ 0,00"
+            }
+          }
+        },
+        {
+          "id": "section-28-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Janela noturna",
+                  "value": "20:00–06:00"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Efetivação de alteração",
+                  "value": "Pode levar até 24h"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Segurança",
+                  "value": "Biometria habilitada"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-29-header",
+                "section-29-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-29-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "calendar",
+                "type": "system"
+              },
+              "title": "Pix - Agendamentos",
+              "subtitle": "Transferências agendadas"
+            }
+          }
+        },
+        {
+          "id": "section-29-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "Em análise"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-30-header",
+                "section-30-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-30-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "arrow_left_right",
+                "type": "system"
+              },
+              "title": "Transferências (TED/TEF)",
+              "subtitle": "Histórico e comprovantes"
+            }
+          }
+        },
+        {
+          "id": "section-30-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "Ativo"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-31-header",
+                "section-31-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-31-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "receipt",
+                "type": "system"
+              },
+              "title": "Boletos",
+              "subtitle": "Boletos pagos e pendentes"
+            }
+          }
+        },
+        {
+          "id": "section-31-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Disponível"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Última atualização",
+                  "value": "Agora"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atalho",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-32-header",
+                "section-32-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-32-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "users",
+                "type": "system"
+              },
+              "title": "Cartões Adicionais",
+              "subtitle": "Status e limites por cartão"
+            }
+          }
+        },
+        {
+          "id": "section-32-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Consulte detalhes, histórico e configurações relacionadas a este produto no aplicativo."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-33-header",
+                "section-33-info",
+                "section-33-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-33-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "gift",
+                "type": "system"
+              },
+              "title": "Programas de Pontos",
+              "subtitle": "Saldo de pontos e regras"
+            }
+          }
+        },
+        {
+          "id": "section-33-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "Disponível"
+            }
+          }
+        },
+        {
+          "id": "section-33-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Disponível"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Última atualização",
+                  "value": "Agora"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atalho",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-34-header",
+                "section-34-info",
+                "section-34-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-34-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "coins",
+                "type": "system"
+              },
+              "title": "Cashback",
+              "subtitle": "Saldo e extrato de cashback"
+            }
+          }
+        },
+        {
+          "id": "section-34-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "Em análise"
+            }
+          }
+        },
+        {
+          "id": "section-34-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Disponível"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Última atualização",
+                  "value": "Agora"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atalho",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-35-header",
+                "section-35-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-35-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "settings",
+                "type": "system"
+              },
+              "title": "Investimento Automático",
+              "subtitle": "Regras e aportes recorrentes"
+            }
+          }
+        },
+        {
+          "id": "section-35-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "Em análise"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-36-header",
+                "section-36-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-36-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "target",
+                "type": "system"
+              },
+              "title": "Metas Financeiras",
+              "subtitle": "Progresso de objetivos"
+            }
+          }
+        },
+        {
+          "id": "section-36-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "Em análise"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-37-header",
+                "section-37-text",
+                "section-37-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-37-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "life_buoy",
+                "type": "system"
+              },
+              "title": "Reserva de Emergência",
+              "subtitle": "Posição e rendimento"
+            }
+          }
+        },
+        {
+          "id": "section-37-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Consulte detalhes, histórico e configurações relacionadas a este produto no aplicativo."
+            }
+          }
+        },
+        {
+          "id": "section-37-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Disponível"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Última atualização",
+                  "value": "Agora"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atalho",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-38-header",
+                "section-38-info",
+                "section-38-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-38-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "sliders",
+                "type": "system"
+              },
+              "title": "Limites de Transação",
+              "subtitle": "Limites por canal e período"
+            }
+          }
+        },
+        {
+          "id": "section-38-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "Ativo"
+            }
+          }
+        },
+        {
+          "id": "section-38-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Disponível"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Última atualização",
+                  "value": "Agora"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atalho",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-39-header",
+                "section-39-text",
+                "section-39-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-39-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "smartphone",
+                "type": "system"
+              },
+              "title": "Dispositivos Confiáveis",
+              "subtitle": "Aparelhos autorizados"
+            }
+          }
+        },
+        {
+          "id": "section-39-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Consulte detalhes, histórico e configurações relacionadas a este produto no aplicativo."
+            }
+          }
+        },
+        {
+          "id": "section-39-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Disponível"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Última atualização",
+                  "value": "Agora"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atalho",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-40-header",
+                "section-40-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-40-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "lock",
+                "type": "system"
+              },
+              "title": "Biometria e Segurança",
+              "subtitle": "Configurações de segurança"
+            }
+          }
+        },
+        {
+          "id": "section-40-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "Ativo"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-41-header",
+                "section-41-text",
+                "section-41-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-41-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "bell",
+                "type": "system"
+              },
+              "title": "Notificações",
+              "subtitle": "Alertas e preferências"
+            }
+          }
+        },
+        {
+          "id": "section-41-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Consulte detalhes, histórico e configurações relacionadas a este produto no aplicativo."
+            }
+          }
+        },
+        {
+          "id": "section-41-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Disponível"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Última atualização",
+                  "value": "Agora"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atalho",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-42-header",
+                "section-42-info",
+                "section-42-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-42-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "credit_card",
+                "type": "system"
+              },
+              "title": "Cartão de Débito",
+              "subtitle": "Status e compras recentes"
+            }
+          }
+        },
+        {
+          "id": "section-42-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "Disponível"
+            }
+          }
+        },
+        {
+          "id": "section-42-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Vencimento",
+                  "value": "Dia 10"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Fechamento",
+                  "value": "Dia 03"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Comprovantes",
+                  "value": "Disponíveis"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-43-header",
+                "section-43-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-43-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "refresh_cw",
+                "type": "system"
+              },
+              "title": "Débito Automático",
+              "subtitle": "Contas cadastradas e próximas cobranças"
+            }
+          }
+        },
+        {
+          "id": "section-43-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "Disponível"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-44-header",
+                "section-44-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-44-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "briefcase",
+                "type": "system"
+              },
+              "title": "Portabilidade de Salário",
+              "subtitle": "Status e banco de origem"
+            }
+          }
+        },
+        {
+          "id": "section-44-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "Regular"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-45-header",
+                "section-45-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-45-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "download",
+                "type": "system"
+              },
+              "title": "Comprovantes",
+              "subtitle": "Comprovantes recentes para baixar"
+            }
+          }
+        },
+        {
+          "id": "section-45-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "R$ 0,00"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-46-header",
+                "section-46-text",
+                "section-46-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-46-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "percent",
+                "type": "system"
+              },
+              "title": "Tarifas",
+              "subtitle": "Pacote, isenções e cobranças"
+            }
+          }
+        },
+        {
+          "id": "section-46-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Consulte detalhes, histórico e configurações relacionadas a este produto no aplicativo."
+            }
+          }
+        },
+        {
+          "id": "section-46-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Disponível"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Última atualização",
+                  "value": "Agora"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atalho",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-47-header",
+                "section-47-info"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-47-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "headphones",
+                "type": "system"
+              },
+              "title": "Atendimento",
+              "subtitle": "Protocolos e solicitações"
+            }
+          }
+        },
+        {
+          "id": "section-47-info",
+          "component": {
+            "type": "informative",
+            "data": {
+              "title": "Resumo",
+              "subtitle": "Informação principal para consulta",
+              "value": "Ativo"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-48-header",
+                "section-48-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-48-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "file",
+                "type": "system"
+              },
+              "title": "Investimentos - IR",
+              "subtitle": "Informe de rendimentos e notas"
+            }
+          }
+        },
+        {
+          "id": "section-48-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Consulte detalhes, histórico e configurações relacionadas a este produto no aplicativo."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-49-header",
+                "section-49-text",
+                "section-49-list"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-49-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "link",
+                "type": "system"
+              },
+              "title": "Open Finance",
+              "subtitle": "Consentimentos e instituições"
+            }
+          }
+        },
+        {
+          "id": "section-49-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Consulte detalhes, histórico e configurações relacionadas a este produto no aplicativo."
+            }
+          }
+        },
+        {
+          "id": "section-49-list",
+          "component": {
+            "type": "list",
+            "data": {
+              "items": [
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Status",
+                  "value": "Disponível"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Última atualização",
+                  "value": "Agora"
+                },
+                {
+                  "icon": {
+                    "name": "info",
+                    "type": "system"
+                  },
+                  "key": "Atalho",
+                  "value": "Ver detalhes"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "meta_info": {
+      "category": "consultar",
+      "agent_id": "agent-produtos-consultar-v1"
+    },
+    "surface_update": {
+      "components": [
+        {
+          "id": "main",
+          "component": {
+            "type": "container",
+            "data": {
+              "childrens": [
+                "section-50-header",
+                "section-50-text"
+              ]
+            }
+          }
+        },
+        {
+          "id": "section-50-header",
+          "component": {
+            "type": "header",
+            "data": {
+              "icon": {
+                "name": "banknote",
+                "type": "system"
+              },
+              "title": "Limite de Saque",
+              "subtitle": "Limite diário e status de alteração"
+            }
+          }
+        },
+        {
+          "id": "section-50-text",
+          "component": {
+            "type": "text",
+            "data": {
+              "text": "Consulte detalhes, histórico e configurações relacionadas a este produto no aplicativo."
+            }
+          }
+        }
+      ]
+    }
+  }
+]
